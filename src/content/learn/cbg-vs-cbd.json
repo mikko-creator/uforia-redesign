@@ -1,0 +1,47 @@
+{
+  "slug": "cbg-vs-cbd",
+  "path": "/learn/cbg-vs-cbd/",
+  "title": "CBG vs CBD: What's the Difference?",
+  "seoTitle": "CBG vs CBD: What's the Difference? | Uforia Dispensary",
+  "description": "CBG and CBD are both non-intoxicating cannabinoids, but they differ in how the plant makes them, how common they are and how much research exists.",
+  "date": "2026-11-02",
+  "category": "Cannabis Education",
+  "readMinutes": 3,
+  "image": "g-tincture",
+  "lede": "CBG and CBD sound alike, and they have a lot in common: both are cannabinoids, and neither produces the high THC is known for. They differ in how the plant makes them, how plentiful they are and how much we know about them.",
+  "sections": [
+    {
+      "heading": "CBG, the starting point",
+      "html": "<p>CBG stands for cannabigerol. In its acid form, CBGA, it is the raw material the cannabis plant uses to build other cannabinoids. As the plant matures, enzymes convert most of its CBGA into the acid forms of THC, CBD and CBC. That is why CBG is sometimes called the \"mother cannabinoid.\"</p><p>Because so much of it gets converted, mature cannabis usually contains only a small amount of CBG, often less than one percent. Breeders have developed varieties that hold on to more of it, which has made CBG products easier to find.</p>"
+    },
+    {
+      "heading": "CBD, the familiar one",
+      "html": "<p>CBD, or cannabidiol, is often the main cannabinoid in hemp and in CBD-rich cannabis strains. The plant makes it from CBGA too, first as CBDA, which becomes CBD when heated.</p><p>CBD has been studied far more than CBG. Researchers have spent decades on it, and while many questions remain, the body of work is much larger.</p><p>On labels, you may see a ratio such as 1:1 or 2:1, which compares the amounts of two cannabinoids, often CBD and THC. Check which one is listed first, since the order can vary from product to product.</p>"
+    },
+    {
+      "heading": "How they compare",
+      "html": "<p>Here is a quick side-by-side:</p><ul><li><strong>Origin:</strong> the acid form of CBG is the precursor; CBD is one of the compounds made from it.</li><li><strong>Abundance:</strong> CBD can be plentiful, while CBG usually appears in small amounts.</li><li><strong>Intoxication:</strong> neither is considered intoxicating the way THC is.</li><li><strong>Research:</strong> CBD has a much deeper research base, while CBG research is early and mostly limited to lab and animal studies.</li></ul><p>Early research suggests CBG may interact with the body's cannabinoid receptors more directly than CBD, which seems to work mostly through indirect routes. How that translates into how each one feels is still an open question.</p>"
+    },
+    {
+      "heading": "What people report",
+      "html": "<p>Some people describe CBG as feeling clear and focused, while CBD is often described as calm and mellow. These are personal reports rather than established effects, and experiences vary widely.</p><p>You will often find CBG and CBD in tinctures and edibles, frequently blended with each other or with THC. Some people feel these blends differ from a single cannabinoid on its own, an idea known as the <a href=\"/learn/what-is-the-entourage-effect/\">entourage effect</a>.</p><p>Because so many products combine cannabinoids, it can be hard to tell which compound is behind a particular feeling. Reading the full label, not just the headline cannabinoid, gives you a clearer picture.</p>"
+    },
+    {
+      "heading": "Choosing between them",
+      "html": "<p>There is no single right answer. Reading labels, noticing the ratio of cannabinoids and keeping notes on what you enjoy will tell you more than any general rule. If you take any medication, check with a doctor or pharmacist before trying CBD or CBG products, and if a product also contains THC, start low and go slow. When you are ready, Uforia's live menu of <a href=\"/products/tinctures/\">tinctures</a> is a good place to compare.</p>"
+    }
+  ],
+  "takeaways": [
+    "The plant builds CBD, THC and other cannabinoids from the acid form of CBG.",
+    "Neither CBG nor CBD produces a high the way THC does.",
+    "CBD is more common and far better studied; CBG research is still early.",
+    "If you take medication, talk to a doctor or pharmacist before trying either."
+  ],
+  "related": [
+    "/learn/what-are-cannabinoids/",
+    "/learn/what-is-the-entourage-effect/",
+    "/learn/what-is-cbn/",
+    "/safe-consumption/"
+  ],
+  "author": "Uforia Dispensary"
+}

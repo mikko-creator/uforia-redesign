@@ -1,0 +1,42 @@
+{
+  "slug": "live-resin-vs-rosin",
+  "path": "/learn/live-resin-vs-rosin/",
+  "title": "Live Resin vs Rosin: What's the Difference?",
+  "seoTitle": "Live Resin vs Rosin: What's the Difference? | Uforia Dispensary",
+  "description": "Live resin is extracted from fresh-frozen plants with a solvent, while rosin is pressed using only heat and pressure. Here is how the two concentrates compare.",
+  "date": "2026-11-02",
+  "category": "Cannabis Education",
+  "readMinutes": 4,
+  "image": "g-concentrate",
+  "lede": "Live resin and rosin often sit side by side on a concentrate menu, and their names sound almost alike. They are made in very different ways, though, and knowing how each one is made makes it much easier to choose between them.",
+  "sections": [
+    {
+      "heading": "How live resin is made",
+      "html": "<p>Live resin starts with plants that are frozen right after harvest. Most cannabis is hung to dry and then stored for a while before it is used, and during that time some of its most delicate aromas fade. Freezing the fresh plant instead locks those terpenes in place.</p><p>The frozen material is then extracted with a solvent, most often a hydrocarbon such as butane or propane, using closed-loop equipment run by trained professionals. The solvent draws the cannabinoids and terpenes away from the plant, and it is then purged from the finished product. This is specialized lab work and never something to attempt at home.</p><p>What remains is a sticky, fragrant concentrate. Depending on how it is processed, live resin may look like a glossy sauce, a soft budder or a grainy sugar.</p>"
+    },
+    {
+      "heading": "How rosin is made",
+      "html": "<p>Rosin is a solventless concentrate. Instead of chemicals, it relies on just two things: heat and pressure. Flower, kief or hash is wrapped in parchment paper and squeezed between warm metal plates, and the resin flows out as a golden, sap-like oil that is then collected.</p><p>When rosin is pressed from ice water hash made with fresh-frozen plants, it is called live rosin. It shares live resin's focus on fresh-plant flavor but gets there without any solvent at all. Many people choose rosin for exactly that reason: nothing is added to the plant along the way.</p>"
+    },
+    {
+      "heading": "Side by side",
+      "html": "<p>Here is a quick comparison of the two:</p><ul><li><strong>Method:</strong> live resin uses a solvent that is purged afterward; rosin uses only heat and pressure.</li><li><strong>Starting material:</strong> live resin always begins with fresh-frozen plants, while rosin can be pressed from dried flower, kief or hash. Live rosin uses fresh-frozen material.</li><li><strong>Texture:</strong> live resin often comes as sauce, budder or sugar; rosin ranges from a translucent oil to a creamy badder or a soft jam.</li><li><strong>Flavor:</strong> both aim to capture a full terpene profile. Live resin is known for a bright, fresh-plant aroma, and rosin for tasting close to the flower or hash it came from.</li><li><strong>Price:</strong> rosin, and live rosin in particular, yields less from the same amount of plant material, which is one reason it is often priced higher.</li></ul>"
+    },
+    {
+      "heading": "Choosing between them",
+      "html": "<p>There is no single right answer. Some people prefer live resin for its vivid aroma and its range of textures. Others reach for rosin because it is made without solvents. Plenty of people enjoy both and like noticing how the same strain can taste a little different depending on how it was made.</p><p>Both are highly concentrated, so a very small amount goes a long way. Start low and go slow, especially if concentrates are new to you. People usually enjoy them with a dab rig, an electronic dab device or a concentrate vaporizer, and both styles are also sold in vape cartridges.</p><p>To learn more about the aromas these products work to preserve, read our <a href=\"/terpenes/\">guide to terpenes</a>, or browse the <a href=\"/products/concentrates/\">concentrates on Uforia's live menu</a>.</p>"
+    }
+  ],
+  "takeaways": [
+    "Live resin is extracted from fresh-frozen plants with a solvent that is purged afterward.",
+    "Rosin is solventless, pressed from flower, kief or hash with heat and pressure.",
+    "Live rosin pairs fresh-frozen material with a solventless press.",
+    "Both are highly concentrated, so start low and go slow."
+  ],
+  "related": [
+    "/learn/what-is-kief/",
+    "/learn/what-is-710/",
+    "/terpenes/"
+  ],
+  "author": "Uforia Dispensary"
+}

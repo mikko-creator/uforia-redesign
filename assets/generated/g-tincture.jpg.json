@@ -1,0 +1,29 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-tincture",
+  "file": "assets/generated/g-tincture.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Uforia, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Tenebrist editorial still-life photograph: two small amber glass dropper bottles with black rubber bulbs, plain unlabelled glass, standing on a slab of black stone beside a single fresh green cannabis fan leaf, the cool silver-white key light passes through the amber glass and catches the serrated edges of the leaf, a faint translucent haze in the light. Composition: the bottles and the leaf sit right of centre, black negative space on the left. Shot in near-total darkness on a pure black background, one hard cool silver-white key light from the upper left in Caravaggio chiaroscuro, the colour of moonlight, deep shadows falling to the lower right, crisp detail where the light lands, a subtle cool silver rim light on the edges, fine film grain, clean modern premium mood, a restrained cool palette of black, graphite, silver-white and deep green with the amber glass as the only warm note, never neon, never iridescent, no people, no hands, no faces, no text, no lettering, no numbers, no labels, no logos, no brand marks, no candy, all surfaces blank and unmarked",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:2"
+  },
+  "seed": 3267267984,
+  "requestId": "01a19a58-e38f-72b3-8937-266a8622acaa",
+  "cutout": null,
+  "width": 2496,
+  "height": 1664,
+  "sha256": "147ad2a9fe35febd0cc705d3ef08050e9ae1082572eccc2ead2819f518e3bf7e",
+  "raw": "tmp/img/raw/g-tincture.1793590889624.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-11-02T03:41:31.263Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "One plain amber dropper bottle (the prompt asked for two) and one cannabis leaf on black stone; no label; cool light.",
+    "reviewedAt": "2026-11-02T04:13:34.414Z",
+    "reviewer": "IMAGERY lane, by eye at full size"
+  }
+}

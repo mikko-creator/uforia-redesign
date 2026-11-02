@@ -1,0 +1,29 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-jars",
+  "file": "assets/generated/g-jars.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Uforia, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Tenebrist editorial still-life photograph: three clear glass apothecary jars with rounded glass stoppers, filled with cured cannabis flower buds, standing in a loose row on a slab of black stone, caught in one pool of cool silver-white light; the glass is smooth and clear with no labels and no stickers, bright silver glints on the rims and the stoppers, the buds inside lit deep green and frosty. Composition: the jars stand right of centre, black negative space on the left. Shot in near-total darkness on a pure black background, one hard cool silver-white key light from the upper left in Caravaggio chiaroscuro, the colour of moonlight, deep shadows falling to the lower right, crisp detail where the light lands, a subtle cool silver rim light on the edges, a faint translucent haze hanging in the light with the barest cool jade-green tint, fine film grain, clean modern premium mood, a restrained cool palette of black, graphite, silver-white and deep green, never warm, never neon, never iridescent, no people, no hands, no faces, no text, no lettering, no numbers, no labels, no logos, no brand marks, no candy, all surfaces blank and unmarked",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:2"
+  },
+  "seed": 1347074124,
+  "requestId": "01a19a59-0710-7b83-899d-61d7893f7d10",
+  "cutout": null,
+  "width": 2496,
+  "height": 1664,
+  "sha256": "bed9282f0462164a6c96230801148ac0d6fa7c3a6186706e4563f39202216dac",
+  "raw": "tmp/img/raw/g-jars.1793590897022.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-11-02T03:41:38.752Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "Two clear apothecary jars with glass stoppers (the prompt asked for three) holding cured buds on black stone; no labels; a scatter of white granules on the floor reads as frost.",
+    "reviewedAt": "2026-11-02T04:13:34.414Z",
+    "reviewer": "IMAGERY lane, by eye at full size"
+  }
+}

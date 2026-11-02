@@ -1,0 +1,20 @@
+{
+  "photos": {},
+  "media": {
+    "hero-mist": {
+      "mp4": "/assets/media/hero-mist.mp4",
+      "mp4Small": "/assets/media/hero-mist-sm.mp4",
+      "poster": "/assets/media/hero-mist.jpg",
+      "posterSmall": "/assets/media/hero-mist-sm.jpg",
+      "w": 1920,
+      "h": 1080,
+      "wSmall": 720,
+      "hSmall": 1080,
+      "duration": 6,
+      "audio": false,
+      "use": "decorative seamless loop: muted, loop, playsinline, aria-hidden, with a visible pause toggle; poster only under prefers-reduced-motion",
+      "note": "AI-generated still (g-mist-veil, FLUX 1.1 Pro Ultra via fal.ai) animated procedurally: a periodic warp curls the mist veils and carries the billows upward while the light pool stays in place. No AI video model motion. The warp repeats exactly every 6 seconds, so the loop has no seam and no cross-fade. Not footage of Uforia, its store, staff, customers, products or brands.",
+      "smallNote": "phones: a 720x1080 crop of the 1920x1080 frame at x 640 (the brightest veils), native resolution, same 144 frames"
+    }
+  }
+}

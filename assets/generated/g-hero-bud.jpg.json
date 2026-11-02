@@ -1,0 +1,29 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-hero-bud",
+  "file": "assets/generated/g-hero-bud.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Uforia, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Tenebrist editorial still-life photograph: a single dense frosted cannabis flower bud resting on a black surface, thickly coated in resin trichomes that glint like hoarfrost where the light lands, deep forest-green calyxes and a few muted pistils, a soft translucent veil of mist drifting through the light behind and across the bud. Composition: the bud sits right of centre and fills about a quarter of the frame width, the whole left 55 percent of the frame is empty deep black negative space. Shot in near-total darkness on a pure black background, one hard cool silver-white key light from the upper left in Caravaggio chiaroscuro, the colour of moonlight, deep shadows falling to the lower right, crisp detail where the light lands, a subtle cool silver rim light on the edges, a faint translucent haze hanging in the light with the barest cool jade-green tint, fine film grain, clean modern premium mood, a restrained cool palette of black, graphite, silver-white and deep green, never warm, never neon, never iridescent, no people, no hands, no faces, no text, no lettering, no numbers, no labels, no logos, no brand marks, no candy, all surfaces blank and unmarked",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "16:9"
+  },
+  "seed": 2607603728,
+  "requestId": "01a19a58-a95f-7a31-9aae-2cb9c86cc23b",
+  "cutout": null,
+  "width": 2752,
+  "height": 1536,
+  "sha256": "5cc2a532b76d64f06ef0e1c897f9eba4386fa36f9c964fdbb982b7cf72e5005e",
+  "raw": "tmp/img/raw/g-hero-bud.1793590873640.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-11-02T03:41:15.060Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "One frosted bud right of centre on a black surface, cool silver-white key light from the upper left, mist veils; no text, no people. The left 55% is dark mist (mean luma 32 of 255) rather than pure black: set type over it with a scrim.",
+    "reviewedAt": "2026-11-02T04:13:34.414Z",
+    "reviewer": "IMAGERY lane, by eye at full size"
+  }
+}

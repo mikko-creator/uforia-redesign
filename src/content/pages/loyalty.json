@@ -1,0 +1,237 @@
+{
+ "slug": "loyalty",
+ "path": "/loyalty/",
+ "title": "Uforia Dispensary Loyalty Program Earn Points & Perks Now",
+ "description": "Join the Uforia Dispensary loyalty program to earn points, unlock exclusive perks, special deals, early access, and member-only rewards on every purchase.",
+ "canonical": "https://uforiadispensary.com/loyalty/",
+ "og": {
+  "title": "Uforia's Loyalty Program: Earn Cannabis Rewards",
+  "description": "Earn points & discounts! Join our loyalty rewards program.",
+  "image": "https://uforiadispensary.com/wp-content/uploads/2026/04/customer-loyalty-satisfaction-support-strategy-service-concept_53876-132223-1.jpg"
+ },
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://uforiadispensary.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Loyalty"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "WebPage",
+   "@id": "https://uforiadispensary.com/loyalty/#WebPage",
+   "headline": "Uforia Dispensary Loyalty Program Earn Points & Perks Now",
+   "url": "https://uforiadispensary.com/loyalty/",
+   "description": "Join the Uforia Dispensary loyalty program to earn points, unlock exclusive perks, special deals, early access, and member-only rewards on every purchase.",
+   "keywords": [
+    "uforia dispensary",
+    "hoboken",
+    "dispensary jersey city",
+    "delivery jersey city",
+    "jersey city",
+    "cannabinoid",
+    "pain",
+    "medical",
+    "rosin",
+    "hybrid",
+    "disease",
+    "found"
+   ],
+   "about": [
+    {
+     "@type": "Thing",
+     "name": "uforia dispensary",
+     "description": "",
+     "sameAs": []
+    },
+    {
+     "@type": "Thing",
+     "name": "hoboken",
+     "description": "",
+     "sameAs": []
+    },
+    {
+     "@type": "Thing",
+     "name": "dispensary jersey city",
+     "description": "",
+     "sameAs": []
+    },
+    {
+     "@type": "Thing",
+     "name": "delivery jersey city",
+     "description": "",
+     "sameAs": []
+    },
+    {
+     "@type": "Thing",
+     "name": "jersey city",
+     "description": "",
+     "sameAs": []
+    },
+    {
+     "@type": "Thing",
+     "name": "cannabinoid",
+     "description": "",
+     "sameAs": [
+      "http://en.wikipedia.org/wiki/Cannabinoid",
+      "https://www.wikidata.org/wiki/Q422936",
+      "https://www.google.com/search?kgmid=/m/01dyv8"
+     ]
+    },
+    {
+     "@type": "Thing",
+     "name": "pain",
+     "description": "",
+     "sameAs": [
+      "http://en.wikipedia.org/wiki/Pain",
+      "https://www.wikidata.org/wiki/Q81938",
+      "https://www.google.com/search?kgmid=/m/062t2"
+     ]
+    },
+    {
+     "@type": "Thing",
+     "name": "medical",
+     "description": "",
+     "sameAs": []
+    },
+    {
+     "@type": "Thing",
+     "name": "rosin",
+     "description": "",
+     "sameAs": [
+      "http://en.wikipedia.org/wiki/Rosin",
+      "https://www.wikidata.org/wiki/Q138937",
+      "https://www.google.com/search?kgmid=/m/0213n2"
+     ]
+    },
+    {
+     "@type": "Thing",
+     "name": "hybrid",
+     "description": "",
+     "sameAs": [
+      "http://en.wikipedia.org/wiki/Hybrid_(biology)",
+      "https://www.wikidata.org/wiki/Q42621",
+      "https://www.google.com/search?kgmid=/m/0b9r9"
+     ]
+    },
+    {
+     "@type": "Thing",
+     "name": "disease",
+     "description": "",
+     "sameAs": [
+      "http://en.wikipedia.org/wiki/Disease",
+      "https://www.wikidata.org/wiki/Q12136",
+      "https://www.google.com/search?kgmid=/m/027x3"
+     ]
+    },
+    {
+     "@type": "Thing",
+     "name": "found",
+     "description": "",
+     "sameAs": []
+    }
+   ]
+  },
+  [
+   {
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "contentUrl": "https://uforiadispensary.com/wp-content/uploads/2024/04/Picture1-1-1.webp",
+    "caption": "Uforia Dispensary logo featuring a stylized letter 'U' and the brand name, representing cannabis products and education."
+   }
+  ],
+  {
+   "@context": "https://schema.org",
+   "@type": "LocalBusiness",
+   "image": "https://storage.googleapis.com/content-assistant-images-persistent/7d53e5a2-fd11-4817-ac5e-03566a5830a1.jpeg",
+   "url": "https://uforiadispensary.com",
+   "sameAs": [
+    "https://www.facebook.com/UforiaJC/",
+    "https://www.instagram.com/UforiaJC/",
+    "https://www.yelp.com/biz/uforia-dispensary-jersey-city-2",
+    "https://www.tiktok.com/@uforiadispensary"
+   ],
+   "logo": "https://storage.googleapis.com/content-assistant-images-persistent/482716c7-ff9f-459a-ad54-44c0bad3dd64.webp",
+   "name": "Uforia Dispensary",
+   "description": "Jersey City dispensary and cannabis store in The Heights, Uforia is locally owned and known for one to one service that matches products to your goals. Shop lab-tested flower, pre-rolls, vapes, concentrates, edibles, and accessories like papers, wraps, and glass pieces with clear pricing and fast checkout. Whether you are a first-timer or a seasoned enthusiast, our budtenders help you compare strains, formats, and potency for responsible use. Community-rooted, we focus on education and sustainability. Order online for quick pickup or compliant delivery in NJ. Open daily. 21+ only.",
+   "email": "info@uforiadispensary.com",
+   "telephone": "12014209333",
+   "address": [
+    {
+     "@type": "PostalAddress",
+     "streetAddress": "138 Griffith St",
+     "addressLocality": "Jersey City",
+     "addressCountry": "US",
+     "addressRegion": "NJ",
+     "postalCode": "07307"
+    }
+   ]
+  }
+ ],
+ "h1": "Uforia Dispensary Loyalty Program: Earn Points & Exclusive Perks",
+ "placeholder": false,
+ "source": "https://uforiadispensary.com/loyalty/",
+ "template": "wp-page",
+ "sections": [
+  {
+   "id": "uforia-dispensary-loyalty-program-earn-points-exclusive-perk",
+   "heading": "Uforia Dispensary Loyalty Program: Earn Points & Exclusive Perks",
+   "level": 1,
+   "blocks": [
+    {
+     "type": "button",
+     "text": "SIGN UP",
+     "href": "https://lab.alpineiq.com/join/c/3505/101861"
+    }
+   ]
+  },
+  {
+   "id": "section-2",
+   "heading": null,
+   "level": 2,
+   "blocks": [
+    {
+     "type": "img",
+     "src": "/assets/photos/uf/customer-loyalty-satisfaction-support-strategy-service-concept_53876-132223-1.jpg",
+     "alt": "Customer loyalty concept illustrated with colorful notes, glasses, and a coffee cup, emphasizing service and satisfaction in a creative workspace.",
+     "w": 1380,
+     "h": 947
+    },
+    {
+     "type": "p",
+     "html": "REWARDS PROGRAM",
+     "role": "divider-text"
+    },
+    {
+     "type": "p",
+     "html": "Uforia is excited to offer our customers a loyalty rewards program designed to enhance your shopping experience and provide value with every purchase. By joining our program, you’ll earn points each time you shop, which can be redeemed for discounts, exclusive products, or special promotional offers. We’ve tailored our rewards to cater not just to frequent shoppers but to all our customers, ensuring that everyone can benefit regardless of how often you visit.<br>Our program also includes special perks like early access to new products, members-only events, and personalized offers based on your preferences and purchase history. We believe in rewarding our loyal customers and making each visit to our dispensary a more enjoyable and economically advantageous experience. Join our loyalty program today and start enjoying the benefits as a token of our appreciation for your continued support."
+    },
+    {
+     "type": "button",
+     "text": "SIGN UP",
+     "href": "https://lab.alpineiq.com/join/c/3505/101861"
+    },
+    {
+     "type": "button",
+     "text": "Shop Now",
+     "href": "/menu"
+    }
+   ]
+  }
+ ]
+}

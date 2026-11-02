@@ -1,0 +1,80 @@
+{
+  "_about": "Uforia's facts for the templates. Every value is copied from uforiadispensary.com as captured on 2026-11-02 (facts/uforia-facts.json holds each value's source pages). Where the live site contradicts itself, the chrome uses the value of the site-wide footer and the Find Us page, the captured page copy keeps its own words, and the conflict is listed in docs/OPEN-DECISIONS.md.",
+  "name": "Uforia Dispensary",
+  "short": "Uforia",
+  "origin": "https://uforiadispensary.com",
+  "mode": "Adult Use",
+  "age": "21+ only.",
+  "address": {
+    "street": "138 Griffith Street",
+    "city": "Jersey City",
+    "state": "NJ",
+    "stateName": "New Jersey",
+    "zip": "07307",
+    "line": "138 Griffith Street, Jersey City, NJ 07307",
+    "full": "138 Griffith Street, Jersey City, New Jersey 07307, United States",
+    "geo": { "lat": 40.7456297, "lng": -74.0487751 }
+  },
+  "phone": { "display": "(201) 420-9333", "vanity": "(201) 420-WEED", "href": "tel:+12014209333" },
+  "email": "info@uforiadispensary.com",
+  "hours": {
+    "source": "footer of every page + /finds-us/",
+    "rows": [
+      { "days": "Monday to Thursday", "short": "Mon to Thu", "open": "11 AM", "close": "9 PM" },
+      { "days": "Friday and Saturday", "short": "Fri and Sat", "open": "10 AM", "close": "10 PM" },
+      { "days": "Sunday", "short": "Sun", "open": "10 AM", "close": "8 PM" }
+    ],
+    "byDay": { "0": ["10 AM", "8 PM"], "1": ["11 AM", "9 PM"], "2": ["11 AM", "9 PM"], "3": ["11 AM", "9 PM"], "4": ["11 AM", "9 PM"], "5": ["10 AM", "10 PM"], "6": ["10 AM", "10 PM"] },
+    "timezone": "America/New_York"
+  },
+  "directionsUrl": "https://www.google.com/maps/dir//138+Griffith+St+Jersey+City,+NJ+07307+USA/@40.7456297,-74.0487751,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c2576a16823bed:0xd78213adee9f90ee!2m2!1d-74.0487751!2d40.7456297?entry=ttu",
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.7446477911644!2d-74.04879749999999!3d40.745644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c257c732177459%3A0x28d920f8ceae57b7!2sUforia%20Dispensary!5e0!3m2!1sen!2sus",
+  "socials": [
+    { "name": "Instagram", "href": "https://www.instagram.com/UforiaJC/" },
+    { "name": "Facebook", "href": "https://www.facebook.com/UforiaJC/" },
+    { "name": "TikTok", "href": "https://www.tiktok.com/@uforiadispensary" },
+    { "name": "Yelp", "href": "https://www.yelp.com/biz/uforia-dispensary-coming-soon-jersey-city" }
+  ],
+  "delivery": {
+    "freeOver": "Free Delivery on orders $80 and up.",
+    "prepay": "Prepay online.",
+    "areasShown": ["Jersey City, NJ", "Hoboken, NJ", "Union City, NJ", "Weehawken, NJ", "Bayonne, NJ", "West New York, NJ", "Bergen-Lafayette, Jersey City, NJ", "Greenville, Jersey City, NJ", "Journal Square, Jersey City, NJ", "North Bergen, NJ", "Secaucus, NJ", "Harrison, NJ", "Newark, NJ", "Kearny, NJ", "Edgewater, NJ", "Fort Lee, NJ"],
+    "source": "/delivery/ and /delivery-faq/"
+  },
+  "loyalty": { "signupUrl": "https://lab.alpineiq.com/join/c/3505/101861", "signupLabel": "Sign Up", "page": "/loyalty/" },
+  "firstVisit": "First-time visitors: bring a valid 21+ ID and order ahead to save time at pickup.",
+  "liveMenu": {
+    "base": "https://uforiadispensary.com/menu",
+    "note": "Uforia's live online menu (ordering for pickup and delivery) on its own domain. Every shop / order CTA ends here.",
+    "categories": [
+      { "slug": "flower", "name": "Flower", "live": "flower", "art": "uf/Icon-02.webp", "artAlt": "Flower", "gen": "g-flower-macro" },
+      { "slug": "pre-rolls", "name": "Pre-Rolls", "live": "pre-rolls", "art": "uf/Icon-06.webp", "artAlt": "Pre-rolls", "gen": "g-prerolls" },
+      { "slug": "vaporizers", "name": "Vaporizers", "live": "vaporizers", "art": "uf/Icon-03-scaled.webp", "artAlt": "Cartridges", "gen": "g-vape" },
+      { "slug": "edibles", "name": "Edibles", "live": "edibles", "art": "uf/Icon-04.webp", "artAlt": "Edibles", "gen": null },
+      { "slug": "concentrates", "name": "Concentrates", "live": "concentrates", "art": "uf/Icon-05-1861x2048.webp", "artAlt": "Concentrates", "gen": "g-concentrate" },
+      { "slug": "tinctures", "name": "Tinctures", "live": "tinctures", "art": null, "artAlt": null, "gen": "g-tincture" },
+      { "slug": "topicals", "name": "Topicals", "live": "topicals", "art": "uf/Icon-07.webp", "artAlt": "Topicals", "gen": "g-tincture" },
+      { "slug": "beverages", "name": "Beverages", "live": "beverages", "art": null, "artAlt": null, "gen": "g-mist-veil" },
+      { "slug": "accessories-and-merch", "name": "Accessories & Merch", "live": "accessories-and-merch", "art": "uf/Icon-01-1767x2048.webp", "artAlt": "Accessories", "gen": null },
+      { "slug": "top-shelf", "name": "Top Shelf", "live": "top-shelf-try-njs-top-cultivators", "liveName": "Top Shelf: Try NJ's top cultivators!", "art": null, "artAlt": null, "gen": "g-jars" }
+    ]
+  },
+  "serviceAreas": [
+    { "name": "Jersey City", "path": "/jersey-city-dispensary/", "store": true },
+    { "name": "Hoboken", "path": "/hoboken-nj/" },
+    { "name": "Union City", "path": "/union-city-nj/" },
+    { "name": "Weehawken", "path": "/weehawken-nj/" },
+    { "name": "Bayonne", "path": "/bayonne-nj/" },
+    { "name": "West New York", "path": "/west-new-york-nj/" },
+    { "name": "Bergen-Lafayette", "path": "/bergen-lafayette-jersey-city-nj/" },
+    { "name": "Greenville", "path": "/greenville-jersey-city-nj/" },
+    { "name": "Journal Square", "path": "/journal-square-jersey-city-nj/" },
+    { "name": "North Bergen", "path": "/north-bergen-nj/" },
+    { "name": "Secaucus", "path": "/secaucus-nj/" },
+    { "name": "Harrison", "path": "/harrison-nj/" },
+    { "name": "Newark", "path": "/newark-nj/" },
+    { "name": "Kearny", "path": "/kearny-nj/" },
+    { "name": "Edgewater", "path": "/edgewater-nj/" }
+  ],
+  "brandLogo": { "src": "/assets/brand/uforia-logo.webp", "w": 624, "h": 458, "alt": "Uforia Dispensary" }
+}

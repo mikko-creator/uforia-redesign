@@ -1,0 +1,486 @@
+{
+ "slug": "brands",
+ "path": "/brands/",
+ "title": "Premium Cannabis Brands at Uforia Dispensary Shop Online Now",
+ "description": "Browse curated premium cannabis brands at Uforia Dispensary with luxury, craft, and value products, exclusive strains, and top-quality picks in one place.",
+ "canonical": "https://uforiadispensary.com/brands/",
+ "og": {
+  "title": "Explore Top Cannabis Brands at Uforia Dispensary Today",
+  "description": "Premium cannabis brands & high-quality products.",
+  "image": "https://uforiadispensary.com/wp-content/uploads/2026/04/close-up-new-york-beggar_23-2150868256-1.jpg"
+ },
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://uforiadispensary.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Brands"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "@id": "https://uforiadispensary.com/brands/#FAQPage",
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "description": "",
+   "alternativeHeadline": "The most frequently asked questions",
+   "url": "https://uforiadispensary.com/brands/",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What is the minimum age to purchase from Euphoria Dispensary?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The minimum age to purchase from Uforia Dispensary is 21 years old. Customers must present a valid ID to verify their age before making any purchases."
+     }
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "WebPage",
+   "@id": "https://uforiadispensary.com/brands/#WebPage",
+   "headline": "Premium Cannabis Brands at Uforia Dispensary Shop Online Now",
+   "url": "https://uforiadispensary.com/brands/",
+   "description": "Browse curated premium cannabis brands at Uforia Dispensary with luxury, craft, and value products, exclusive strains, and top-quality picks in one place.",
+   "keywords": [
+    "uforia dispensary",
+    "uforia audio network",
+    "cannabinoid",
+    "pain",
+    "medical",
+    "rosin",
+    "hybrid",
+    "disease",
+    "found"
+   ],
+   "about": [
+    {
+     "@type": "Thing",
+     "name": "uforia dispensary",
+     "description": "",
+     "sameAs": []
+    },
+    {
+     "@type": "Thing",
+     "name": "uforia audio network",
+     "description": "",
+     "sameAs": [
+      "http://en.wikipedia.org/wiki/Uforia_Audio_Network",
+      "https://www.wikidata.org/wiki/Q7896845",
+      "https://www.crunchbase.com/organization/univision-radio",
+      "https://www.google.com/search?kgmid=/m/0ghdx8"
+     ]
+    },
+    {
+     "@type": "Thing",
+     "name": "cannabinoid",
+     "description": "",
+     "sameAs": [
+      "http://en.wikipedia.org/wiki/Cannabinoid",
+      "https://www.wikidata.org/wiki/Q422936",
+      "https://www.google.com/search?kgmid=/m/01dyv8"
+     ]
+    },
+    {
+     "@type": "Thing",
+     "name": "pain",
+     "description": "",
+     "sameAs": [
+      "http://en.wikipedia.org/wiki/Pain",
+      "https://www.wikidata.org/wiki/Q81938",
+      "https://www.google.com/search?kgmid=/m/062t2"
+     ]
+    },
+    {
+     "@type": "Thing",
+     "name": "medical",
+     "description": "",
+     "sameAs": []
+    },
+    {
+     "@type": "Thing",
+     "name": "rosin",
+     "description": "",
+     "sameAs": [
+      "http://en.wikipedia.org/wiki/Rosin",
+      "https://www.wikidata.org/wiki/Q138937",
+      "https://www.google.com/search?kgmid=/m/0213n2"
+     ]
+    },
+    {
+     "@type": "Thing",
+     "name": "hybrid",
+     "description": "",
+     "sameAs": [
+      "http://en.wikipedia.org/wiki/Hybrid_(biology)",
+      "https://www.wikidata.org/wiki/Q42621",
+      "https://www.google.com/search?kgmid=/m/0b9r9"
+     ]
+    },
+    {
+     "@type": "Thing",
+     "name": "disease",
+     "description": "",
+     "sameAs": [
+      "http://en.wikipedia.org/wiki/Disease",
+      "https://www.wikidata.org/wiki/Q12136",
+      "https://www.google.com/search?kgmid=/m/027x3"
+     ]
+    },
+    {
+     "@type": "Thing",
+     "name": "found",
+     "description": "",
+     "sameAs": []
+    }
+   ]
+  },
+  [
+   {
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "contentUrl": "https://uforiadispensary.com/wp-content/uploads/2024/08/Picture2-e1724814058955.jpg",
+    "caption": "FullTilt Labs logo featuring stylized text in white on a vibrant purple background, representing a craft cannabis cultivation and manufacturing company."
+   }
+  ],
+  {
+   "@context": "https://schema.org",
+   "@type": "LocalBusiness",
+   "image": "https://storage.googleapis.com/content-assistant-images-persistent/7d53e5a2-fd11-4817-ac5e-03566a5830a1.jpeg",
+   "url": "https://uforiadispensary.com",
+   "sameAs": [
+    "https://www.facebook.com/UforiaJC/",
+    "https://www.instagram.com/UforiaJC/",
+    "https://www.yelp.com/biz/uforia-dispensary-jersey-city-2",
+    "https://www.tiktok.com/@uforiadispensary"
+   ],
+   "logo": "https://storage.googleapis.com/content-assistant-images-persistent/482716c7-ff9f-459a-ad54-44c0bad3dd64.webp",
+   "name": "Uforia Dispensary",
+   "description": "Jersey City dispensary and cannabis store in The Heights, Uforia is locally owned and known for one to one service that matches products to your goals. Shop lab-tested flower, pre-rolls, vapes, concentrates, edibles, and accessories like papers, wraps, and glass pieces with clear pricing and fast checkout. Whether you are a first-timer or a seasoned enthusiast, our budtenders help you compare strains, formats, and potency for responsible use. Community-rooted, we focus on education and sustainability. Order online for quick pickup or compliant delivery in NJ. Open daily. 21+ only.",
+   "email": "info@uforiadispensary.com",
+   "telephone": "12014209333",
+   "address": [
+    {
+     "@type": "PostalAddress",
+     "streetAddress": "138 Griffith St",
+     "addressLocality": "Jersey City",
+     "addressCountry": "US",
+     "addressRegion": "NJ",
+     "postalCode": "07307"
+    }
+   ]
+  }
+ ],
+ "h1": "Discover Premium Cannabis Brands at Uforia Dispensary",
+ "placeholder": false,
+ "source": "https://uforiadispensary.com/brands/",
+ "template": "wp-page",
+ "sections": [
+  {
+   "id": "discover-premium-cannabis-brands-at-uforia-dispensary",
+   "heading": "Discover Premium Cannabis Brands at Uforia Dispensary",
+   "level": 1,
+   "blocks": []
+  },
+  {
+   "id": "section-2",
+   "heading": null,
+   "level": 2,
+   "blocks": [
+    {
+     "type": "img",
+     "src": "/assets/photos/uf/close-up-new-york-beggar_23-2150868256-1.jpg",
+     "alt": "Man in a red raincoat sitting on a city street, holding a yellow cup, surrounded by urban scenery and pedestrians, reflecting the diverse and vibrant atmosphere of New York.",
+     "w": 740,
+     "h": 740
+    },
+    {
+     "type": "p",
+     "html": "Uforia Dispensary",
+     "role": "divider-text"
+    },
+    {
+     "type": "p",
+     "html": "Welcome to our unique and <a href=\"/brands/\">local dispensary</a>, where we take pride in catering to a discerning clientele with an appreciation for both value and luxury in their cannabis choices. Our carefully curated selection includes a wide range of products from respected high-end brands known for their exceptional quality and innovative products, as well as more affordably priced options that deliver great value without compromising quality.<br>We also have a special emphasis on featuring offerings from local craft cultivators and manufacturers. These smaller, artisanal producers are masters of their trade, utilizing sustainable growing methods to create unique, limited-run strains that offer complex flavor profiles and potent effects. By partnering with these craft cannabis suppliers, we ensure our customers have access to exclusive and distinctive products that are not only effective but also align with a connoisseur’s standards for purity and excellence.<br>Our dispensary provides a comprehensive <a href=\"/terpenes/\">cannabis</a> experience, from an intimate contemporary storefront that is combed with luxury, value, and exclusive curated products, ensuring that every visit is both enriching and rewarding. Whether you are seeking the latest from cutting-edge cannabis science or the bespoke touch of small batch grows, Uforia is the destination for those who expect the best in quality, service, and selection."
+    },
+    {
+     "type": "button",
+     "text": "Contact Us",
+     "href": "/finds-us/"
+    }
+   ]
+  },
+  {
+   "id": "section-3",
+   "heading": null,
+   "level": 2,
+   "blocks": [
+    {
+     "type": "img",
+     "src": "/assets/photos/uf/Picture2-e1724814058955.jpg",
+     "alt": "FullTilt Labs logo featuring stylized text in white on a vibrant purple background, representing a craft cannabis cultivation and manufacturing company.",
+     "w": 185,
+     "h": 183
+    },
+    {
+     "type": "p",
+     "html": "FullTilt Labs is a small batch cannabis cultivation and manufacturing company in Ewing NJ. Family owned and operated. They are a craft cannabis and concentrate manufacturer. Follow them on their Instagram for their journey on the recreational market!"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/uf/Picture3.png",
+     "alt": "North Lake Supply logo featuring a flame design, emphasizing a commitment to quality and community in cannabis cultivation.",
+     "w": 72,
+     "h": 72
+    },
+    {
+     "type": "p",
+     "html": "Founded by lifelong friends, our mission is to elevate cannabis connoisseurship and culture by erasing stigmas of the past. Our goal is to establish a local community presence while building a national, industry-leading brand. North Lake’s vision is guided by the following values, Inclusion, Transparency, Compassion, and Ingenuity."
+    }
+   ]
+  },
+  {
+   "id": "section-4",
+   "heading": null,
+   "level": 2,
+   "blocks": [
+    {
+     "type": "img",
+     "src": "/assets/photos/uf/Picture4.png",
+     "alt": "Elyon Cannabis logo featuring a stylized eye within a starburst design, representing high-quality organic cannabis cultivation and craftsmanship.",
+     "w": 226,
+     "h": 237
+    },
+    {
+     "type": "p",
+     "html": "Elyon Cannabis is a small, family-oriented team of local growers and business owners who combined their growing skills and decades of experience to offer cannabis consumers access to some of California’s most meticulously cultivated cannabis. We found that in the new legal adult-use cannabis market, luxurious, high-quality cannabis quickly became too costly for all cannabis consumers to enjoy. With the belief that everyone deserves to consume cannabis from the “top shelf”, we wanted to be the brand that invites everyone to experience high-quality organic sun-grown cannabis. At Elyon, we pair decades of cultivation experience and talent with optimal growing conditions to showcase what’s possible when you put extra care into your cannabis."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/uf/Picture5.png",
+     "alt": "Clade 9 logo featuring a bold, stylized number nine, representing premium indoor cannabis flower brand focused on quality and traditional growing methods.",
+     "w": 287,
+     "h": 287
+    },
+    {
+     "type": "p",
+     "html": "Clade 9 – Born and raised in Los Angeles, Clade9 is a new brand of premium indoor flower. They learned to grow the traditional way, with a focus on breeding and terpenes. They don’t believe in shortcuts. It took hours of experimentation, decades of blending science with experience to come up with their products. Our connoisseur audience demands it."
+    }
+   ]
+  },
+  {
+   "id": "section-5",
+   "heading": null,
+   "level": 2,
+   "blocks": [
+    {
+     "type": "img",
+     "src": "/assets/photos/uf/Picture1.png",
+     "alt": "Verano logo featuring a stylized sunburst design, representing premium cannabis products and cultivation expertise.",
+     "w": 286,
+     "h": 176
+    },
+    {
+     "type": "p",
+     "html": "Verano offers a purposeful, curated collection of cannabis strains, pre-rolls, vapes, and extracts—all derived from the premium flower that has been thoughtfully cultivated in-house. With products to suit every comfort level and taste."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/uf/Picture2.png",
+     "alt": "GAGE Cannabis Co logo featuring bold orange letters, representing a high-quality cannabis brand known for exceptional small-batch products.",
+     "w": 310,
+     "h": 162
+    },
+    {
+     "type": "p",
+     "html": "Cannaculture’s rich history that has evolved over the decades is steeped with world class cannabis genetics. From the legacy to now legal markets, the culture has blossomed to include household brand names who cultivate consumer love for the plant and respect for the potency of the flower. GAGE is itself a household name revered for its high quality cannabis flower and best-in-class experience."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/uf/Picture3-2.png",
+     "alt": "Kind Tree Cannabis logo featuring a stylized cannabis leaf in gradient shades of purple and blue, emphasizing premium cannabis branding.",
+     "w": 240,
+     "h": 220
+    },
+    {
+     "type": "p",
+     "html": "Master cultivators that are dedicated to producing exceptional small-batch cannabis with respect for the Earth, and love for the plant."
+    }
+   ]
+  },
+  {
+   "id": "section-6",
+   "heading": null,
+   "level": 2,
+   "blocks": [
+    {
+     "type": "img",
+     "src": "/assets/photos/uf/Picture4-2.png",
+     "alt": "Valhalla logo, representing innovative cannabis products, emphasizing consistency and approachability for consumers.",
+     "w": 215,
+     "h": 142
+    },
+    {
+     "type": "p",
+     "html": "Valhalla is known for developing innovative, consistent, and approachable products for the average consumer. The product line-up spans across gummies, chocolate bars, and others."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/uf/Picture5-2.png",
+     "alt": "Simply Herb logo featuring bold green and orange text, representing quality cannabis cultivation and products at Uforia Dispensary.",
+     "w": 190,
+     "h": 190
+    },
+    {
+     "type": "p",
+     "html": "Simply Herb cultivators nurture cannabis in their state-of-the-art grow facilities. The outcome: Flower, Vapes and Pre-rolls that are a consistent and quality product that you will be proud to smoke and share."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/uf/Picture6.png",
+     "alt": "Ozone logo featuring stylized sun design, representing accessible cannabis products for everyday use.",
+     "w": 207,
+     "h": 53
+    },
+    {
+     "type": "p",
+     "html": "Ozone is effortlessly cool, accessible for your everyday cannabis wants. Ozone offers cannabis product across the most popular categories: Flower, Pre-rolls, Concentrates, Vapes and Gummies."
+    }
+   ]
+  },
+  {
+   "id": "section-7",
+   "heading": null,
+   "level": 2,
+   "blocks": [
+    {
+     "type": "img",
+     "src": "/assets/photos/uf/Picture7.png",
+     "alt": "Grassroots logo featuring a stylized cannabis leaf and box, representing premium cannabis products and dedication to quality cultivation.",
+     "w": 316,
+     "h": 203
+    },
+    {
+     "type": "p",
+     "html": "Top-shelf genetics that have been carefully curated alongside their grow partners to create a strain library worth exploring. You’ll see their craft spirit reflected in everything they create and do. From their top-shelf flower to all-ground, whole flower pre-rolls and a variety of tasty concentrates, Grassroots celebrates cannabis and the community in their most honest forms that nature and authenticity inspire."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/uf/Untitled-design-5-1.png",
+     "alt": "Fernway logo featuring a stylized leaf design on an orange background, representing premium cannabis products and experiences.",
+     "w": 200,
+     "h": 70
+    },
+    {
+     "type": "p",
+     "html": "At Fernway, they believe cannabis makes the good life even better. Good music, good food, good company, good scenery: cannabis elevates it all. As passionate and experienced consumers, they love to create truly exceptional cannabis experiences through best-in-class products that are designed to be enjoyed."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/uf/Picture9-2.png",
+     "alt": "Cookies brand logo featuring a stylized blue \"C\" with a bite taken out and the word \"Cookies\" in playful script, representing innovative cannabis genetics and premium products at Uforia Dispensary.",
+     "w": 187,
+     "h": 187
+    },
+    {
+     "type": "p",
+     "html": "Cookies began with two visionary founders: grow expert Jai, and entrepreneur Berner, whose Girl Scout Cookies (GSC) remains one of the most sought-after cannabis strains in the world. From the earliest days in a San Francisco garage to global growth, their goal has remained the same: authenticity and innovative genetics. The company creates game-changing genetics and offers a collection of over 70 proprietary cannabis cultivars and more than 2,000 products."
+    }
+   ]
+  },
+  {
+   "id": "section-8",
+   "heading": null,
+   "level": 2,
+   "blocks": [
+    {
+     "type": "img",
+     "src": "/assets/photos/uf/Picture10.png",
+     "alt": "Airo Brands logo featuring the brand name \"Airo\" in modern typography, emphasizing innovative cannabis vapor experiences and quality products.",
+     "w": 94,
+     "h": 94
+    },
+    {
+     "type": "p",
+     "html": "Airo Brands is driven to create an intuitive, virtually effortless, and cleverly designed vapor experience. They have a focus on design, vapor delivery, quality, and one-of-a-kind oils."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/uf/Picture11-2.png",
+     "alt": "Kynd logo featuring stylized leaves, representing premium cannabis products for wellness and community well-being.",
+     "w": 243,
+     "h": 134
+    },
+    {
+     "type": "p",
+     "html": "They cultivate flowers that champion the healing power of cannabis and have been tailoring high-potency strains for over a decade."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/uf/Picture12-2.png",
+     "alt": "Find. logo featuring bold text and turquoise background, promoting everyday cannabis flower products.",
+     "w": 225,
+     "h": 225
+    },
+    {
+     "type": "p",
+     "html": "From pre-rolls to full ounces, pre-ground to whole flower, and everything in between, Find always gives you the quality and quantity you want at a price that’ll make you smile."
+    }
+   ]
+  },
+  {
+   "id": "section-9",
+   "heading": null,
+   "level": 2,
+   "blocks": [
+    {
+     "type": "img",
+     "src": "/assets/photos/uf/Picture13.png",
+     "alt": "Prolific Grow House logo featuring stylized text with cannabis leaf accents, representing premium cannabis cultivation and products.",
+     "w": 327,
+     "h": 118
+    },
+    {
+     "type": "p",
+     "html": "Produces top of the line cannabis products but seeks to invoke change in our communities as well."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/uf/Picture14-2.png",
+     "alt": "HarvestWorks logo featuring a green cannabis leaf design, representing a premier cannabis product purveyor committed to high-quality offerings and well-being.",
+     "w": 300,
+     "h": 98
+    },
+    {
+     "type": "p",
+     "html": "HarvestWorks Farm is a locally owned premier recreational Cannabis and Cannabis Product purveyor. They are committed to expanding the range of high-quality products that promote well-being."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/uf/Picture15.png",
+     "alt": "Savvy brand logo in vibrant pink, representing a modern cannabis product line focused on quality and affordability.",
+     "w": 236,
+     "h": 169
+    },
+    {
+     "type": "p",
+     "html": "Savvy is full of passion, shaped by culture, and unafraid of change. With its large-format product line, Savvy reflects a new age of cannabis, catering to the aficionados who want more for less."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+/* tokens.css - "SILVER NOCTURNE": tenebrism x ethereal x glassmorphism on Uforia's own brand (main session owns this
+   file; lanes may ask for a value change through their report, never edit it).
+   Brand (uforiadispensary.com, Elementor kit + logo): near-black grounds #080808 / #111111, the silver of the "U"
+   monogram #ABABAB, white, charcoal #373739, deep green #203D00; Montserrat headings (often italic), Poppins.
+   Tenebrism = near-total darkness with ONE cool silver-white key light (upper left) carving the subject out of black.
+   Ethereal = translucent mist veils and haze drifting through that light, with a faint green breath from the brand's
+   deep green - never iridescent, holographic, rainbow or neon. Glass = smoked silver panes whose top-left edge catches
+   the key light. */
+:root {
+  /* ---- darkness (grounds) ---- */
+  --void: #030304;             /* the deepest black: vignette edges, the hero */
+  --ink-1: #080808;            /* default page ground (brand) */
+  --ink-2: #0d0e0f;            /* raised band */
+  --ink-3: #141516;            /* surfaces, inputs, opaque cards */
+  --ink-4: #1d1e20;            /* hairlines on dark, card borders */
+  --ink-5: #373739;            /* brand charcoal: rules, disabled */
+
+  /* ---- light (text on dark) ---- */
+  --pearl: #eef0ee;            /* primary text on dark: 17.9:1 on ink-1 */
+  --silver-hi: #d3d6d8;        /* secondary text: 13.6:1 on ink-1 */
+  --silver: #ababab;           /* the brand silver (logo): tertiary text >= 14px, 8.6:1 on ink-1 */
+  --silver-lo: #7d8083;        /* captions >= 13px only, 4.9:1 on ink-1 */
+  --white: #ffffff;
+  --text: var(--pearl);
+  --text-2: var(--silver-hi);
+  --text-3: var(--silver);
+
+  /* ---- Uforia green (from the brand's #203D00, lifted for light) ---- */
+  --moss: #203d00;             /* brand deep green: tints, deep glows, the green band ground */
+  --moss-2: #2e5200;           /* moss lit */
+  --leaf: #b5dc8c;             /* luminous leaf green: accents, focus rings, deal numbers, active states (12.9:1 on ink-1) */
+  --leaf-hot: #d4efb8;         /* highlight inside a leaf glow */
+  --leaf-deep: #6f9a3f;        /* leaf in shadow, borders on leaf */
+  --leaf-ink: #0b1400;         /* text on leaf (13.8:1) */
+
+  /* ---- the key light (tenebrism): radial pools + raking beams; on grounds only, never under body text ---- */
+  --light-pool: radial-gradient(60% 55% at var(--lx, 26%) var(--ly, 30%), rgba(232, 238, 242, 0.17) 0%, rgba(190, 200, 210, 0.06) 40%, rgba(0, 0, 0, 0) 70%);
+  --light-pool-soft: radial-gradient(48% 42% at var(--lx, 72%) var(--ly, 40%), rgba(232, 238, 242, 0.09) 0%, rgba(0, 0, 0, 0) 70%);
+  --light-beam: linear-gradient(115deg, rgba(0, 0, 0, 0) 30%, rgba(225, 232, 238, 0.06) 45%, rgba(240, 244, 248, 0.12) 50%, rgba(225, 232, 238, 0.06) 55%, rgba(0, 0, 0, 0) 70%);
+  --vignette: radial-gradient(120% 90% at 50% 40%, rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 0.55) 80%, rgba(0, 0, 0, 0.92) 100%);
+  /* ---- the ethereal layer: haze with a green breath (use 1-2 per band, animated slowly by motion.css) ---- */
+  --haze: radial-gradient(40% 32% at var(--hx, 70%) var(--hy, 62%), rgba(181, 220, 140, 0.075) 0%, rgba(181, 220, 140, 0) 70%);
+  --haze-silver: radial-gradient(55% 40% at var(--hx, 30%) var(--hy, 75%), rgba(230, 236, 240, 0.07) 0%, rgba(230, 236, 240, 0) 70%);
+  --mist-veil: linear-gradient(180deg, rgba(8, 8, 8, 0) 0%, rgba(205, 214, 220, 0.05) 45%, rgba(8, 8, 8, 0) 100%);
+  --grain-opacity: 0.06;
+
+  /* ---- glass (mid plane) ---- */
+  --glass-bg: rgba(18, 19, 21, 0.42);            /* smoked silver pane on dark */
+  --glass-bg-strong: rgba(12, 13, 14, 0.74);     /* pane that carries body text */
+  --glass-leaf: rgba(181, 220, 140, 0.08);       /* green-breath pane (deals, loyalty) */
+  --glass-blur: 20px;
+  --glass-sat: 140%;
+  --glass-border: rgba(255, 255, 255, 0.10);
+  --glass-edge-lit: linear-gradient(135deg, rgba(240, 244, 248, 0.70) 0%, rgba(240, 244, 248, 0.16) 24%, rgba(255, 255, 255, 0.05) 48%, rgba(255, 255, 255, 0.02) 100%); /* the edge the key light hits */
+  --glass-hi: inset 0 1px 0 rgba(255, 255, 255, 0.10), inset 0 0 0 1px rgba(255, 255, 255, 0.02);
+  --glass-r: var(--r-lg);
+
+  /* ---- shadow + depth ---- */
+  --shadow-1: 0 2px 6px rgba(0, 0, 0, 0.5);
+  --shadow-2: 0 18px 40px -12px rgba(0, 0, 0, 0.85), 0 4px 12px rgba(0, 0, 0, 0.5);
+  --shadow-3: 0 44px 90px -24px rgba(0, 0, 0, 0.92), 0 12px 32px rgba(0, 0, 0, 0.6);
+  --shadow-cut: drop-shadow(0 30px 30px rgba(0, 0, 0, 0.78)) drop-shadow(0 8px 10px rgba(0, 0, 0, 0.6)); /* cut-outs */
+  --rim-silver: drop-shadow(-6px -5px 16px rgba(230, 236, 240, 0.22));  /* key-light rim on a cut-out */
+  --glow-leaf: 0 0 0 1px rgba(181, 220, 140, 0.45), 0 10px 40px -6px rgba(181, 220, 140, 0.35);
+  --glow-silver: 0 0 0 1px rgba(238, 240, 238, 0.35), 0 12px 44px -8px rgba(238, 240, 238, 0.28);
+
+  /* ---- type ---- */
+  --font-display: 'Montserrat', 'Segoe UI', system-ui, -apple-system, sans-serif;  /* headings; accent words in italic */
+  --font-body: 'Poppins', system-ui, -apple-system, 'Segoe UI', sans-serif;        /* body, UI, buttons */
+  --fw-display: 600;
+  --fw-thin: 250;              /* the ethereal thin italic used for one accent word */
+  --fs-mega: clamp(3.4rem, 9.2vw, 9rem);     /* one per page at most: the hero line */
+  --fs-1: clamp(2.6rem, 6vw, 5.4rem);        /* h1 */
+  --fs-2: clamp(2rem, 4.2vw, 3.6rem);        /* h2 */
+  --fs-3: clamp(1.35rem, 2.1vw, 1.85rem);    /* h3 / card titles */
+  --fs-lede: clamp(1.05rem, 1.2vw, 1.22rem);
+  --fs-body: 1rem;                           /* 16px */
+  --fs-small: 0.875rem;                      /* 14px - visible text never smaller than 13px */
+  --fs-kicker: 0.78rem;                      /* Montserrat 500 caps, wide tracking: echoes the UFORIA wordmark */
+  --lh-display: 0.98;
+  --lh-tight: 1.15;
+  --lh-body: 1.7;
+  --track-display: -0.015em;
+  --track-kicker: 0.34em;
+
+  /* ---- shape + space ---- */
+  --r-sm: 8px;
+  --r-md: 14px;
+  --r-lg: 22px;
+  --r-xl: 34px;
+  --r-pill: 999px;
+  --r-u: 4px 40px 4px 40px;                  /* the brand frame: the logo's square with two rounded corners */
+  --r-u-sm: 3px 22px 3px 22px;
+  --wrap: 1240px;
+  --wrap-wide: 1440px;
+  --wrap-narrow: 780px;
+  --gutter: clamp(16px, 4vw, 40px);
+  --section-y: clamp(72px, 9vw, 136px);
+  --header-h: 108px;                          /* utility bar 36 + main bar 72 on desktop; phones set their own */
+
+  /* ---- motion ---- */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --t-fast: 160ms;
+  --t-med: 420ms;
+  --t-slow: 900ms;
+  --reveal-y: 28px;
+  --drift: 26s;                               /* haze / mist drift cycle */
+
+  color-scheme: dark;
+}

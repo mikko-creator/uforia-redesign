@@ -1,0 +1,29 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-leaf-silver",
+  "file": "assets/generated/g-leaf-silver.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Uforia, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Tenebrist studio photograph for compositing: a single cannabis fan leaf with seven long serrated leaflets spreading from a short stem, floating alone in a pure black void, centred and fully inside the frame with a generous black margin on every side, no surface and no cast shadow; a hard cool silver-white key light from the upper left rims every serrated edge in bright silver, a few small clear dew drops on the leaflets catch the light like beads of glass, the deep green leaf falls into shadow toward the lower right. Shot in total darkness on a pure jet-black background with no haze and no gradient, one hard cool silver-white key light from the upper left, the colour of moonlight, crisp detail where the light lands, fine film grain, clean modern premium mood, never warm, never neon, never iridescent, no people, no hands, no faces, no text, no lettering, no numbers, no labels, no logos, no brand marks, no candy, all surfaces blank and unmarked",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "4:5"
+  },
+  "seed": 2120880352,
+  "requestId": "01a19a58-a960-7793-b55b-a3224be4a797",
+  "cutout": null,
+  "width": 1856,
+  "height": 2304,
+  "sha256": "35616e147ea3a866e3531482c9da3f1b0f2e3094a9a59fc5fcd6f0674577f108",
+  "raw": "tmp/img/raw/g-leaf-silver.1793590876430.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-11-02T03:41:17.574Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "One seven-leaflet fan leaf fully inside the frame on pure black (120 px border: mean 0.00, max 7 of 255; leaf bbox x 350-1524 of 1856, y 361-1827 of 2304), dew drops, silver edge light.",
+    "reviewedAt": "2026-11-02T04:13:34.414Z",
+    "reviewer": "IMAGERY lane, by eye at full size"
+  }
+}

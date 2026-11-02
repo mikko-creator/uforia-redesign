@@ -1,0 +1,171 @@
+{
+ "slug": "deals",
+ "path": "/deals/",
+ "title": "Uforia Dispensary | Exclusive Cannabis Deals & Discounts",
+ "description": "Enjoy exclusive cannabis deals at Uforia Dispensary in Jersey City, featuring daily specials, bulk discounts, and promotions on flower, edibles, vapes.",
+ "canonical": "https://uforiadispensary.com/deals/",
+ "og": {
+  "title": "Uforia Dispensary Deals: Save Big on Cannabis Products Today",
+  "description": "Unbeatable cannabis deals & daily specials!",
+  "image": null
+ },
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://uforiadispensary.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Deals"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "WebPage",
+   "@id": "https://uforiadispensary.com/deals/#WebPage",
+   "headline": "Uforia Dispensary | Exclusive Cannabis Deals & Discounts",
+   "url": "https://uforiadispensary.com/deals/",
+   "description": "Enjoy exclusive cannabis deals at Uforia Dispensary in Jersey City, featuring daily specials, bulk discounts, and promotions on flower, edibles, vapes.",
+   "keywords": [
+    "uforia dispensary",
+    "hoboken",
+    "dispensary jersey city",
+    "delivery jersey city",
+    "uforia audio network",
+    "jersey city"
+   ],
+   "about": [
+    {
+     "@type": "Thing",
+     "name": "uforia dispensary",
+     "description": "",
+     "sameAs": []
+    },
+    {
+     "@type": "Thing",
+     "name": "hoboken",
+     "description": "",
+     "sameAs": []
+    },
+    {
+     "@type": "Thing",
+     "name": "dispensary jersey city",
+     "description": "",
+     "sameAs": []
+    },
+    {
+     "@type": "Thing",
+     "name": "delivery jersey city",
+     "description": "",
+     "sameAs": []
+    },
+    {
+     "@type": "Thing",
+     "name": "uforia audio network",
+     "description": "",
+     "sameAs": [
+      "http://en.wikipedia.org/wiki/Uforia_Audio_Network",
+      "https://www.wikidata.org/wiki/Q7896845",
+      "https://www.crunchbase.com/organization/univision-radio",
+      "https://www.google.com/search?kgmid=/m/0ghdx8"
+     ]
+    },
+    {
+     "@type": "Thing",
+     "name": "jersey city",
+     "description": "",
+     "sameAs": []
+    }
+   ]
+  },
+  [
+   {
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "contentUrl": "https://uforiadispensary.com/wp-content/uploads/2024/04/Picture1-1-1.webp",
+    "caption": "Uforia Dispensary logo featuring a stylized letter 'U' and the brand name, representing cannabis products and education."
+   }
+  ],
+  {
+   "@context": "https://schema.org",
+   "@type": "LocalBusiness",
+   "image": "https://storage.googleapis.com/content-assistant-images-persistent/7d53e5a2-fd11-4817-ac5e-03566a5830a1.jpeg",
+   "url": "https://uforiadispensary.com",
+   "sameAs": [
+    "https://www.facebook.com/UforiaJC/",
+    "https://www.instagram.com/UforiaJC/",
+    "https://www.yelp.com/biz/uforia-dispensary-jersey-city-2",
+    "https://www.tiktok.com/@uforiadispensary"
+   ],
+   "logo": "https://storage.googleapis.com/content-assistant-images-persistent/482716c7-ff9f-459a-ad54-44c0bad3dd64.webp",
+   "name": "Uforia Dispensary",
+   "description": "Jersey City dispensary and cannabis store in The Heights, Uforia is locally owned and known for one to one service that matches products to your goals. Shop lab-tested flower, pre-rolls, vapes, concentrates, edibles, and accessories like papers, wraps, and glass pieces with clear pricing and fast checkout. Whether you are a first-timer or a seasoned enthusiast, our budtenders help you compare strains, formats, and potency for responsible use. Community-rooted, we focus on education and sustainability. Order online for quick pickup or compliant delivery in NJ. Open daily. 21+ only.",
+   "email": "info@uforiadispensary.com",
+   "telephone": "12014209333",
+   "address": [
+    {
+     "@type": "PostalAddress",
+     "streetAddress": "138 Griffith St",
+     "addressLocality": "Jersey City",
+     "addressCountry": "US",
+     "addressRegion": "NJ",
+     "postalCode": "07307"
+    }
+   ]
+  }
+ ],
+ "h1": "Uforia Dispensary: Exclusive Cannabis Deals & Discounts",
+ "placeholder": false,
+ "source": "https://uforiadispensary.com/deals/",
+ "template": "wp-page",
+ "sections": [
+  {
+   "id": "uforia-dispensary-exclusive-cannabis-deals-discounts",
+   "heading": "Uforia Dispensary: Exclusive Cannabis Deals & Discounts",
+   "level": 1,
+   "blocks": []
+  },
+  {
+   "id": "section-2",
+   "heading": null,
+   "level": 2,
+   "blocks": [
+    {
+     "type": "embed",
+     "kind": "video",
+     "src": "https://uforiadispensary.com/wp-content/uploads/2024/05/Media1.mp4"
+    },
+    {
+     "type": "p",
+     "html": "DISCOUNTS &amp; DEALS",
+     "role": "divider-text"
+    },
+    {
+     "type": "p",
+     "html": "At Uforia, we are pleased to offer a variety of deals designed to enhance your shopping experience while providing exceptional value. These deals include daily specials, discounts on bulk purchases, and promotional prices on new or seasonal products. We implement these deals to make our products more accessible to a broader range of customers, helping to reduce the cost barrier associated with high-quality cannabis."
+    },
+    {
+     "type": "p",
+     "html": "Additionally, these promotions serve as an opportunity for our customers to explore different products at a reduced risk, encouraging experimentation with new strains and forms of cannabis that they might not otherwise try. For our regular customers, these deals are a way to stretch their dollars further while still enjoying the products they love. Overall, our deals not only offer financial benefits but also enhance customer satisfaction and loyalty, making quality cannabis more affordable and accessible to our community."
+    },
+    {
+     "type": "button",
+     "text": "Shop Now",
+     "href": "/menu/"
+    }
+   ]
+  }
+ ]
+}

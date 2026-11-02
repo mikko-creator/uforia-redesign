@@ -1,0 +1,29 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-prerolls",
+  "file": "assets/generated/g-prerolls.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Uforia, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Tenebrist editorial still-life photograph: three unlit pre-rolled cannabis cones lying side by side on a slab of dark slate, angled on a gentle diagonal, each one a slim tapered paper cone shaped like a narrow funnel, clearly conical - the closed end about twice as wide as the narrow end - rolled from plain thin white rolling paper, the wide end packed with ground cannabis flower and twisted shut into a small pointed paper twist, the narrow end a plain open tube of the same white paper, the green texture of ground flower faintly visible through the thin paper; a few small cured cannabis buds and a pinch of ground flower beside them; no filters, no orange or tan tips, no cork, no cigarettes, no ash, no smoke, no flame, no text. A hard raking silver-white light from the upper left grazes the paper texture and the slate. Composition: the cones lie right of centre, black negative space on the left. Shot in near-total darkness on a pure black background, one hard cool silver-white key light from the upper left in Caravaggio chiaroscuro, the colour of moonlight, deep shadows falling to the lower right, crisp detail where the light lands, a subtle cool silver rim light on the edges, fine film grain, clean modern premium mood, a restrained cool palette of black, graphite, silver-white and deep green, never warm, never neon, never iridescent, no people, no hands, no faces, no text, no lettering, no numbers, no labels, no logos, no brand marks, no candy, all surfaces blank and unmarked",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:2"
+  },
+  "seed": 914184768,
+  "requestId": "01a19a66-426c-7cf2-9659-e023c75ba1ba",
+  "cutout": null,
+  "width": 2496,
+  "height": 1664,
+  "sha256": "bcc71f112e0c0c473d612f16e04d353e29869218a819844889a7d0d8c7b8e843",
+  "raw": "tmp/img/raw/g-prerolls.1793591766259.jpg",
+  "attempt": 2,
+  "generatedAt": "2026-11-02T03:56:07.962Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "Attempt 2: two white paper cones filled with ground flower lying on dark slate beside ground flower; clearly cone-shaped, no filters, no tobacco look, no text. Two cones, not three, and open ends rather than twisted tips.",
+    "reviewedAt": "2026-11-02T04:13:34.414Z",
+    "reviewer": "IMAGERY lane, by eye at full size"
+  }
+}

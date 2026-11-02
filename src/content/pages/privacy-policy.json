@@ -1,0 +1,82 @@
+{
+ "slug": "privacy-policy",
+ "path": "/privacy-policy/",
+ "title": "Uforia Dispensary Privacy Policy: Your Data Explained",
+ "description": "Our Privacy Policy explains how Uforia Dispensary uses your information, protects sensitive data, and respects your rights when visiting our website.",
+ "canonical": "https://uforiadispensary.com/privacy-policy/",
+ "og": {
+  "title": "Uforia Dispensary's Privacy Policy: Protecting Your Data",
+  "description": "Learn how Uforia Dispensary protects your personal info. Read our privacy policy to understand data collection, use, and security measures.",
+  "image": null
+ },
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://uforiadispensary.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Privacy Policy"
+      }
+     ]
+    }
+   ]
+  },
+  [
+   {
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "contentUrl": "https://uforiadispensary.com/wp-content/uploads/2024/04/Picture1-1-1.webp",
+    "caption": "Uforia Dispensary logo featuring a stylized letter 'U' and the brand name, representing cannabis products and education."
+   }
+  ],
+  {
+   "@context": "https://schema.org",
+   "@type": "LocalBusiness",
+   "image": "https://storage.googleapis.com/content-assistant-images-persistent/7d53e5a2-fd11-4817-ac5e-03566a5830a1.jpeg",
+   "url": "https://uforiadispensary.com",
+   "sameAs": [
+    "https://www.facebook.com/UforiaJC/",
+    "https://www.instagram.com/UforiaJC/",
+    "https://www.yelp.com/biz/uforia-dispensary-jersey-city-2",
+    "https://www.tiktok.com/@uforiadispensary"
+   ],
+   "logo": "https://storage.googleapis.com/content-assistant-images-persistent/482716c7-ff9f-459a-ad54-44c0bad3dd64.webp",
+   "name": "Uforia Dispensary",
+   "description": "Jersey City dispensary and cannabis store in The Heights, Uforia is locally owned and known for one to one service that matches products to your goals. Shop lab-tested flower, pre-rolls, vapes, concentrates, edibles, and accessories like papers, wraps, and glass pieces with clear pricing and fast checkout. Whether you are a first-timer or a seasoned enthusiast, our budtenders help you compare strains, formats, and potency for responsible use. Community-rooted, we focus on education and sustainability. Order online for quick pickup or compliant delivery in NJ. Open daily. 21+ only.",
+   "email": "info@uforiadispensary.com",
+   "telephone": "12014209333",
+   "address": [
+    {
+     "@type": "PostalAddress",
+     "streetAddress": "138 Griffith St",
+     "addressLocality": "Jersey City",
+     "addressCountry": "US",
+     "addressRegion": "NJ",
+     "postalCode": "07307"
+    }
+   ]
+  }
+ ],
+ "h1": "Uforia Dispensary Privacy Policy: Safeguarding Your Personal Data",
+ "placeholder": false,
+ "source": "https://uforiadispensary.com/privacy-policy/",
+ "template": "theme-main",
+ "sections": [
+  {
+   "id": "uforia-dispensary-privacy-policy-safeguarding-your-personal-",
+   "heading": "Uforia Dispensary Privacy Policy: Safeguarding Your Personal Data",
+   "level": 1,
+   "blocks": []
+  }
+ ]
+}

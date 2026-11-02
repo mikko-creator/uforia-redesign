@@ -1,0 +1,42 @@
+{
+  "slug": "what-is-thca",
+  "path": "/learn/what-is-thca/",
+  "title": "What Is THCA?",
+  "seoTitle": "What Is THCA? A Plain-English Guide | Uforia Dispensary",
+  "description": "THCA is the acid form of THC found in raw cannabis flower. Learn how heat turns it into THC, what decarboxylation means and why labels list THCA.",
+  "date": "2026-11-02",
+  "category": "Cannabis Education",
+  "readMinutes": 3,
+  "image": "g-flower-macro",
+  "lede": "If you have looked closely at a flower label, you may have noticed that THCA often has the biggest number. Here is what THCA is, how it becomes THC and why labels list it the way they do.",
+  "sections": [
+    {
+      "heading": "The form the plant actually makes",
+      "html": "<p>THCA, short for tetrahydrocannabinolic acid, is the compound a growing cannabis plant actually produces. It builds up in the trichomes, the tiny resin glands on the flower, as the plant matures. Fresh or carefully dried flower contains only a little THC by comparison.</p><p>THCA and THC are close chemical cousins. THCA carries one extra cluster of atoms, called a carboxyl group, and that small difference matters. THCA on its own is generally considered non-intoxicating, since it does not appear to act on the body's CB1 receptors the way THC does.</p><p>The same pattern holds for other cannabinoids. The plant makes CBDA rather than CBD, and CBGA rather than CBG, and each converts with heat in much the same way.</p>"
+    },
+    {
+      "heading": "How heat turns THCA into THC",
+      "html": "<p>Heat breaks off the carboxyl group, which leaves as a small amount of carbon dioxide. What remains is THC. Chemists call this decarboxylation, often shortened to \"decarbing.\" It happens in a few everyday ways:</p><ul><li><strong>Smoking or vaping:</strong> the heat converts THCA almost instantly as you inhale.</li><li><strong>Edibles:</strong> the cannabis extract used in edibles has usually been heated during processing, so it already contains THC.</li><li><strong>Time:</strong> THCA also converts slowly as flower ages, especially in warmth and light. Over a longer stretch, some of that THC breaks down further into <a href=\"/learn/what-is-cbn/\">CBN</a>.</li></ul><p>This is also why raw, unheated cannabis does not produce the familiar high: its THCA has not been converted yet.</p>"
+    },
+    {
+      "heading": "Why raw flower labels list THCA",
+      "html": "<p>A lab test measures what is in a sample at the moment it is tested. For raw flower, that is mostly THCA with only a little THC, so labels often show both. Many also show a \"total THC\" figure, an estimate of how much THC the flower could produce once heated.</p><p>Total THC is usually calculated by multiplying the THCA figure by 0.877 and adding the THC figure. The 0.877 accounts for the weight lost when the carboxyl group leaves. For example, flower testing at 20% THCA and 1% THC works out to about 18.5% total THC.</p><p>Concentrates follow the same logic. Some are almost entirely THCA, which is why their labels can show very high THCA figures before any heat is applied.</p><p>Total THC is a theoretical maximum. Real-world conversion is never perfect, and some THC is lost to heat along the way.</p>"
+    },
+    {
+      "heading": "What this means when you shop",
+      "html": "<p>The THC number is a helpful starting point, but it does not tell you exactly how a product will feel. <a href=\"/terpenes/\">Terpenes</a>, other cannabinoids, your tolerance and how you consume all play a part. With anything new, start low and go slow.</p><p>THCA also comes up in conversations about what can be sold, and where. Those are legal questions, so for the basics in this state, see our page on <a href=\"/page/is-weed-legal-in-new-jersey/\">whether weed is legal in New Jersey</a>. When you are ready to compare labels, Uforia's live <a href=\"/products/flower/\">flower menu</a> is a good place to start.</p>"
+    }
+  ],
+  "takeaways": [
+    "THCA is the acid form of THC that a growing cannabis plant produces.",
+    "Heat from smoking, vaping or processing turns THCA into THC through decarboxylation.",
+    "Raw flower labels list THCA because that is mostly what a lab finds before heating.",
+    "Total THC is an estimate: THCA times 0.877, plus THC."
+  ],
+  "related": [
+    "/learn/what-are-cannabinoids/",
+    "/learn/what-is-cbn/",
+    "/education/"
+  ],
+  "author": "Uforia Dispensary"
+}

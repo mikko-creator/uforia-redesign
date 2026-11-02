@@ -1,0 +1,47 @@
+{
+  "slug": "what-are-cannabinoids",
+  "path": "/learn/what-are-cannabinoids/",
+  "title": "What Are Cannabinoids?",
+  "seoTitle": "What Are Cannabinoids? THC, CBD and More | Uforia Dispensary",
+  "description": "A plain-English guide to cannabinoids: what THC, CBD, CBG, CBN and THCV are, where they come from and what is known about the endocannabinoid system.",
+  "date": "2026-11-02",
+  "category": "Cannabis Education",
+  "readMinutes": 3,
+  "image": "g-silver-dust",
+  "lede": "Cannabinoids are natural compounds that give cannabis much of its character. Here is a plain-English look at what they are, where they come from and how your body is thought to interact with them.",
+  "sections": [
+    {
+      "heading": "A family of plant compounds",
+      "html": "<p>Cannabis produces more than a hundred cannabinoids. Most are made in trichomes, the tiny resin glands that give a well-grown flower its frosty sparkle. Every strain makes its own mix, and that mix is a big part of why two strains can feel so different.</p><p>In the living plant, most cannabinoids exist in an acid form, such as THCA and CBDA. They become the better-known THC and CBD when heated, which is why raw flower labels often list THCA. Our guide to <a href=\"/learn/what-is-thca/\">THCA</a> explains how that works.</p>"
+    },
+    {
+      "heading": "THC and CBD, the familiar pair",
+      "html": "<p><strong>THC</strong>, or delta-9-tetrahydrocannabinol, is the main intoxicating compound in cannabis and the one most responsible for the classic high. Its percentage is usually the first number people check on a label, though it is far from the whole story.</p><p><strong>CBD</strong>, or cannabidiol, is the other headliner. It does not produce a high the way THC does. Some people report that products combining THC and CBD feel different from THC alone, and researchers are still exploring why.</p>"
+    },
+    {
+      "heading": "The lesser-known cannabinoids",
+      "html": "<p>Beyond the familiar pair is a growing cast of minor cannabinoids. They usually appear in smaller amounts, but they are drawing more attention from researchers and shoppers alike:</p><ul><li><strong>CBG</strong> (cannabigerol): its acid form is the raw material the plant uses to build the acid forms of THC and CBD. See <a href=\"/learn/cbg-vs-cbd/\">CBG vs CBD</a>.</li><li><strong>CBN</strong> (cannabinol): forms slowly as THC ages. See <a href=\"/learn/what-is-cbn/\">What Is CBN?</a></li><li><strong>THCV</strong> (tetrahydrocannabivarin): a close relative of THC with a slightly different structure. See <a href=\"/learn/what-is-thcv/\">What Is THCV?</a></li><li><strong>CBC</strong> (cannabichromene): another compound built from the acid form of CBG, still lightly studied.</li></ul><p>Much of the early research on these compounds comes from lab and animal studies, so more research is needed before anyone can say what each one does in people.</p>"
+    },
+    {
+      "heading": "The endocannabinoid system, in plain words",
+      "html": "<p>Your body has its own signaling network, which scientists call the endocannabinoid system. Researchers began mapping it in the late 1980s while trying to understand how THC works. Its main parts are receptors, cannabinoid-like molecules the body makes itself, and enzymes that build and break those molecules down.</p><p>The best-known receptors are CB1, found mostly in the brain and nervous system, and CB2, found mostly in immune cells. Scientists believe the system plays a part in keeping many of the body's processes, such as mood, appetite and memory, in balance, though they are still working out the details.</p><p>THC binds to CB1 receptors, which is a large part of why it feels intoxicating. CBD and many minor cannabinoids seem to interact with the system in more indirect ways that are not yet fully understood.</p>"
+    },
+    {
+      "heading": "Reading cannabinoids on a label",
+      "html": "<p>Cannabinoid numbers are a useful clue, not the full picture. How a product feels also depends on its <a href=\"/terpenes/\">terpenes</a>, how much you take, how you consume it, your tolerance and your setting. If you are new, start low and go slow. When you are ready to compare, Uforia's live menu, from <a href=\"/products/flower/\">flower</a> to <a href=\"/products/tinctures/\">tinctures</a>, is a good place to begin.</p>"
+    }
+  ],
+  "takeaways": [
+    "Cannabis makes more than a hundred cannabinoids, mostly in its resin glands.",
+    "THC is the main intoxicating cannabinoid; CBD does not produce a high in the same way.",
+    "Minor cannabinoids such as CBG, CBN and THCV are still being studied.",
+    "The endocannabinoid system is the body network cannabinoids are thought to interact with."
+  ],
+  "related": [
+    "/learn/what-is-thca/",
+    "/learn/cbg-vs-cbd/",
+    "/learn/what-is-the-entourage-effect/",
+    "/terpenes/"
+  ],
+  "author": "Uforia Dispensary"
+}

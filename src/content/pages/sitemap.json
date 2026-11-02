@@ -1,0 +1,149 @@
+{
+ "slug": "sitemap",
+ "path": "/sitemap/",
+ "title": "UTILITY Sitemap | Uforia Dispensary",
+ "description": "Explore the Uforia Dispensary website with our sitemap. Find all the products, deals, and educational content you need to enhance your cannabis experience.",
+ "canonical": "https://uforiadispensary.com/sitemap/",
+ "og": {
+  "title": "UTILITY Sitemap | Uforia Dispensary",
+  "description": "Explore Uforia's full cannabis menu: flower, pre-rolls, vapes, edibles, concentrates, topicals & more. Lab-tested products for your goals. Shop now!",
+  "image": null
+ },
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://uforiadispensary.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Sitemap"
+      }
+     ]
+    }
+   ]
+  },
+  [
+   {
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "contentUrl": "https://uforiadispensary.com/wp-content/uploads/2024/04/Picture1-1-1.webp",
+    "caption": "Uforia Dispensary logo featuring a stylized letter 'U' and the brand name, representing cannabis products and education."
+   }
+  ],
+  {
+   "@context": "https://schema.org",
+   "@type": "LocalBusiness",
+   "image": "https://storage.googleapis.com/content-assistant-images-persistent/7d53e5a2-fd11-4817-ac5e-03566a5830a1.jpeg",
+   "url": "https://uforiadispensary.com",
+   "sameAs": [
+    "https://www.facebook.com/UforiaJC/",
+    "https://www.instagram.com/UforiaJC/",
+    "https://www.yelp.com/biz/uforia-dispensary-jersey-city-2",
+    "https://www.tiktok.com/@uforiadispensary"
+   ],
+   "logo": "https://storage.googleapis.com/content-assistant-images-persistent/482716c7-ff9f-459a-ad54-44c0bad3dd64.webp",
+   "name": "Uforia Dispensary",
+   "description": "Jersey City dispensary and cannabis store in The Heights, Uforia is locally owned and known for one to one service that matches products to your goals. Shop lab-tested flower, pre-rolls, vapes, concentrates, edibles, and accessories like papers, wraps, and glass pieces with clear pricing and fast checkout. Whether you are a first-timer or a seasoned enthusiast, our budtenders help you compare strains, formats, and potency for responsible use. Community-rooted, we focus on education and sustainability. Order online for quick pickup or compliant delivery in NJ. Open daily. 21+ only.",
+   "email": "info@uforiadispensary.com",
+   "telephone": "12014209333",
+   "address": [
+    {
+     "@type": "PostalAddress",
+     "streetAddress": "138 Griffith St",
+     "addressLocality": "Jersey City",
+     "addressCountry": "US",
+     "addressRegion": "NJ",
+     "postalCode": "07307"
+    }
+   ]
+  }
+ ],
+ "h1": "Uforia Dispensary Site Map: Your Guide to Products, Deals & Education",
+ "placeholder": true,
+ "source": "https://uforiadispensary.com/sitemap/",
+ "template": "theme-main",
+ "sections": [
+  {
+   "id": "uforia-dispensary-site-map-your-guide-to-products-deals-educ",
+   "heading": "Uforia Dispensary Site Map: Your Guide to Products, Deals & Education",
+   "level": 1,
+   "blocks": []
+  },
+  {
+   "id": "explore-uforia-dispensary-s-site-pages-resources",
+   "heading": "Explore Uforia Dispensary’s Site Pages & Resources",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "ul",
+     "items": [
+      "<a href=\"/about/\">About</a>",
+      "<a href=\"/blog/\">Blog</a>",
+      "<a href=\"/brands/\">Brands</a>",
+      "<a href=\"/jersey-city-dispensary/\">Cannabis Dispensary in Jersey City</a>",
+      "<a href=\"/bayonne-nj/\">Cannabis Dispensary Near Bayonne, NJ</a>",
+      "<a href=\"/newark-nj/\">Cannabis Dispensary Near Newark, NJ</a>",
+      "<a href=\"/secaucus-nj/\">Cannabis Dispensary Near Secaucus, NJ</a>",
+      "<a href=\"/west-new-york-nj/\">Cannabis Dispensary Near West New York, NJ</a>",
+      "<a href=\"/community-partners/\">Community Partners</a>",
+      "<a href=\"/deals/\">Deals</a>",
+      "<a href=\"/delivery/\">Delivery</a>",
+      "<a href=\"/delivery-faq/\">Delivery FAQ</a>",
+      "<a href=\"/dispensary-near-locality-nj/\">Dispensary Near [Locality], NJ</a>",
+      "<a href=\"/bergen-lafayette-jersey-city-nj/\">Dispensary Near Bergen‑Lafayette</a>",
+      "<a href=\"/edgewater-nj/\">Dispensary Near Edgewater, NJ</a>",
+      "<a href=\"/greenville-jersey-city-nj/\">Dispensary Near Greenville, JC</a>",
+      "<a href=\"/harrison-nj/\">Dispensary Near Harrison, NJ</a>",
+      "<a href=\"/hoboken-nj/\">Dispensary Near Hoboken, NJ</a>",
+      "<a href=\"/journal-square-jersey-city-nj/\">Dispensary Near Journal Square</a>",
+      "<a href=\"/kearny-nj/\">Dispensary Near Kearny, NJ</a>",
+      "<a href=\"/north-bergen-nj/\">Dispensary Near North Bergen, NJ</a>",
+      "<a href=\"/union-city-nj/\">Dispensary Near Union City, NJ</a>",
+      "<a href=\"/weehawken-nj/\">Dispensary Near Weehawken, NJ</a>",
+      "<a href=\"/education/\">Education</a>",
+      "<a href=\"/finds-us/\">Finds Us</a>",
+      "<a href=\"/\">Home</a>",
+      "<a href=\"/loyalty/\">Loyalty</a>",
+      "<a href=\"/privacy-policy/\">Privacy Policy</a>",
+      "<a href=\"/safe-consumption/\">Safe Consumption</a>",
+      "<a href=\"/sitemap/\">Sitemap</a>",
+      "<a href=\"/terpenes/\">Terpenes</a>"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "custom-links",
+   "heading": "Custom Links",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "ul",
+     "items": [
+      "<a href=\"/menu/\">Menu</a>",
+      "<a href=\"/menu/categories/pre-rolls\">Pre Rolls</a>",
+      "<a href=\"/menu/categories/flower\">Flower</a>",
+      "<a href=\"/menu/categories/vaporizers\">Vaporizers</a>",
+      "<a href=\"/menu/categories/top-shelf-try-njs-top-cultivators\">Top Shelf – NJ’s Top Cultivators</a>",
+      "<a href=\"/menu/categories/topicals\">Topicals</a>",
+      "<a href=\"/menu/categories/tinctures\">Tinctures</a>",
+      "<a href=\"/menu/categories/beverages\">Beverages</a>",
+      "<a href=\"/menu/categories/accessories-and-merch\">Accessories &amp; Merch</a>",
+      "<a href=\"/menu/categories/edibles\">Edibles</a>",
+      "<a href=\"/menu/categories/concentrates\">Concentrates</a>",
+      "<a href=\"/menu/categories/all\">All Products</a>"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-flower-macro",
+  "file": "assets/generated/g-flower-macro.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Uforia, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Tenebrist macro photograph: an extreme close-up of a cured cannabis flower bud, shallow depth of field, hundreds of tiny mushroom-shaped resin trichome heads standing like frosted glass beads where the light lands, layered deep green calyxes, a few muted pistils, the far side of the bud dissolving into black shadow. Composition: the bud fills the right two thirds of the frame, black negative space on the left third. Shot in near-total darkness on a pure black background, one hard cool silver-white key light from the upper left in Caravaggio chiaroscuro, the colour of moonlight, deep shadows falling to the lower right, crisp detail where the light lands, a subtle cool silver rim light on the edges, fine film grain, clean modern premium mood, a restrained cool palette of black, graphite, silver-white and deep green, never warm, never neon, never iridescent, no people, no hands, no faces, no text, no lettering, no numbers, no labels, no logos, no brand marks, no candy, all surfaces blank and unmarked",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:2"
+  },
+  "seed": 2046804798,
+  "requestId": "01a19a58-a964-7132-b4da-d83348a4cb18",
+  "cutout": null,
+  "width": 2496,
+  "height": 1664,
+  "sha256": "eb7c96cd05039e970e98f7043691a9a1f8717e5a33577858ff634acbdde3fa8d",
+  "raw": "tmp/img/raw/g-flower-macro.1793590876478.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-11-02T03:41:18.617Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "Frosted bud macro filling the right two thirds, left third black, cool side light; trichome heads read as glistening beads.",
+    "reviewedAt": "2026-11-02T04:13:34.414Z",
+    "reviewer": "IMAGERY lane, by eye at full size"
+  }
+}

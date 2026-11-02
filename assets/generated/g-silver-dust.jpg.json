@@ -1,0 +1,29 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-silver-dust",
+  "file": "assets/generated/g-silver-dust.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Uforia, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Tenebrist abstract atmospheric photograph: fine silver dust particles drifting and glinting in a soft diagonal shaft of cool silver-white light that enters at the top-left corner of the frame and slants down toward the centre through total darkness, sparse sharp specks and soft out-of-focus bokeh motes, the shaft fading out toward the centre of the frame; most of the frame is deep black. Composition: the particles gather along the diagonal light shaft from the top-left corner toward the centre, the lower right and the right edge stay black. Shot in near-total darkness on a pure black background, one hard cool silver-white light from the upper left, the colour of moonlight, fine film grain, clean modern premium mood, a restrained cool palette of black, graphite and silver-white with the faintest jade-green tint in the haze, never warm, never neon, never iridescent, no people, no hands, no faces, no text, no lettering, no numbers, no labels, no logos, no brand marks, no candy, all surfaces blank and unmarked",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "16:9"
+  },
+  "seed": 1391241435,
+  "requestId": "01a19a59-1439-7063-8566-9568c9ac717c",
+  "cutout": null,
+  "width": 2752,
+  "height": 1536,
+  "sha256": "6780c1f32d55a62e8a42eb8e0e5903c8862a1fbd60580afdab7bdbf0db4b79f4",
+  "raw": "tmp/img/raw/g-silver-dust.1793590905886.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-11-02T03:41:47.583Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "Silver dust in a diagonal shaft from the top-left corner toward the lower right; neutral silver; top right and lower left black.",
+    "reviewedAt": "2026-11-02T04:13:34.414Z",
+    "reviewer": "IMAGERY lane, by eye at full size"
+  }
+}

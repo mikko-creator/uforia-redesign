@@ -1,0 +1,565 @@
+{
+ "slug": "secaucus-nj",
+ "path": "/secaucus-nj/",
+ "title": "Secaucus, NJ: Uforia Dispensary Cannabis Delivery",
+ "description": "Uforia Dispensary: Secaucus, NJ, get NJ-certified cannabis delivered! Explore our menu and order online for quality and convenience.",
+ "canonical": "https://uforiadispensary.com/secaucus-nj/",
+ "og": {
+  "title": "Discover Secaucus' Premier Cannabis Dispensary - Uforia",
+  "description": "Uforia: Your Secaucus stop for NJ-certified cannabis.",
+  "image": "https://uforiadispensary.com/wp-content/uploads/2025/07/Cannabis-dispensary-jersey-city-products.webp"
+ },
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "VacationRental",
+   "containsPlace": null,
+   "identifier": null,
+   "image": [
+    "https://uforiadispensary.com/wp-content/uploads/2025/07/Cannabis-dispensary-jersey-city-products.webp",
+    "https://uforiadispensary.com/wp-content/uploads/2025/07/cannabis-dispensary-jersey-city.webp",
+    "https://uforiadispensary.com/wp-content/uploads/2025/08/Mill_Creek_Point_boardwalk_jeh-scaled.jpg",
+    "https://uforiadispensary.com/wp-content/uploads/2025/08/Njt4.jpg",
+    "https://uforiadispensary.com/wp-content/uploads/2025/08/Laurelhill1-min-1024x683-1.jpg",
+    "https://uforiadispensary.com/wp-content/uploads/2024/04/Picture1-1-1.png"
+   ],
+   "latitude": 40.745644,
+   "longitude": -74.048747,
+   "name": "Uforia Dispensary",
+   "description": "Jersey City dispensary and cannabis store in The Heights, Uforia is locally owned and known for one to one service that matches products to your goals. Shop lab-tested flower, pre-rolls, vapes, concentrates, edibles, and accessories like papers, wraps, and glass pieces with clear pricing and fast checkout. Whether you are a first-timer or a seasoned enthusiast, our budtenders help you compare strains, formats, and potency for responsible use. Community-rooted, we focus on education and sustainability. Order online for quick pickup or compliant delivery in NJ. Open daily. 21+ only.",
+   "knowsLanguage": [
+    "en"
+   ],
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "138 Griffith St",
+    "addressLocality": "Jersey City",
+    "addressRegion": "NJ",
+    "postalCode": "07307",
+    "addressCountry": "US"
+   }
+  },
+  [
+   {
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "contentUrl": "https://uforiadispensary.com/wp-content/uploads/2025/07/Cannabis-dispensary-jersey-city-products.webp",
+    "caption": "Display of cannabis products at Uforia Dispensary, featuring various brands like \"CROPS\" and \"SEED & STRAIN,\" including pre-rolls, flower jars, and edibles, highlighting the extensive selection available for customers."
+   }
+  ],
+  {
+   "@context": "https://schema.org",
+   "@type": "LocalBusiness",
+   "image": "https://storage.googleapis.com/content-assistant-images-persistent/7d53e5a2-fd11-4817-ac5e-03566a5830a1.jpeg",
+   "url": "https://uforiadispensary.com",
+   "sameAs": [
+    "https://www.facebook.com/UforiaJC/",
+    "https://www.instagram.com/UforiaJC/",
+    "https://www.yelp.com/biz/uforia-dispensary-jersey-city-2",
+    "https://www.tiktok.com/@uforiadispensary"
+   ],
+   "logo": "https://storage.googleapis.com/content-assistant-images-persistent/482716c7-ff9f-459a-ad54-44c0bad3dd64.webp",
+   "name": "Uforia Dispensary",
+   "description": "Jersey City dispensary and cannabis store in The Heights, Uforia is locally owned and known for one to one service that matches products to your goals. Shop lab-tested flower, pre-rolls, vapes, concentrates, edibles, and accessories like papers, wraps, and glass pieces with clear pricing and fast checkout. Whether you are a first-timer or a seasoned enthusiast, our budtenders help you compare strains, formats, and potency for responsible use. Community-rooted, we focus on education and sustainability. Order online for quick pickup or compliant delivery in NJ. Open daily. 21+ only.",
+   "email": "info@uforiadispensary.com",
+   "telephone": "12014209333",
+   "address": [
+    {
+     "@type": "PostalAddress",
+     "streetAddress": "138 Griffith St",
+     "addressLocality": "Jersey City",
+     "addressCountry": "US",
+     "addressRegion": "NJ",
+     "postalCode": "07307"
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://uforiadispensary.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Cannabis Dispensary Near Secaucus, NJ"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "How can I confirm that the cannabis product I purchased is regulated?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "<p>To verify the cannabis product you purchased is a regulated, lab tested, high-quality product from a licensed dispensary, look for the universal symbol (pictured to the right) on the packaging of your cannabis product(s). Consumers can also scan the QR code or visit the URL on the packaging of a product to verify the certificate of analysis (CoA) that proves the product was lab tested.</p><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div>"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Is there an age requirement to purchase cannabis products? ",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "<p>Yes. You must be 21 years or older to purchase adult-use cannabis products. Adult-use cannabis products cannot be sold or delivered to individuals under twenty-one years of age.</p><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div>"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How do I place an Order for delivery? ",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "<p>You can place a delivery order 24/7 at www.uforiadispensary.com or by calling us at</p><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div>"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What times are available for delivery? ",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "<p>Our cannabis deliveries are made to your doorstep daily from 12-8pm</p><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div>"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Where can I receive a delivery?  ",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "<p>Deliveries must be made to:</p><ul><li>A physical home address within the State of New Jersey; and to</li><li>A customer (21+), who is located at all forms of residential properties; short and long- term residencies, anywhere in NJ.</li><li>Deliveries are not permitted anywhere else, including but not limited to public building, public spaces including parks; community centers, any school grounds, day-care centers; and houses of worship, offices or to a motor vehicle.</li></ul><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div>"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can my order be delivered to my car? ",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "<p>No. Deliveries may not be made to anyone inside of a motor vehicle.</p><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div>"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Is identification (ID) verification required to place a delivery order? ",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "<p>Yes. When placing an order online for delivery, customers must attest that they are of legal age (21+) to consume cannabis at time of purchase. At time of delivery, an additional identification check must be carried out by the employee making the delivery to complete the order.</p><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div>"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What is considered valid identification (ID)?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "<ul><li><p>A valid federal, state, or local government identification, stating the customer’s age and a photograph of the individual’s face.</p></li><li>A valid driver’s license or non-driver identification card issued by the department of motor vehicles, the federal government, any United States territory, commonwealth or possession, the District of Columbia, a state government within the United States or a provincial government of the dominion of Canada</li><li>A valid passport issued by the United States government or any other country</li><li>An identification card issued by the armed forces of the United States.</li></ul><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div>"
+     }
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Is cash accepted upon delivery? ",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "<p>No. All orders must be pre-paid on our website prior to delivery.</p><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div>"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How do I pay for my delivery order? ",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "<h5>All orders must be pre-paid prior to delivery by using one of our easy payment options:</h5><ul><li>ACH payment: select the AeroPay option at checkout and you will receive a secure payment link via text from our payment processor AeroPay. <em>Please note payment links will only be sent during the hours we are open daily (12p-8p).</em></li><li>Debit cards: Select the credit / debit option at checkout.</li></ul><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div>"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How will my order be delivered? ",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "<p>Unmarked delivery vehicle approved for Cannabis deliveries in NJ.</p><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div>"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How do I track the status of my delivery order? ",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "<p>Please keep your phone turned on with the sound on. We’ll contact you via text message with updates about your order. You can also track the status by going to the activity page of your profile.</p><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div>"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can I designate someone else to accept my delivery?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "<p>Yes. But if the individual placing the order will not be the individual accepting the order, the individual accepting the order must be 21+ year old and must show valid identification, as it is described above, when they accept the delivery.</p><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div>"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Will I receive an invoice or receipt with my order? ",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "<p>Yes. Customers will receive a receipt at the time of delivery. This will include our dispensary information (name and license number), the name and quantity of products delivered, and the name of the delivery employee, and other relevant information.</p><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div>"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Is a signature required upon delivery? ",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "<p>Yes. ID verification and a signature from the customer for each order is required.</p><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div>"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Is there a delivery fee? ",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "<p>Delivery fees may apply. Our business proudly offers low delivery fees to make our products and services more accessible and affordable for everyone. By keeping our delivery costs minimal, we ensure that you can enjoy the convenience of home delivery without the burden of high fees. This approach helps us maintain competitive pricing and enhances overall customer satisfaction, making it easier for you to choose our services whenever you need them.</p><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div><div> </div>"
+     }
+    }
+   ]
+  }
+ ],
+ "h1": "Dispensary Near Secaucus, NJ",
+ "placeholder": false,
+ "source": "https://uforiadispensary.com/secaucus-nj/",
+ "template": "wp-page",
+ "sections": [
+  {
+   "id": "dispensary-near-secaucus-nj",
+   "heading": "Dispensary Near Secaucus, NJ",
+   "level": 1,
+   "blocks": [
+    {
+     "type": "h2",
+     "text": "Directions to Uforia Dispensary in Secaucus, NJ"
+    },
+    {
+     "type": "p",
+     "html": "If you’re coming from Secaucus, Uforia is your destination for NJ-certified cannabis products and easy ordering."
+    },
+    {
+     "type": "button",
+     "text": "View Menu",
+     "href": "/menu/"
+    }
+   ]
+  },
+  {
+   "id": "your-local-dispensary",
+   "heading": "Your Local Dispensary",
+   "level": 4,
+   "blocks": [
+    {
+     "type": "h2",
+     "text": "Visit Us for Quality Cannabis Products"
+    },
+    {
+     "type": "p",
+     "html": "Welcome to our dispensary, where we proudly serve the residents of Secaucus, NJ. Whether you prefer shopping in-store or enjoying the convenience of delivery, we have options tailored for you. Explore our extensive selection of high-quality cannabis products, all sourced with care. Our friendly staff is here to guide you, whether you’re a seasoned user or new to cannabis. You’ll find familiar streets and landmarks surrounding us, making your visit not just about purchasing, but also connecting with our community. We strive to make your experience enjoyable and straightforward—come by and see what we have to offer! If you’re coming from Secaucus, Uforia is your destination for NJ-certified cannabis products and easy ordering."
+    },
+    {
+     "type": "button",
+     "text": "Shop Now",
+     "href": "/menu/"
+    }
+   ]
+  },
+  {
+   "id": "fast-cannabis-delivery-secaucus-nj",
+   "heading": "Fast Cannabis Delivery Secaucus, NJ",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Yes (Delivery to Secaucus Available). Our delivery service operates from 10 AM to 8 PM, ensuring you have fresh products whenever you need them. For your safety, we conduct an ID check at the time of delivery."
+    },
+    {
+     "type": "button",
+     "text": "Place Order",
+     "href": "/menu/"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/uf/Cannabis-dispensary-jersey-city-products.webp",
+     "alt": "Display of cannabis products at Uforia Dispensary, featuring various brands like \"CROPS\" and \"SEED & STRAIN,\" including pre-rolls, flower jars, and edibles, highlighting the extensive selection available for customers.",
+     "w": 1360,
+     "h": 1020
+    }
+   ]
+  },
+  {
+   "id": "section-4",
+   "heading": null,
+   "level": 2,
+   "blocks": [
+    {
+     "type": "img",
+     "src": "/assets/photos/uf/cannabis-dispensary-jersey-city.webp",
+     "alt": "Uforia Dispensary interior showcasing cannabis products, illuminated display cases, and a green wall with the Uforia logo, emphasizing a welcoming shopping experience.",
+     "w": 765,
+     "h": 1020,
+     "href": "https://maps.app.goo.gl/DEcCmMs8PE8fABFz6"
+    },
+    {
+     "type": "h2",
+     "text": "Need Cannabis Pickup near Secaucus, NJ?"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/uf/Mill_Creek_Point_boardwalk_jeh-scaled-1-1536x871.jpg",
+     "alt": "Wooden boardwalk extending through marshland, with tall grasses and distant buildings, representing the natural surroundings near Uforia Dispensary in Secaucus, NJ.",
+     "w": 1536,
+     "h": 871
+    },
+    {
+     "type": "p",
+     "html": "<a href=\"https://meadowblog.net/mill-creek-marsh/\" target=\"_blank\" rel=\"noopener\">Mill Creek Marsh </a>| <a href=\"https://www.google.com/maps/dir/?api=1&amp;origin=Mill+Creek+Marsh,+Secaucus,+NJ&amp;destination=Uforia+Dispensary,+138+Griffith+St+Ground+Floor,+Jersey+City,+NJ+07307\" target=\"_blank\" rel=\"noopener\">About a 15-minute drive from Mill Creek Marsh to our dispensary in Jersey City.</a>"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/uf/Njt4.jpg",
+     "alt": "Train arriving at Secaucus Junction station, featuring modern architecture and surrounding platform lights, providing access to Uforia Dispensary in Jersey City.",
+     "w": 504,
+     "h": 360
+    },
+    {
+     "type": "p",
+     "html": "<a href=\"https://en.wikipedia.org/wiki/Secaucus_Junction\" target=\"_blank\" rel=\"noopener\">Secaucus Junction</a> | About a 20-minute drive from Secaucus Junction to our dispensary in Jersey City."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/uf/Laurelhill1-min-1024x683-1-1.jpg",
+     "alt": "Soccer field at Laurel Hill Park with players practicing, surrounded by greenery and rocky cliffs, emphasizing outdoor recreational activities near Secaucus, NJ.",
+     "w": 1024,
+     "h": 683
+    },
+    {
+     "type": "p",
+     "html": "<a href=\"https://www.visithudson.org/laurel-hill-park/\" target=\"_blank\" rel=\"noopener\">Laurel Hill Park </a>| <a href=\"https://www.google.com/maps/dir/?api=1&amp;origin=Laurel+Hill+Park,+Secaucus,+NJ&amp;destination=Uforia+Dispensary,+138+Griffith+St+Ground+Floor,+Jersey+City,+NJ+07307\" target=\"_blank\" rel=\"noopener\">About a 15-minute drive from Laurel Hill Park to our dispensary in Jersey City.</a>"
+    },
+    {
+     "type": "h2",
+     "text": "Find Your Way to Us"
+    },
+    {
+     "type": "p",
+     "html": "Getting to our dispensary is easy. We’re located near well-known spots like “Mill Creek Marsh” and “Secaucus Junction”. Just follow the main road, and you’ll see our sign. Our friendly staff is ready to assist you as soon as you arrive. Whether you’re here for medical needs or recreational enjoyment, we’ve made it simple for you. Take County Rd to Tonnele Ave, then Newark Ave to Uforia."
+    },
+    {
+     "type": "button",
+     "text": "Get Directions",
+     "href": "https://www.google.com/maps/dir/Secaucus%2C+NJ/138+Griffith+Street+Jersey+City+NJ+07307"
+    }
+   ]
+  },
+  {
+   "id": "why-is-uforia-the-best-choice-for-cannabis",
+   "heading": "Why is Uforia the best choice for Cannabis?",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "icon-box",
+     "icon": null,
+     "title": "Convenient Pickup & Delivery",
+     "html": "Experience lightning-fast delivery to your door, ensuring you get your products without delay. We're committed to bringing convenience right to your fingertips."
+    },
+    {
+     "type": "icon-box",
+     "icon": null,
+     "title": "Wide Product Range",
+     "html": "Browse our curated collection of top-tier products, featuring only the best in quality. We focus on delivering exceptional options for all your cannabis needs."
+    },
+    {
+     "type": "icon-box",
+     "icon": null,
+     "title": "Trusted NJ Dispensary",
+     "html": "Stop overpaying for gas and weed! We give our clients fair pricing for reliable cannabis delivery on your favorite flower, carts, and edible brands. Learn why our regulars keep coming back."
+    }
+   ]
+  },
+  {
+   "id": "customer-reviews-and-feedback",
+   "heading": "Customer Reviews and Feedback",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "embed",
+     "kind": "iframe",
+     "src": "https://reputationhub.site/reputation/widgets/review_widget/aJ18zD41Z4IZEf4yFLOY",
+     "title": null
+    }
+   ]
+  },
+  {
+   "id": "frequently-asked-questions",
+   "heading": "Frequently Asked Questions",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "h4",
+     "text": "Find answers to common questions below."
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "How can I confirm that the cannabis product I purchased is regulated?",
+       "a_html": "<p>To verify the cannabis product you purchased is a regulated, lab tested, high-quality product from a licensed dispensary, look for the universal symbol (pictured to the right) on the packaging of your cannabis product(s). Consumers can also scan the QR code or visit the URL on the packaging of a product to verify the certificate of analysis (CoA) that proves the product was lab tested.</p>"
+      },
+      {
+       "q": "Is there an age requirement to purchase cannabis products?",
+       "a_html": "<p>Yes. You must be 21 years or older to purchase adult-use cannabis products. Adult-use cannabis products cannot be sold or delivered to individuals under twenty-one years of age.</p>"
+      },
+      {
+       "q": "How do I place an Order for delivery?",
+       "a_html": "<p>You can place a delivery order 24/7 at www.uforiadispensary.com or by calling us at</p>"
+      },
+      {
+       "q": "What times are available for delivery?",
+       "a_html": "<p>Our cannabis deliveries are made to your doorstep daily from 12-8pm</p>"
+      },
+      {
+       "q": "Where can I receive a delivery?",
+       "a_html": "<p>Deliveries must be made to:</p><ul><li>A physical home address within the State of New Jersey; and to</li><li>A customer (21+), who is located at all forms of residential properties; short and long- term residencies, anywhere in NJ.</li><li>Deliveries are not permitted anywhere else, including but not limited to public building, public spaces including parks; community centers, any school grounds, day-care centers; and houses of worship, offices or to a motor vehicle.</li></ul>"
+      },
+      {
+       "q": "Can my order be delivered to my car?",
+       "a_html": "<p>No. Deliveries may not be made to anyone inside of a motor vehicle.</p>"
+      },
+      {
+       "q": "Is identification (ID) verification required to place a delivery order?",
+       "a_html": "<p>Yes. When placing an order online for delivery, customers must attest that they are of legal age (21+) to consume cannabis at time of purchase. At time of delivery, an additional identification check must be carried out by the employee making the delivery to complete the order.</p>"
+      },
+      {
+       "q": "What is considered valid identification (ID)?",
+       "a_html": "<ul><li><p>A valid federal, state, or local government identification, stating the customer’s age and a photograph of the individual’s face.</p></li><li>A valid driver’s license or non-driver identification card issued by the department of motor vehicles, the federal government, any United States territory, commonwealth or possession, the District of Columbia, a state government within the United States or a provincial government of the dominion of Canada</li><li>A valid passport issued by the United States government or any other country</li><li>An identification card issued by the armed forces of the United States.</li></ul>"
+      }
+     ]
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "Is cash accepted upon delivery?",
+       "a_html": "<p>No. All orders must be pre-paid on our website prior to delivery.</p>"
+      },
+      {
+       "q": "How do I pay for my delivery order?",
+       "a_html": "<h4>All orders must be pre-paid prior to delivery by using one of our easy payment options:</h4><ul><li>ACH payment: select the AeroPay option at checkout and you will receive a secure payment link via text from our payment processor AeroPay. <em>Please note payment links will only be sent during the hours we are open daily (12p-8p).</em></li><li>Debit cards: Select the credit / debit option at checkout.</li></ul>"
+      },
+      {
+       "q": "How will my order be delivered?",
+       "a_html": "<p>Unmarked delivery vehicle approved for Cannabis deliveries in NJ.</p>"
+      },
+      {
+       "q": "How do I track the status of my delivery order?",
+       "a_html": "<p>Please keep your phone turned on with the sound on. We’ll contact you via text message with updates about your order. You can also track the status by going to the activity page of your profile.</p>"
+      },
+      {
+       "q": "Can I designate someone else to accept my delivery?",
+       "a_html": "<p>Yes. But if the individual placing the order will not be the individual accepting the order, the individual accepting the order must be 21+ year old and must show valid identification, as it is described above, when they accept the delivery.</p>"
+      },
+      {
+       "q": "Will I receive an invoice or receipt with my order?",
+       "a_html": "<p>Yes. Customers will receive a receipt at the time of delivery. This will include our dispensary information (name and license number), the name and quantity of products delivered, and the name of the delivery employee, and other relevant information.</p>"
+      },
+      {
+       "q": "Is a signature required upon delivery?",
+       "a_html": "<p>Yes. ID verification and a signature from the customer for each order is required.</p>"
+      },
+      {
+       "q": "Is there a delivery fee?",
+       "a_html": "<p>Delivery fees may apply. Our business proudly offers low delivery fees to make our products and services more accessible and affordable for everyone. By keeping our delivery costs minimal, we ensure that you can enjoy the convenience of home delivery without the burden of high fees. This approach helps us maintain competitive pricing and enhances overall customer satisfaction, making it easier for you to choose our services whenever you need them.</p>"
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Need more help?"
+    },
+    {
+     "type": "p",
+     "html": "If you have additional questions or need assistance, feel free to reach out to our support team."
+    },
+    {
+     "type": "button",
+     "text": "Get in Touch",
+     "href": "tel:201-420-9333"
+    }
+   ]
+  },
+  {
+   "id": "weed-delivered-to-secaucus",
+   "heading": "Weed Delivered to Secaucus",
+   "level": 4,
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Order from Uforia and get top-quality cannabis delivered to your doorstep in Secaucus."
+    },
+    {
+     "type": "button",
+     "text": "Start Delivery",
+     "href": "/menu/"
+    }
+   ]
+  },
+  {
+   "id": "get-your-favorite-cannabis-brands-at-our-dispensary",
+   "heading": "Get your Favorite Cannabis Brands at our Dispensary",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "p",
+     "html": "We’re here to help you find what you need. Reach out for any questions or assistance."
+    },
+    {
+     "type": "ul",
+     "items": [
+      "138 Griffith Street, Jersey City, New Jersey 07307, United States",
+      "<a href=\"tel:(201)%20420-9333\">(201) 420-9333</a>",
+      "<a href=\"tel:(201)%20420-9333\">(201) 420-WEED</a>",
+      "<a href=\"mailto:info@uforiadispensary.com\">info@uforiadispensary.com</a>",
+      "MON – THURS: 11AM – 9PM",
+      "FRI - SAT: 10 AM – 9PM",
+      "SUN: 10 AM - 7PM"
+     ],
+     "role": "icon-list"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<a href=\"https://www.facebook.com/UforiaJC/\">Facebook</a>",
+      "<a href=\"https://www.instagram.com/UforiaJC/\">Instagram</a>",
+      "<a href=\"https://www.tiktok.com/@uforiadispensary\">Tiktok</a>",
+      "<a href=\"https://www.yelp.com/biz/uforia-dispensary-coming-soon-jersey-city\">Yelp</a>"
+     ],
+     "role": "social"
+    },
+    {
+     "type": "embed",
+     "kind": "map",
+     "src": "https://maps.google.com/maps?q=Uforia%20Dispensary%20Jersey%20City&t=m&z=12&output=embed&iwloc=near",
+     "title": "Uforia Dispensary Jersey City"
+    }
+   ]
+  }
+ ]
+}

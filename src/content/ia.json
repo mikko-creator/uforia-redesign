@@ -1,0 +1,125 @@
+{
+  "_about": "The adopted architecture (a large multi-state dispensary operator's site, captured 2026-11-02: header with store bar, nav Shop / Deals / Find a Dispensary / Resources as mega menus, a category bar, footer columns Resources / Products / Collections, legal row) mapped onto Uforia's own pages and facts. Labels are neutral glue; every destination is a Uforia page, a new page on the adopted pattern, or Uforia's live menu. FOUNDATION renders it; nobody re-maps it.",
+  "promo": { "text": "Free Delivery on orders $80 and up.", "href": "/delivery/", "cta": "Delivery details", "source": "/delivery/ and /delivery-faq/" },
+  "storeBar": { "label": "Shopping at", "name": "Uforia Dispensary", "place": "Jersey City, NJ", "mode": "Adult Use", "href": "/jersey-city-dispensary/" },
+  "nav": [
+    {
+      "label": "Shop", "href": "/shop/", "mega": "shop",
+      "groups": [
+        { "title": "Products", "links": "categories" },
+        { "title": "Collections", "links": [
+          { "label": "Top Shelf", "href": "/products/top-shelf/" },
+          { "label": "Brands", "href": "/brands/" },
+          { "label": "Deals", "href": "/deals/" },
+          { "label": "Shop all", "href": "/shop/" }
+        ] }
+      ],
+      "features": [
+        { "image": "g-jars", "title": "Shop the live menu", "text": "Browse every category on Uforia's live menu.", "href": "live:" },
+        { "image": "g-flower-macro", "title": "Flower", "text": "Uforia's flower selection.", "href": "/products/flower/" }
+      ]
+    },
+    {
+      "label": "Deals", "href": "/deals/", "mega": "deals",
+      "groups": [
+        { "title": "Deals at this store", "links": "offers" },
+        { "title": "Save more", "links": [
+          { "label": "View all deals", "href": "/deals/" },
+          { "label": "Loyalty rewards", "href": "/loyalty/" }
+        ] }
+      ],
+      "features": [
+        { "image": "g-silver-dust", "title": "Loyalty rewards", "text": "How Uforia's loyalty program works.", "href": "/loyalty/" }
+      ]
+    },
+    {
+      "label": "Find a Dispensary", "href": "/locations/", "mega": "places",
+      "groups": [
+        { "title": "Our dispensary", "links": [
+          { "label": "Uforia Jersey City", "href": "/jersey-city-dispensary/" },
+          { "label": "Find us", "href": "/finds-us/" },
+          { "label": "Delivery", "href": "/delivery/" },
+          { "label": "All locations", "href": "/locations/" }
+        ] },
+        { "title": "Areas we serve", "links": "areas" }
+      ],
+      "features": [
+        { "image": "g-jc-night", "title": "Visit Uforia in Jersey City", "text": "Address, hours and directions.", "href": "/jersey-city-dispensary/" }
+      ]
+    },
+    {
+      "label": "Resources", "href": "/blog/", "mega": "resources",
+      "groups": [
+        { "title": "Resources", "links": [
+          { "label": "Loyalty Rewards", "href": "/loyalty/" },
+          { "label": "Frequently Asked Questions", "href": "/faq/" },
+          { "label": "Contact Us", "href": "/finds-us/" },
+          { "label": "How to Get a Medical Card", "href": "/page/how-to-get-a-medical-marijuana-card-new-jersey/" },
+          { "label": "Is Weed Legal in New Jersey?", "href": "/page/is-weed-legal-in-new-jersey/" },
+          { "label": "About Us", "href": "/about/" },
+          { "label": "Reviews", "href": "/jersey-city-dispensary-testimonials/" },
+          { "label": "Community Partners", "href": "/community-partners/" },
+          { "label": "Delivery FAQ", "href": "/delivery-faq/" }
+        ] },
+        { "title": "Learn about cannabis", "links": [
+          { "label": "Education", "href": "/education/" },
+          { "label": "Terpenes", "href": "/terpenes/" },
+          { "label": "Safe Consumption", "href": "/safe-consumption/" },
+          { "label": "Purchase Limits", "href": "/learn/understanding-cannabis-purchase-limits/" },
+          { "label": "View all articles", "href": "/blog/" }
+        ] }
+      ],
+      "features": "latest-posts"
+    }
+  ],
+  "categoryBar": {
+    "main": ["flower", "pre-rolls", "vaporizers", "edibles", "concentrates", "accessories-and-merch"],
+    "more": ["tinctures", "beverages", "topicals", "top-shelf"]
+  },
+  "footer": {
+    "columns": [
+      { "title": "Resources", "links": [
+        { "label": "About Us", "href": "/about/" },
+        { "label": "Frequently Asked Questions", "href": "/faq/" },
+        { "label": "Learn About Cannabis", "href": "/blog/" },
+        { "label": "Loyalty Rewards", "href": "/loyalty/" },
+        { "label": "Contact Us", "href": "/finds-us/" },
+        { "label": "Find a Dispensary", "href": "/locations/" },
+        { "label": "Deals", "href": "/deals/" },
+        { "label": "Reviews", "href": "/jersey-city-dispensary-testimonials/" },
+        { "label": "Delivery", "href": "/delivery/" }
+      ] },
+      { "title": "Products", "links": "categories" },
+      { "title": "Collections", "links": [
+        { "label": "Top Shelf", "href": "/products/top-shelf/" },
+        { "label": "Brands", "href": "/brands/" },
+        { "label": "Community Partners", "href": "/community-partners/" },
+        { "label": "New to cannabis?", "href": "/learn/basic-cannabis-terminology/" }
+      ] }
+    ],
+    "legal": [
+      { "label": "Privacy Policy", "href": "/privacy-policy/" },
+      { "label": "Sitemap", "href": "/sitemap/" }
+    ]
+  },
+  "pageMap": [
+    { "adopted": "/ (home)", "uforia": "/", "decision": "PRESERVE content, adopted section order" },
+    { "adopted": "/shop", "uforia": "/shop/", "decision": "ADD (live-menu snapshot + live menu links)" },
+    { "adopted": "/products/<category>", "uforia": "/products/<category>/", "decision": "ADD per live-menu category" },
+    { "adopted": "deals page", "uforia": "/deals/", "decision": "PRESERVE content, adopted deals pattern" },
+    { "adopted": "/locations", "uforia": "/locations/", "decision": "ADD hub (facts only)" },
+    { "adopted": "/store/<slug>", "uforia": "/jersey-city-dispensary/ + 15 town pages", "decision": "PRESERVE content on the store template" },
+    { "adopted": "/learn", "uforia": "/blog/", "decision": "PRESERVE URL, adopted Learn hub" },
+    { "adopted": "/learn/<slug>", "uforia": "/<post-slug>/ (174) + /learn/<slug>/ (14 new guides)", "decision": "PRESERVE posts; ADD original guides on the adopted topics" },
+    { "adopted": "rewards page", "uforia": "/loyalty/", "decision": "PRESERVE content, adopted rewards template" },
+    { "adopted": "/faq", "uforia": "/faq/", "decision": "ADD from Uforia's own Q&A" },
+    { "adopted": "/about", "uforia": "/about/", "decision": "PRESERVE content, adopted about zigzag" },
+    { "adopted": "/contact", "uforia": "/finds-us/", "decision": "PRESERVE" },
+    { "adopted": "medical card page per state", "uforia": "/page/how-to-get-a-medical-marijuana-card-new-jersey/", "decision": "ADD from official NJ sources" },
+    { "adopted": "is weed legal page per state", "uforia": "/page/is-weed-legal-in-new-jersey/", "decision": "ADD from official NJ sources" },
+    { "adopted": "purchase limits guide", "uforia": "/learn/understanding-cannabis-purchase-limits/", "decision": "ADD from official NJ sources" },
+    { "adopted": "reviews page", "uforia": "/jersey-city-dispensary-testimonials/", "decision": "PRESERVE (a Uforia post)" },
+    { "adopted": "collections", "uforia": "/brands/ + /products/top-shelf/", "decision": "PRESERVE / ADD" },
+    { "adopted": "careers, news, store tour, terms pages, seasonal promos, strain profiles, house-brand pages", "uforia": "none", "decision": "REMOVE: no Uforia content or facts for them" }
+  ]
+}

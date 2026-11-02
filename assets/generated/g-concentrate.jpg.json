@@ -1,0 +1,29 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-concentrate",
+  "file": "assets/generated/g-concentrate.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Uforia, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Tenebrist editorial still-life photograph: a single small soft irregular dab of pressed hash rosin, a waxy cannabis concentrate with the smooth, opaque, buttery consistency of soft beeswax, pale cream-gold and muted, a slightly glossy satin surface with soft rounded folds and ridges where it was scraped, completely opaque throughout, no crystal facets, no cubes, no translucent yellow, a few tiny clear terpene droplets on its surface; the dab is small and sits alone in the middle of a square of unbleached light-brown parchment paper lying flat on a slab of black stone; nothing else on the stone. A hard cool silver-white key light from the upper left grazes the waxy surface, leaving silver highlights on its glossy ridges and soft shadow on its far side; most of the frame stays deep black. Composition: the parchment and the dab sit right of centre and fill about a third of the frame width, black negative space on the left. Shot in near-total darkness on a pure black background, one hard cool silver-white key light from the upper left in Caravaggio chiaroscuro, the colour of moonlight, deep shadows falling to the lower right, crisp detail where the light lands, a subtle cool silver rim light on the edges, fine film grain, clean modern premium mood, a restrained cool palette of black, graphite and silver-white, never neon, never iridescent, no people, no hands, no faces, no text, no lettering, no numbers, no labels, no logos, no brand marks, no candy, all surfaces blank and unmarked",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:2"
+  },
+  "seed": 1907496004,
+  "requestId": "01a19a6d-c68c-7430-85d7-088e6e60599b",
+  "cutout": null,
+  "width": 2496,
+  "height": 1664,
+  "sha256": "ff26ce254e8555d44ffeea30ed4b88c71f1f1b0e05336970e769d4a859083d54",
+  "raw": "tmp/img/raw/g-concentrate.1793592260545.jpg",
+  "attempt": 3,
+  "generatedAt": "2026-11-02T04:04:22.983Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "Attempt 3 (asked by the main session): an opaque waxy pale-gold dab on unbleached parchment on dark stone; no crystal facets, no candy read. Brighter and more frame-filling than the rest of the set.",
+    "reviewedAt": "2026-11-02T04:13:34.414Z",
+    "reviewer": "IMAGERY lane, by eye at full size"
+  }
+}

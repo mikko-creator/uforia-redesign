@@ -1,0 +1,43 @@
+{
+  "slug": "basic-cannabis-terminology",
+  "path": "/learn/basic-cannabis-terminology/",
+  "title": "Basic Cannabis Terminology",
+  "seoTitle": "Basic Cannabis Terminology: A Glossary | Uforia Dispensary",
+  "description": "A plain-English glossary of 20 common cannabis terms, from flower, pre-rolls and tinctures to terpenes, cannabinoids, decarboxylation and budtenders.",
+  "date": "2026-11-02",
+  "category": "Cannabis Education",
+  "readMinutes": 4,
+  "image": "g-leaf-silver",
+  "lede": "Walking into a dispensary for the first time can feel a bit like learning a new language. This glossary covers twenty words you are likely to hear, explained in plain English, so you can read a menu or chat with a budtender with confidence.",
+  "sections": [
+    {
+      "heading": "Products on a typical menu",
+      "html": "<p>Most menus are organized by format, meaning the form the cannabis comes in.</p><p><strong>Flower:</strong> the dried, trimmed buds of the cannabis plant, and the form most people picture first. Flower is usually smoked or used in a dry herb vaporizer.</p><p><strong>Bud:</strong> another word for flower, often used for a single cluster, as in <em>a dense, frosty bud</em>.</p><p><strong>Pre-roll:</strong> a joint that comes already rolled, with ground flower packed into a paper cone. It is a convenient choice if you would rather not roll your own.</p><p><strong>Cartridge:</strong> a small, prefilled container of cannabis oil that attaches to a battery for vaping. Often shortened to <em>cart</em>.</p><p><strong>Edible:</strong> a food or drink made with cannabis, such as gummies, chocolates or beverages. Edibles usually take longer to be felt than smoking or vaping, so patience matters: start low and go slow.</p><p><strong>Tincture:</strong> a liquid cannabis extract sold in a small dropper bottle. People often place drops under the tongue or stir them into food or drinks.</p><p><strong>Topical:</strong> a cream, balm or lotion made with cannabis that is applied to the skin rather than inhaled or eaten.</p>"
+    },
+    {
+      "heading": "Concentrates and resin",
+      "html": "<p><strong>Concentrate:</strong> any product that gathers the plant's cannabinoids and terpenes into a stronger form, leaving most plant material behind. Wax, shatter, live resin and rosin are all concentrates.</p><p><strong>Kief:</strong> the fine powder of trichome heads that falls from dried flower, often collected in a grinder's bottom chamber. Our guide to <a href=\"/learn/what-is-kief/\">kief</a> covers it in more detail.</p><p><strong>Rosin:</strong> a solventless concentrate made by pressing flower, kief or hash with heat and pressure. See how it compares in <a href=\"/learn/live-resin-vs-rosin/\">live resin vs rosin</a>.</p>"
+    },
+    {
+      "heading": "Inside the plant",
+      "html": "<p><strong>Cannabinoids:</strong> the family of natural compounds found in cannabis, including THC, CBD, CBG and CBN. Research into many of them is still ongoing, and our guide to <a href=\"/learn/what-are-cannabinoids/\">cannabinoids</a> goes deeper.</p><p><strong>THC:</strong> short for delta-9-tetrahydrocannabinol, the main compound behind the high that cannabis is known for. In the raw plant it exists mostly as THCA, which turns into THC when heated.</p><p><strong>CBD:</strong> short for cannabidiol, a widely studied cannabinoid that does not produce a high the way THC does. Scientists are still learning how it works, and more research is needed.</p><p><strong>Terpenes:</strong> aromatic compounds that give cannabis, and many other plants, their scent and flavor, from citrus and pine to pepper and earth. Early research suggests they may shape how a strain feels, but more research is needed. Explore them on our <a href=\"/terpenes/\">terpenes</a> page.</p><p><strong>Decarboxylation:</strong> the chemical change that happens when heat turns THCA into THC. Lighting or vaporizing flower does this instantly, and it is an essential step before cannabis is cooked into edibles. Often shortened to <em>decarb</em>.</p>"
+    },
+    {
+      "heading": "Plant types and dispensary words",
+      "html": "<p><strong>Strain:</strong> a specific variety of cannabis with its own name, look, aroma and character. Growers increasingly use the word <em>cultivar</em> for the same idea.</p><p><strong>Indica:</strong> a traditional label for plants that grow short and bushy with broad leaves. Indicas are often described as relaxing, though the chemistry of each product says more than the label.</p><p><strong>Sativa:</strong> a traditional label for taller plants with narrow leaves, often described as more uplifting. Like indica, it is a loose guide rather than a promise.</p><p><strong>Hybrid:</strong> a strain bred from both indica and sativa ancestry. Most cannabis on menus today is some kind of hybrid, and our guide to <a href=\"/learn/indica-vs-sativa-vs-hybrid/\">indica vs sativa vs hybrid</a> explains more.</p><p><strong>Budtender:</strong> the dispensary team member who helps you find products and answers your questions. Telling a budtender what you enjoy, or what you are curious about, is the easiest way to narrow down a menu.</p><p>When you are ready to put these words to use, browse <a href=\"/shop/\">Uforia's live menu</a>, or keep learning on our <a href=\"/education/\">education</a> page.</p>"
+    }
+  ],
+  "takeaways": [
+    "Flower, pre-rolls, cartridges, edibles, tinctures and topicals are the main product formats.",
+    "Cannabinoids such as THC and CBD, along with aromatic terpenes, shape each product.",
+    "Indica, sativa and hybrid are loose labels; the chemistry of each product says more.",
+    "A budtender can walk you through any term you are unsure about."
+  ],
+  "related": [
+    "/learn/what-are-cannabinoids/",
+    "/learn/indica-vs-sativa-vs-hybrid/",
+    "/terpenes/",
+    "/education/"
+  ],
+  "author": "Uforia Dispensary"
+}

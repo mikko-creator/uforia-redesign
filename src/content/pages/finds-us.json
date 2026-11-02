@@ -1,0 +1,124 @@
+{
+ "slug": "finds-us",
+ "path": "/finds-us/",
+ "title": "Uforia Dispensary: Find Us in Jersey City",
+ "description": "Looking for Uforia Dispensary? Find us in Jersey City, NJ with simple directions, nearby landmarks, and access to premium cannabis products and delivery.",
+ "canonical": "https://uforiadispensary.com/finds-us/",
+ "og": {
+  "title": "Find Uforia Dispensary: Your Jersey City Cannabis Hub",
+  "description": "Find Uforia Dispensary in Jersey City, NJ.",
+  "image": null
+ },
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://uforiadispensary.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Finds Us"
+      }
+     ]
+    }
+   ]
+  },
+  [
+   {
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "contentUrl": "https://uforiadispensary.com/wp-content/uploads/2024/04/Picture1-1-1.webp",
+    "caption": "Uforia Dispensary logo featuring a stylized letter 'U' and the brand name, representing cannabis products and education."
+   }
+  ],
+  {
+   "@context": "https://schema.org",
+   "@type": "LocalBusiness",
+   "image": "https://storage.googleapis.com/content-assistant-images-persistent/7d53e5a2-fd11-4817-ac5e-03566a5830a1.jpeg",
+   "url": "https://uforiadispensary.com",
+   "sameAs": [
+    "https://www.facebook.com/UforiaJC/",
+    "https://www.instagram.com/UforiaJC/",
+    "https://www.yelp.com/biz/uforia-dispensary-jersey-city-2",
+    "https://www.tiktok.com/@uforiadispensary"
+   ],
+   "logo": "https://storage.googleapis.com/content-assistant-images-persistent/482716c7-ff9f-459a-ad54-44c0bad3dd64.webp",
+   "name": "Uforia Dispensary",
+   "description": "Jersey City dispensary and cannabis store in The Heights, Uforia is locally owned and known for one to one service that matches products to your goals. Shop lab-tested flower, pre-rolls, vapes, concentrates, edibles, and accessories like papers, wraps, and glass pieces with clear pricing and fast checkout. Whether you are a first-timer or a seasoned enthusiast, our budtenders help you compare strains, formats, and potency for responsible use. Community-rooted, we focus on education and sustainability. Order online for quick pickup or compliant delivery in NJ. Open daily. 21+ only.",
+   "email": "info@uforiadispensary.com",
+   "telephone": "12014209333",
+   "address": [
+    {
+     "@type": "PostalAddress",
+     "streetAddress": "138 Griffith St",
+     "addressLocality": "Jersey City",
+     "addressCountry": "US",
+     "addressRegion": "NJ",
+     "postalCode": "07307"
+    }
+   ]
+  }
+ ],
+ "h1": "Welcome to Uforia Dispensary",
+ "placeholder": false,
+ "source": "https://uforiadispensary.com/finds-us/",
+ "template": "wp-page",
+ "sections": [
+  {
+   "id": "visit-uforia-dispensary-in-jersey-city-hours-directions",
+   "heading": "Visit Uforia Dispensary in Jersey City – Hours & Directions",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "ul",
+     "items": [
+      "138 Griffith Street, Jersey City, New Jersey 07307, United States",
+      "<a href=\"tel:(201)%20420-9333\">(201) 420-9333</a>",
+      "<a href=\"tel:(201)%20420-9333\">(201) 420-WEED</a>",
+      "<a href=\"mailto:info@uforiadispensary.com\">info@uforiadispensary.com</a>",
+      "MON - THURS: 11AM – 9PM",
+      "FRI - SAT: 10 AM – 10PM.",
+      "SUN: 10AM - 8PM"
+     ],
+     "role": "icon-list"
+    },
+    {
+     "type": "button",
+     "text": "Directions From your location",
+     "href": "https://www.google.com/maps/dir//138+Griffith+St+Jersey+City,+NJ+07307+USA/@40.7456297,-74.0487751,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c2576a16823bed:0xd78213adee9f90ee!2m2!1d-74.0487751!2d40.7456297?entry=ttu"
+    },
+    {
+     "type": "embed",
+     "kind": "map",
+     "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.7446477911644!2d-74.04879749999999!3d40.745644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c257c732177459%3A0x28d920f8ceae57b7!2sUforia%20Dispensary!5e0!3m2!1sen!2sin!4v1734785170158!5m2!1sen!2sin",
+     "title": null
+    }
+   ]
+  },
+  {
+   "id": "connect-with-us",
+   "heading": "CONNECT WITH US",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "ul",
+     "items": [
+      "<a href=\"https://www.facebook.com/UforiaJC/\">Facebook</a>",
+      "<a href=\"https://www.instagram.com/UforiaJC/\">Instagram</a>",
+      "<a href=\"https://www.tiktok.com/@uforiadispensary\">Tiktok</a>",
+      "<a href=\"https://www.yelp.com/biz/uforia-dispensary-coming-soon-jersey-city\">Yelp</a>"
+     ],
+     "role": "social"
+    }
+   ]
+  }
+ ]
+}

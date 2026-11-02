@@ -1,0 +1,29 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-doorstep",
+  "file": "assets/generated/g-doorstep.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Uforia, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Tenebrist editorial photograph at night: a plain brown kraft paper bag with its top neatly folded over, standing on a dark stone doorstep beside the bottom edge of a dark front door, lit by one cool white porch light from the upper left that throws a long soft shadow to the lower right; the bag is completely plain and unprinted; no doormat, no house number, no sign, no plants, no person. Composition: the bag stands right of centre, the left side falls into black negative space. Shot in near-total darkness, one hard cool silver-white key light from the upper left in Caravaggio chiaroscuro, the colour of moonlight, deep shadows falling to the lower right, crisp detail where the light lands, a subtle cool silver rim light on the edges, a faint night haze in the light, fine film grain, clean modern premium mood, a restrained cool palette of black, graphite and silver-white with the brown paper as the only warm note, never neon, never iridescent, no people, no hands, no faces, no text, no lettering, no numbers, no labels, no logos, no brand marks, no candy, all surfaces blank and unmarked",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:2"
+  },
+  "seed": 2503260862,
+  "requestId": "01a19a59-1381-7163-943d-b01601c1cd93",
+  "cutout": null,
+  "width": 2496,
+  "height": 1664,
+  "sha256": "1a449bed8810247d675cef889277f7da153b8c4a485e1f39fd7850621ef21bd1",
+  "raw": "tmp/img/raw/g-doorstep.1793590900598.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-11-02T03:41:42.512Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "A plain, unprinted kraft paper bag on a dark stone step before a dark door at night; no text, no house number; a hint of foliage at the top right.",
+    "reviewedAt": "2026-11-02T04:13:34.414Z",
+    "reviewer": "IMAGERY lane, by eye at full size"
+  }
+}

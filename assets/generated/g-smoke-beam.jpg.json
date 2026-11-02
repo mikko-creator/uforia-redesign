@@ -1,0 +1,29 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-smoke-beam",
+  "file": "assets/generated/g-smoke-beam.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Uforia, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Tenebrist atmospheric photograph: a single narrow sharp-edged beam of cool silver-white light slanting down from the top of the frame just left of centre toward the lower right, through total darkness; thin volumetric wisps and ribbons of pale smoke drift and curl slowly through the beam, lit bright silver where they cross the light and fading into black everywhere else. Composition: the beam and the smoke occupy the centre and the right of the frame, the left third stays deep black negative space. Shot in near-total darkness on a pure black background, one hard cool silver-white light from the upper left in Caravaggio chiaroscuro, the colour of moonlight, deep black falling to the lower right, fine film grain, clean modern premium mood, a restrained cool palette of black, graphite and silver-white with the faintest jade-green tint in the thinnest smoke, never warm, never neon, never iridescent, no people, no hands, no faces, no text, no lettering, no numbers, no labels, no logos, no brand marks, no candy, all surfaces blank and unmarked",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "16:9"
+  },
+  "seed": 2043257302,
+  "requestId": "01a19a59-0f2e-7352-b006-5af3e3f9dfd5",
+  "cutout": null,
+  "width": 2752,
+  "height": 1536,
+  "sha256": "c491e07982ca06e61f0cf11bf994a547b1b3aeb21e3c388e5a997e3e0d6c0859",
+  "raw": "tmp/img/raw/g-smoke-beam.1793590900821.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-11-02T03:41:42.484Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "A narrow beam from the top left with smoke curling centre-right; silver-white; left third black.",
+    "reviewedAt": "2026-11-02T04:13:34.414Z",
+    "reviewer": "IMAGERY lane, by eye at full size"
+  }
+}

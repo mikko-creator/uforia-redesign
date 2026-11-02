@@ -1,0 +1,29 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-mist-veil",
+  "file": "assets/generated/g-mist-veil.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Uforia, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Ethereal atmospheric photograph: soft translucent veils of mist and thin smoke drifting, folding and curling through a single broad slanting shaft of cool silver-white light in total darkness; the veils glow pale silver where the light crosses them and their thin outer edges carry the faintest cool jade-green tint, a few fine silver dust motes hang in the beam; nothing else in the frame, no objects, no surface, no floor. Composition: the shaft of light enters at the top of the frame just left of centre and slants down toward the lower right, the mist veils billow through the centre and the right half of the frame, the left third and the bottom edge stay deep black. Shot in near-total darkness on a pure black background, one hard cool silver-white light from the upper left, the colour of moonlight, deep black falling to the lower right, fine film grain, clean modern premium mood, a restrained cool palette of black, graphite and silver-white with the faintest jade-green tint in the haze, never warm, never neon, never iridescent, never rainbow, no people, no hands, no faces, no text, no lettering, no numbers, no labels, no logos, no brand marks, no candy, all surfaces blank and unmarked",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "16:9"
+  },
+  "seed": 566441406,
+  "requestId": "01a19a58-a963-7170-8b50-f8d1554fd534",
+  "cutout": null,
+  "width": 2752,
+  "height": 1536,
+  "sha256": "bbda84a44c5daba1699fe78a72b97f196a98cbf606896e83a8ca1a73fc270c26",
+  "raw": "tmp/img/raw/g-mist-veil.1793590876442.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-11-02T03:41:18.989Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "Translucent mist veils under a light pool from the top, cool silver with a faint teal-jade tint, left third black; no objects. Key frame of the hero loop.",
+    "reviewedAt": "2026-11-02T04:13:34.414Z",
+    "reviewer": "IMAGERY lane, by eye at full size"
+  }
+}

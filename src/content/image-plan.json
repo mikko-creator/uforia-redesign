@@ -1,0 +1,225 @@
+{
+ "about": "Generated industry imagery for the Uforia redesign pitch \"Silver Nocturne\" (IMAGERY lane, 2026-11-02). Thirteen illustrative stills in one tenebrist and ethereal mood: shot on black, one hard cool silver-white key light from the upper left, deep shadow to the lower right, soft translucent mist with the faintest jade-green tint, generous black negative space for type and for the glass panels that float over them. None stands in for a real person, place, product, brand or result of Uforia; every alt describes what is depicted. Uforia's own brand art lives in assets/brand. g-jc-night (a brownstone street at night) was made with fal. Run: node tools/fal-gen.mjs --plan src/content/image-plan.json --key-file <path outside the project>.",
+ "defaults": {
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "input": {
+   "output_format": "jpeg",
+   "safety_tolerance": "5"
+  },
+  "style": "no people, no hands, no faces, no text, no lettering, no numbers, no labels, no logos, no brand marks, no candy, all surfaces blank and unmarked"
+ },
+ "images": [
+  {
+   "id": "g-hero-bud",
+   "file": "assets/generated/g-hero-bud.jpg",
+   "role": "backdrop",
+   "usedFor": [
+    "home hero still and poster",
+    "OG image"
+   ],
+   "negativeSpace": "left 55% dark mist for type (not pure black); bud right of centre",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "alt": "A single frosted cannabis bud on a black surface, its trichomes glinting like frost in a cool silver-white light from the upper left, with a soft veil of mist drifting through the dark.",
+   "prompt": "Tenebrist editorial still-life photograph: a single dense frosted cannabis flower bud resting on a black surface, thickly coated in resin trichomes that glint like hoarfrost where the light lands, deep forest-green calyxes and a few muted pistils, a soft translucent veil of mist drifting through the light behind and across the bud. Composition: the bud sits right of centre and fills about a quarter of the frame width, the whole left 55 percent of the frame is empty deep black negative space. Shot in near-total darkness on a pure black background, one hard cool silver-white key light from the upper left in Caravaggio chiaroscuro, the colour of moonlight, deep shadows falling to the lower right, crisp detail where the light lands, a subtle cool silver rim light on the edges, a faint translucent haze hanging in the light with the barest cool jade-green tint, fine film grain, clean modern premium mood, a restrained cool palette of black, graphite, silver-white and deep green, never warm, never neon, never iridescent",
+   "review": "ACCEPT"
+  },
+  {
+   "id": "g-mist-veil",
+   "file": "assets/generated/g-mist-veil.jpg",
+   "role": "backdrop",
+   "usedFor": [
+    "home hero loop key frame",
+    "ethereal bands"
+   ],
+   "negativeSpace": "left third mostly black; the light shaft and the veils fill the centre and the right",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "alt": "Translucent veils of mist drifting through a single shaft of silver-white light in darkness, with a faint jade-green tint in the haze.",
+   "prompt": "Ethereal atmospheric photograph: soft translucent veils of mist and thin smoke drifting, folding and curling through a single broad slanting shaft of cool silver-white light in total darkness; the veils glow pale silver where the light crosses them and their thin outer edges carry the faintest cool jade-green tint, a few fine silver dust motes hang in the beam; nothing else in the frame, no objects, no surface, no floor. Composition: the shaft of light enters at the top of the frame just left of centre and slants down toward the lower right, the mist veils billow through the centre and the right half of the frame, the left third and the bottom edge stay deep black. Shot in near-total darkness on a pure black background, one hard cool silver-white light from the upper left, the colour of moonlight, deep black falling to the lower right, fine film grain, clean modern premium mood, a restrained cool palette of black, graphite and silver-white with the faintest jade-green tint in the haze, never warm, never neon, never iridescent, never rainbow",
+   "review": "ACCEPT"
+  },
+  {
+   "id": "g-leaf-silver",
+   "file": "assets/generated/g-leaf-silver.jpg",
+   "role": "overlay",
+   "usedFor": [
+    "screen-blended protrusions across section seams (mix-blend-mode: screen)"
+   ],
+   "negativeSpace": "black margin on every side; leaf centred and fully inside the frame",
+   "input": {
+    "aspect_ratio": "4:5"
+   },
+   "alt": "A single cannabis fan leaf on pure black, its serrated edges rimmed with silver light and a few dew drops catching the light.",
+   "prompt": "Tenebrist studio photograph for compositing: a single cannabis fan leaf with seven long serrated leaflets spreading from a short stem, floating alone in a pure black void, centred and fully inside the frame with a generous black margin on every side, no surface and no cast shadow; a hard cool silver-white key light from the upper left rims every serrated edge in bright silver, a few small clear dew drops on the leaflets catch the light like beads of glass, the deep green leaf falls into shadow toward the lower right. Shot in total darkness on a pure jet-black background with no haze and no gradient, one hard cool silver-white key light from the upper left, the colour of moonlight, crisp detail where the light lands, fine film grain, clean modern premium mood, never warm, never neon, never iridescent",
+   "review": "ACCEPT"
+  },
+  {
+   "id": "g-flower-macro",
+   "file": "assets/generated/g-flower-macro.jpg",
+   "role": "backdrop",
+   "usedFor": [
+    "flower category",
+    "learn cards"
+   ],
+   "negativeSpace": "left third black; bud fills the right two thirds",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "alt": "Macro close-up of a cannabis flower, its resin glands glinting in cool side light while the far side of the bud falls into black shadow.",
+   "prompt": "Tenebrist macro photograph: an extreme close-up of a cured cannabis flower bud, shallow depth of field, hundreds of tiny mushroom-shaped resin trichome heads standing like frosted glass beads where the light lands, layered deep green calyxes, a few muted pistils, the far side of the bud dissolving into black shadow. Composition: the bud fills the right two thirds of the frame, black negative space on the left third. Shot in near-total darkness on a pure black background, one hard cool silver-white key light from the upper left in Caravaggio chiaroscuro, the colour of moonlight, deep shadows falling to the lower right, crisp detail where the light lands, a subtle cool silver rim light on the edges, fine film grain, clean modern premium mood, a restrained cool palette of black, graphite, silver-white and deep green, never warm, never neon, never iridescent",
+   "review": "ACCEPT"
+  },
+  {
+   "id": "g-prerolls",
+   "file": "assets/generated/g-prerolls.jpg",
+   "role": "backdrop",
+   "usedFor": [
+    "pre-rolls category"
+   ],
+   "negativeSpace": "left 40% black; cones on a diagonal from the centre to the right",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "alt": "Two unlit paper pre-roll cones filled with ground cannabis flower, lying on dark slate beside a small heap of ground flower, in raking light.",
+   "prompt": "Tenebrist editorial still-life photograph: three unlit pre-rolled cannabis cones lying side by side on a slab of dark slate, angled on a gentle diagonal, each one a slim tapered paper cone shaped like a narrow funnel, clearly conical - the closed end about twice as wide as the narrow end - rolled from plain thin white rolling paper, the wide end packed with ground cannabis flower and twisted shut into a small pointed paper twist, the narrow end a plain open tube of the same white paper, the green texture of ground flower faintly visible through the thin paper; a few small cured cannabis buds and a pinch of ground flower beside them; no filters, no orange or tan tips, no cork, no cigarettes, no ash, no smoke, no flame, no text. A hard raking silver-white light from the upper left grazes the paper texture and the slate. Composition: the cones lie right of centre, black negative space on the left. Shot in near-total darkness on a pure black background, one hard cool silver-white key light from the upper left in Caravaggio chiaroscuro, the colour of moonlight, deep shadows falling to the lower right, crisp detail where the light lands, a subtle cool silver rim light on the edges, fine film grain, clean modern premium mood, a restrained cool palette of black, graphite, silver-white and deep green, never warm, never neon, never iridescent",
+   "rejectReason": "review 1: the three rolls came out as straight spiral-wrapped paper tubes, not cones, with no twisted tips; read as wrapped paper or pastry rolls rather than pre-rolls",
+   "note": "attempt 2: lying on the slate, the cone shape spelled out",
+   "review": "ACCEPT"
+  },
+  {
+   "id": "g-vape",
+   "file": "assets/generated/g-vape.jpg",
+   "role": "backdrop",
+   "usedFor": [
+    "vaporizers category"
+   ],
+   "negativeSpace": "left side black; cartridge right of centre",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "alt": "One plain, unbranded glass vape cartridge holding amber oil on black glass, with a thin thread of vapour curling in the dark beside it.",
+   "prompt": "Tenebrist editorial product-style still-life photograph: a single unbranded vape cartridge standing upright on a polished black glass surface, a small clear glass tank holding amber cannabis oil, a plain matte black mouthpiece and a plain brushed steel base, a crisp mirror reflection below it; a cool silver-white rim light outlines the glass edges, the amber oil glows softly where the key light passes through it, a thin thread of pale vapour rises from the mouthpiece and curls away into the dark; every surface of the cartridge is smooth, blank and unmarked, no writing, no engraving. Composition: the cartridge stands right of centre, black negative space on the left. Shot in near-total darkness on a pure black background, one hard cool silver-white key light from the upper left in Caravaggio chiaroscuro, the colour of moonlight, deep shadows falling to the lower right, crisp detail where the light lands, a subtle cool silver rim light on the edges, fine film grain, clean modern premium mood, a restrained cool palette of black, graphite and silver-white with the amber oil as the only warm note, never neon, never iridescent",
+   "review": "ACCEPT"
+  },
+  {
+   "id": "g-concentrate",
+   "file": "assets/generated/g-concentrate.jpg",
+   "role": "backdrop",
+   "usedFor": [
+    "concentrates category"
+   ],
+   "negativeSpace": "parchment fills most of the frame; only the corners are dark",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "alt": "A small dab of pale gold hash rosin, a waxy cannabis concentrate, on a sheet of unbleached parchment paper on dark stone.",
+   "prompt": "Tenebrist editorial still-life photograph: a single small soft irregular dab of pressed hash rosin, a waxy cannabis concentrate with the smooth, opaque, buttery consistency of soft beeswax, pale cream-gold and muted, a slightly glossy satin surface with soft rounded folds and ridges where it was scraped, completely opaque throughout, no crystal facets, no cubes, no translucent yellow, a few tiny clear terpene droplets on its surface; the dab is small and sits alone in the middle of a square of unbleached light-brown parchment paper lying flat on a slab of black stone; nothing else on the stone. A hard cool silver-white key light from the upper left grazes the waxy surface, leaving silver highlights on its glossy ridges and soft shadow on its far side; most of the frame stays deep black. Composition: the parchment and the dab sit right of centre and fill about a third of the frame width, black negative space on the left. Shot in near-total darkness on a pure black background, one hard cool silver-white key light from the upper left in Caravaggio chiaroscuro, the colour of moonlight, deep shadows falling to the lower right, crisp detail where the light lands, a subtle cool silver rim light on the edges, fine film grain, clean modern premium mood, a restrained cool palette of black, graphite and silver-white, never neon, never iridescent",
+   "rejectReason": "review 2: still read as yellow rock candy or candied fruit - translucent lemon-yellow crystal facets, with a second translucent lump in the background",
+   "note": "attempt 3 (asked by the main session): opaque waxy beeswax-like dab, paler cream-gold, small, cool silver key light; attempts 1-2 archived in tmp/img/rejected/",
+   "review": "ACCEPT"
+  },
+  {
+   "id": "g-tincture",
+   "file": "assets/generated/g-tincture.jpg",
+   "role": "backdrop",
+   "usedFor": [
+    "tinctures",
+    "topicals",
+    "wellness",
+    "medical"
+   ],
+   "negativeSpace": "bottle left of centre, leaf to the right; black above and along the left edge",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "alt": "A plain amber glass dropper bottle on a slab of black stone beside a cannabis fan leaf, lit by a single cool light from the upper left.",
+   "prompt": "Tenebrist editorial still-life photograph: two small amber glass dropper bottles with black rubber bulbs, plain unlabelled glass, standing on a slab of black stone beside a single fresh green cannabis fan leaf, the cool silver-white key light passes through the amber glass and catches the serrated edges of the leaf, a faint translucent haze in the light. Composition: the bottles and the leaf sit right of centre, black negative space on the left. Shot in near-total darkness on a pure black background, one hard cool silver-white key light from the upper left in Caravaggio chiaroscuro, the colour of moonlight, deep shadows falling to the lower right, crisp detail where the light lands, a subtle cool silver rim light on the edges, fine film grain, clean modern premium mood, a restrained cool palette of black, graphite, silver-white and deep green with the amber glass as the only warm note, never neon, never iridescent",
+   "review": "ACCEPT"
+  },
+  {
+   "id": "g-jars",
+   "file": "assets/generated/g-jars.jpg",
+   "role": "backdrop",
+   "usedFor": [
+    "shop",
+    "deals",
+    "mega menu"
+   ],
+   "negativeSpace": "left 40% black; jars right of centre",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "alt": "Two clear glass apothecary jars of cured cannabis flower on black stone, caught in a single pool of silver-white light.",
+   "prompt": "Tenebrist editorial still-life photograph: three clear glass apothecary jars with rounded glass stoppers, filled with cured cannabis flower buds, standing in a loose row on a slab of black stone, caught in one pool of cool silver-white light; the glass is smooth and clear with no labels and no stickers, bright silver glints on the rims and the stoppers, the buds inside lit deep green and frosty. Composition: the jars stand right of centre, black negative space on the left. Shot in near-total darkness on a pure black background, one hard cool silver-white key light from the upper left in Caravaggio chiaroscuro, the colour of moonlight, deep shadows falling to the lower right, crisp detail where the light lands, a subtle cool silver rim light on the edges, a faint translucent haze hanging in the light with the barest cool jade-green tint, fine film grain, clean modern premium mood, a restrained cool palette of black, graphite, silver-white and deep green, never warm, never neon, never iridescent",
+   "review": "ACCEPT"
+  },
+  {
+   "id": "g-smoke-beam",
+   "file": "assets/generated/g-smoke-beam.jpg",
+   "role": "backdrop",
+   "usedFor": [
+    "learn and resources heroes"
+   ],
+   "negativeSpace": "beam enters from the top just left of centre; smoke centre and right; left third black",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "alt": "Soft smoke drifting through a single beam of silver-white light in total darkness.",
+   "prompt": "Tenebrist atmospheric photograph: a single narrow sharp-edged beam of cool silver-white light slanting down from the top of the frame just left of centre toward the lower right, through total darkness; thin volumetric wisps and ribbons of pale smoke drift and curl slowly through the beam, lit bright silver where they cross the light and fading into black everywhere else. Composition: the beam and the smoke occupy the centre and the right of the frame, the left third stays deep black negative space. Shot in near-total darkness on a pure black background, one hard cool silver-white light from the upper left in Caravaggio chiaroscuro, the colour of moonlight, deep black falling to the lower right, fine film grain, clean modern premium mood, a restrained cool palette of black, graphite and silver-white with the faintest jade-green tint in the thinnest smoke, never warm, never neon, never iridescent",
+   "review": "ACCEPT"
+  },
+  {
+   "id": "g-doorstep",
+   "file": "assets/generated/g-doorstep.jpg",
+   "role": "backdrop",
+   "usedFor": [
+    "delivery pages"
+   ],
+   "negativeSpace": "bag right of centre; the left side falls into black",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "alt": "A plain brown paper bag on a dark stone doorstep in front of a dark door at night, lit by a single light from the upper left.",
+   "prompt": "Tenebrist editorial photograph at night: a plain brown kraft paper bag with its top neatly folded over, standing on a dark stone doorstep beside the bottom edge of a dark front door, lit by one cool white porch light from the upper left that throws a long soft shadow to the lower right; the bag is completely plain and unprinted; no doormat, no house number, no sign, no plants, no person. Composition: the bag stands right of centre, the left side falls into black negative space. Shot in near-total darkness, one hard cool silver-white key light from the upper left in Caravaggio chiaroscuro, the colour of moonlight, deep shadows falling to the lower right, crisp detail where the light lands, a subtle cool silver rim light on the edges, a faint night haze in the light, fine film grain, clean modern premium mood, a restrained cool palette of black, graphite and silver-white with the brown paper as the only warm note, never neon, never iridescent",
+   "review": "ACCEPT"
+  },
+  {
+   "id": "g-silver-dust",
+   "file": "assets/generated/g-silver-dust.jpg",
+   "role": "backdrop",
+   "usedFor": [
+    "band texture"
+   ],
+   "negativeSpace": "the shaft runs from the top-left corner toward the lower right; top right and bottom left black",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "alt": "Fine silver dust drifting in a shaft of cool light against black.",
+   "prompt": "Tenebrist abstract atmospheric photograph: fine silver dust particles drifting and glinting in a soft diagonal shaft of cool silver-white light that enters at the top-left corner of the frame and slants down toward the centre through total darkness, sparse sharp specks and soft out-of-focus bokeh motes, the shaft fading out toward the centre of the frame; most of the frame is deep black. Composition: the particles gather along the diagonal light shaft from the top-left corner toward the centre, the lower right and the right edge stay black. Shot in near-total darkness on a pure black background, one hard cool silver-white light from the upper left, the colour of moonlight, fine film grain, clean modern premium mood, a restrained cool palette of black, graphite and silver-white with the faintest jade-green tint in the haze, never warm, never neon, never iridescent",
+   "review": "ACCEPT"
+  },
+  {
+   "id": "g-jc-night",
+   "file": "assets/generated/g-jc-night.jpg",
+   "role": "backdrop",
+   "optional": true,
+   "provider": "fal.ai",
+   "usedFor": [
+    "store and locations heroes"
+   ],
+   "negativeSpace": "skyline across the middle band; dark water below, dusk sky above",
+   "input": {
+    "aspect_ratio": "16:9",
+    "raw": true
+   },
+   "alt": "A quiet street of brick brownstone rowhouses at night, warm light in a few windows and wet pavement under a streetlight.",
+   "prompt": "Realistic documentary night photograph of a quiet residential street of nineteenth-century red brick brownstone rowhouses with high stoops and black iron railings, in the style of the Heights neighborhood of Jersey City, New Jersey, a few windows glowing warm, wet pavement reflecting cool streetlight, deep blue hour sky, strong chiaroscuro with deep shadows, one cool silver key light from the upper left, calm and empty, no people, no cars, no shop signs, no readable text, no logos, natural true-to-life colours, unretouched, nothing stylised, no HDR glow",
+   "status": "delivered",
+   "note": "AI-generated mood image of a brownstone street (fal); not a photograph of Uforia or of any specific street. Reviewed at full size: no people, no readable text; tiny distant cars only.",
+   "model": "fal-ai/flux-pro/v1.1-ultra"
+  }
+ ]
+}

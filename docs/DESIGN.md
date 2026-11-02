@@ -54,7 +54,7 @@ ground, image in the brand frame overhanging into the next band, breadcrumb insi
 Chrome: a slim promo bar, a frosted main bar (logo, store chip with today's hours, Shop / Deals / Find a Dispensary
 / Resources as mega menus with image cards, search, loyalty, cart, Order now), a category bar with a More list, a
 drawer below 1024px, and a footer with the store block, three link columns, the legal row and a giant cropped
-UFORIA wordmark lit by a slow silver sweep.
+UFORIA wordmark crossed by a bright white sweep every 3.2 seconds (paused while off screen).
 
 ## Motion
 
@@ -69,3 +69,11 @@ One h1 per page, landmarks, real links and buttons, a visible leaf-green focus r
 for every menu, a focus loop in the drawer and the age dialog, nothing essential behind hover, 44px taps on phones,
 text contrast of 4.5:1 or more, a pause button for any looping video, and `prefers-reduced-motion` turns all motion
 off. Phones use opaque smoked fills instead of live blur. The 21+ dialog never blocks the page when scripts are off.
+
+## Phones
+
+Below 1024px the promo line moves into the drawer, so the first screen keeps only the 64px sticky bar. Hero
+text comes before the hero image, sections are tighter, categories and the latest posts become side-scrolling
+rails, promo tiles go two-up, benefit cards put the icon beside the title, and every image asks for a phone-sized
+file. Tap targets are sized to 44px or more and text to 13px or more. At 1024px and wider the only change is
+the home category tiles, whose icons now stay inside their tiles.

@@ -76,7 +76,7 @@
   --fs-lede: clamp(1.05rem, 1.2vw, 1.22rem);
   --fs-body: 1rem;                           /* 16px */
   --fs-small: 0.875rem;                      /* 14px - visible text never smaller than 13px */
-  --fs-kicker: 0.78rem;                      /* Montserrat 500 caps, wide tracking: echoes the UFORIA wordmark */
+  --fs-kicker: 0.8125rem;                    /* Montserrat 500 caps, wide tracking: echoes the UFORIA wordmark; 13px floor */
   --lh-display: 0.98;
   --lh-tight: 1.15;
   --lh-body: 1.7;

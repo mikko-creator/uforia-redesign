@@ -84,7 +84,7 @@ function btn(ctx, b, k) {
 }
 function figure(ctx, b, cls = '') {
   const small = (b.w || 0) && b.w < 700;
-  const pic = img({ src: b.src, alt: b.alt || '', w: b.w, h: b.h }, { sizes: small ? '(min-width: 1024px) 420px, 100vw' : '(min-width: 1024px) 560px, 100vw', cls: 'l-fig__img' });
+  const pic = img({ src: b.src, alt: b.alt || '', w: b.w, h: b.h }, { sizes: small ? '(min-width: 1024px) 420px, (min-width: 768px) 420px, 60vw' : '(min-width: 1024px) 560px, (min-width: 768px) 92vw, 60vw', cls: 'l-fig__img' });
   const u = b.href ? mapUrl(ctx, b.href) : '';
   return `<figure class="l-fig frame-u ${small ? 'l-fig--small' : ''} ${cls}" data-reveal>${u ? `<a href="${escA(u)}"${extAttrs(u)} class="l-fig__link">${pic}</a>` : pic}</figure>`;
 }
@@ -110,7 +110,9 @@ function iconGrid(ctx, grp) {
 </li>`;
     }).join('')}</ul>`;
   }
-  return `<div class="l-boxes">${grp.map((b, i) => {
+  // short boxes (every text under ~150 chars) go two-up on phones (places.css, max-width 640px only)
+  const short = grp.length > 1 && grp.every((b) => String(b.html || '').replace(/<[^>]+>/g, '').trim().length <= 150);
+  return `<div class="l-boxes${short ? ' l-boxes--short' : ''}">${grp.map((b, i) => {
     const num = String(b.title || '').match(/^(\d+)\.\s*/);
     const glyph = b.icon && fs.existsSync(path.join(ROOT, b.icon.replace(/^\//, ''))) ? img({ src: b.icon, alt: '' }, { sizes: '64px', cls: 'l-box__img' }) : num ? `<span class="l-box__num" aria-hidden="true">${esc(num[1])}</span>` : `<span class="l-box__glyph">${icon('leaf')}</span>`;
     const inner = `${glyph}<h3 class="l-box__title">${esc(b.title)}</h3>${b.html ? `<div class="l-box__text">${fixHtml(ctx, b.html)}</div>` : ''}`;
@@ -190,13 +192,14 @@ function sectionBand(ctx, s, { idx = 0, tone = '' } = {}) {
 // ---------- shared bands ----------
 function heroHtml(ctx, { crumbs, kicker, h1, lede = '', facts = true, photoRef = STORE_PHOTO, night = true, gen = null, ctas = null, extra = '' }) {
   const s = ctx.site;
-  const media = gen ? gimg(gen, { cls: 'l-hero__img', eager: true, sizes: '(min-width: 1024px) 46vw, 100vw' }) : img(photoRef, { cls: 'l-hero__img', eager: true, sizes: '(min-width: 1024px) 40vw, 100vw' });
+  // phones (DPR 3) ask for ~800px variants, not the desktop widths: the slot is understated below 768px on purpose
+  const media = gen ? gimg(gen, { cls: 'l-hero__img', eager: true, sizes: '(min-width: 1024px) 46vw, (min-width: 768px) 92vw, 64vw' }) : img(photoRef, { cls: 'l-hero__img', eager: true, sizes: '(min-width: 1024px) 40vw, (min-width: 768px) 520px, 60vw' });
   const buttons = ctas || `${a(liveMenu(ctx), `${icon('bag')}<span>Shop the menu</span>`, 'btn btn--silver')}
       ${a(s.directionsUrl, `${icon('pin')}<span>Get directions</span>`, 'btn btn--glass')}
       <a class="btn btn--ghost" href="${escA(telHref(ctx))}">${icon('phone')}<span>Call ${esc(s.phone.display)}</span></a>`;
   return `<section class="split-hero band band--void l-hero" data-spot>
   <div class="band__clip" aria-hidden="true">
-    ${night ? `<div class="l-hero__night">${gimg('g-jc-night', { alt: '', cls: 'l-hero__night-img', sizes: '100vw' })}</div>` : ''}
+    ${night ? `<div class="l-hero__night">${gimg('g-jc-night', { alt: '', cls: 'l-hero__night-img', sizes: '(min-width: 1024px) 100vw, 50vw' })}</div>` : ''}
     <span class="l-hero__pool"></span><span class="haze"></span><span class="grain"></span>
   </div>
   <div class="wrap l-hero__grid">
@@ -236,7 +239,7 @@ function deliveryCta(ctx, town) {
       <p class="lede">${esc(d.freeOver)} ${esc(d.prepay)} ${esc(ctx.site.age)}</p>
       <div class="btn-row">${a(liveMenu(ctx), `${icon('truck')}<span>Order delivery</span>`, 'btn btn--silver')}${a('/delivery/', '<span>Delivery details</span>', 'btn btn--glass')}</div>
     </div>
-    <div class="l-dcta__fig frame-u" data-reveal style="--i:1">${gimg('g-doorstep', { alt: '', cls: 'l-dcta__img', sizes: '(min-width: 1024px) 40vw, 100vw' })}</div>
+    <div class="l-dcta__fig frame-u" data-reveal style="--i:1">${gimg('g-doorstep', { alt: '', cls: 'l-dcta__img', sizes: '(min-width: 1024px) 40vw, (min-width: 768px) 92vw, 60vw' })}</div>
   </div>
 </section>`;
 }

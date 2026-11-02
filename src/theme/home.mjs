@@ -84,7 +84,7 @@ ${slides.map((s) => `<a class="h-promo" data-slide${linkAttrs(s.href)}><span cla
 </div>
 <div class="h-hero__stage" aria-hidden="true">
 <span class="h-hero__halo"></span>
-<div class="h-hero__bud" data-depth="0.08">${gimg('g-hero-bud', { alt: '', eager: true, cls: 'h-hero__bud-img', sizes: '(max-width: 720px) 120vw, 62vw' })}</div>
+<div class="h-hero__bud" data-depth="0.08">${gimg('g-hero-bud', { alt: '', eager: true, cls: 'h-hero__bud-img', sizes: '(max-width: 720px) 64vw, 62vw' })}</div>
 </div>
 </div>
 ${toggle}
@@ -93,10 +93,10 @@ ${toggle}
 
   // ---------- 2. promo tiles: deals, delivery, loyalty, brands ----------
   const tiles = [
-    { href: '/deals/', k: 'Deals', t: 'Deals at Uforia', line: offer.title.replace(/\s+/g, ' '), media: photo(ctx, 'uf/Cannabis-dispensary-jersey-city-products.webp', { alt: 'Cannabis products on display at Uforia Dispensary, with pre-rolls, flower containers and branded packaging.', sizes: '(max-width: 720px) 92vw, 25vw' }) },
-    { href: '/delivery/', k: 'Delivery', t: 'Cannabis delivery', line: site.delivery.freeOver, media: photo(ctx, 'uf/Cannabis-Delivery-in-Jersey-1.jpg', { alt: 'Uforia Dispensary delivery packaging with the cannabis leaf logo.', sizes: '(max-width: 720px) 92vw, 25vw' }) },
-    { href: '/loyalty/', k: 'Loyalty', t: 'Loyalty rewards', line: 'Earn points each time you shop.', media: photo(ctx, 'uf/cannabis-dispensary-jersey-city.jpg', { alt: 'Inside Uforia Dispensary: display shelves and the green wall with the Uforia logo.', sizes: '(max-width: 720px) 92vw, 25vw' }) },
-    { href: '/brands/', k: 'Brands', t: 'Our brands', line: 'The brands on Uforia\'s shelves.', media: photo(ctx, 'uf/uforia-2-1.jpg', { alt: 'Tinctures, gummies and vape pens on display at Uforia Dispensary.', sizes: '(max-width: 720px) 92vw, 25vw' }) },
+    { href: '/deals/', k: 'Deals', t: 'Deals at Uforia', line: offer.title.replace(/\s+/g, ' '), media: photo(ctx, 'uf/Cannabis-dispensary-jersey-city-products.webp', { alt: 'Cannabis products on display at Uforia Dispensary, with pre-rolls, flower containers and branded packaging.', sizes: '(max-width: 720px) 46vw, 25vw' }) },
+    { href: '/delivery/', k: 'Delivery', t: 'Cannabis delivery', line: site.delivery.freeOver, media: photo(ctx, 'uf/Cannabis-Delivery-in-Jersey-1.jpg', { alt: 'Uforia Dispensary delivery packaging with the cannabis leaf logo.', sizes: '(max-width: 720px) 46vw, 25vw' }) },
+    { href: '/loyalty/', k: 'Loyalty', t: 'Loyalty rewards', line: 'Earn points each time you shop.', media: photo(ctx, 'uf/cannabis-dispensary-jersey-city.jpg', { alt: 'Inside Uforia Dispensary: display shelves and the green wall with the Uforia logo.', sizes: '(max-width: 720px) 46vw, 25vw' }) },
+    { href: '/brands/', k: 'Brands', t: 'Our brands', line: 'The brands on Uforia\'s shelves.', media: photo(ctx, 'uf/uforia-2-1.jpg', { alt: 'Tinctures, gummies and vape pens on display at Uforia Dispensary.', sizes: '(max-width: 720px) 46vw, 25vw' }) },
   ];
   const tilesHtml = `<section class="h-tiles band" aria-labelledby="h-tiles-h">
 <div class="band__clip" aria-hidden="true"><span class="h-tiles__pool"></span></div>
@@ -294,7 +294,7 @@ ${head('Pickup and delivery', esc(areasH.text), 'h-areas-h')}
   const newest = posts.slice(0, 6);
   const acard = (p, i) => {
     const fi = p.featuredImage && p.featuredImage.src ? p.featuredImage : null;
-    const media = fi ? img({ src: fi.src, alt: fi.alt || '', w: fi.w, h: fi.h }, { sizes: '(max-width: 720px) 92vw, 33vw' }) : gimg('g-smoke-beam', { alt: '', sizes: '33vw' });
+    const media = fi ? img({ src: fi.src, alt: fi.alt || '', w: fi.w, h: fi.h }, { sizes: '(max-width: 720px) 80vw, 33vw' }) : gimg('g-smoke-beam', { alt: '', sizes: '33vw' });
     return `<li class="h-posts__item" data-reveal style="--i:${i % 3}"><a class="acard h-acard"${linkAttrs(p.path || '/' + p.slug + '/')}><span class="acard__media h-acard__media">${media}</span><span class="h-acard__body"><span class="acard__meta"><time datetime="${escA(String(p.date).slice(0, 10))}">${esc(fmtDate(p.date))}</time></span><span class="acard__title">${esc(p.title)}</span><span class="acard__more">Read article${icon('arrow')}</span></span></a></li>`;
   };
   const postsHtml = `<section class="h-posts band" aria-labelledby="h-posts-h">
@@ -348,7 +348,8 @@ ${faqs.map((f) => `<details class="faq__item h-faq__item"><summary class="faq__q
     bodyClass: 'h-page',
     main,
     crumbs: [],
-    preload: loop ? [{ href: loop.poster, as: 'image' }] : [],
+    // phones preload their own poster (the <picture> swaps to posterSmall at 720px and below), desktop keeps its own
+    preload: loop ? (loop.posterSmall ? [{ href: loop.poster, as: 'image', media: '(min-width: 721px)' }, { href: loop.posterSmall, as: 'image', media: '(max-width: 720px)' }] : [{ href: loop.poster, as: 'image' }]) : [],
   });
   return [{ path: '/', html }];
 }

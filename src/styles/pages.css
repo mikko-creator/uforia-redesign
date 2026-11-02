@@ -180,6 +180,75 @@
   .p-sm__grid { grid-template-columns: minmax(0, 1fr); }
   .p-table th, .p-table td { padding: 10px 12px; }
 }
+/* ---------- phone + tablet pass: every rule below 1024px, desktop untouched ---------- */
+@media (max-width: 1023px) {
+  /* NJ law pages: the contents list as a collapsed disclosure in the main column (hidden attribute on desktop) */
+  .p-toc-m[hidden] { display: block !important; }
+  .p-toc-m { margin: 0 0 28px; border-radius: var(--r-md); background: var(--glass-bg-strong); border: 1px solid var(--glass-border); }
+  .p-toc-m__sum { list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 48px; padding: 0 16px; cursor: pointer; font-family: var(--font-display); font-weight: 500; font-size: var(--fs-kicker); letter-spacing: var(--track-kicker); text-transform: uppercase; color: var(--silver); }
+  .p-toc-m__sum::-webkit-details-marker { display: none; }
+  .p-toc-m__chev { flex: none; width: 18px; height: 18px; transition: transform var(--t-med) var(--ease-out); }
+  .p-toc-m[open] .p-toc-m__chev { transform: rotate(180deg); }
+  .p-toc-m ol { list-style: none; margin: 0; padding: 4px 8px 8px; border-top: 1px solid var(--ink-4); }
+  .p-toc-m a { display: flex; align-items: center; min-height: 44px; padding: 4px 8px; color: var(--text-2); text-decoration: none; font-size: 0.9375rem; line-height: 1.35; }
+  /* the limits table keeps three readable columns and scrolls inside its own box */
+  .p-table table { min-width: 560px; }
+  .p-table caption { position: sticky; left: 0; max-width: calc(100vw - 2 * var(--gutter) - 2px); }
+  /* sitemap: every link a 44px row; short-label groups two-up; compact group cards */
+  .p-sm__grid { gap: 12px; }
+  .p-sm__group { padding: 14px 16px 8px; }
+  .p-sm__title { margin-bottom: 4px; }
+  .p-sm__link { display: flex; width: 100%; min-height: 44px; padding: 4px 0; }
+  .p-sm__group:not(.p-sm__group--wide) .p-sm__list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 14px; }
+  .p-sm__sub { margin: 10px 0 0; }
+}
+@media (max-width: 760px) {
+  /* split hero: tighter stack, smaller overhang, the next band starts sooner */
+  .p-hero { padding-bottom: 40px; }
+  .p-hero__crumbs { margin-bottom: 6px; }
+  .p-hero__title { margin-bottom: 12px; }
+  .p-hero__lede { font-size: 1rem; margin-bottom: 18px; }
+  .p-hero__grid { gap: 22px; }
+  .p-hero__media { margin-bottom: -32px; }
+  .p-hero__frame { aspect-ratio: 3 / 2; }
+  .p-hero + .p-band, .p-hero + .p-statement { padding-top: calc(var(--section-y) + 16px); }
+  /* about: zigzag rows stacked tight, images smaller and alternating sides */
+  .p-zz { gap: 44px; }
+  .p-zz__row, .p-zz__row--rev { gap: 18px; }
+  .p-zz__text p { font-size: 1rem; }
+  .p-zz__frame { width: 84%; aspect-ratio: 3 / 2; }
+  .p-zz__row--rev .p-zz__frame { margin-left: auto; }
+  .p-zz__frame--break { width: 62%; aspect-ratio: 411 / 514; margin-left: auto; margin-right: 6%; transform: translateY(-14px); }
+  .p-zz__row--photo .p-zz__media { padding-top: 20px; }
+  .p-zz__row--photo .p-zz__media::before { top: 48px; bottom: -14px; }
+  .p-statement { padding: 64px 0; }
+  .p-statement__line { margin-bottom: 24px; }
+  /* community partners: compact cards, smaller logos */
+  .p-cp-intro { margin-bottom: 36px; }
+  .p-partner, .p-partner--rev { gap: 14px; padding: 18px 16px 8px; }
+  .p-partner__logo { width: 120px; padding: 12px; transform: translateY(-8px) rotate(-2deg); }
+  /* FAQ: compact groups (rows are 48px from mobile.css) */
+  .p-faq__group { margin-bottom: 28px; }
+  .p-faq__topic { margin-bottom: 10px; }
+  /* NJ law pages: compact sections, source lines and conflict boxes; step numbers beside the text */
+  .p-law__intro { font-size: 1rem; margin-bottom: 20px; }
+  .p-law__sec { margin-bottom: 32px; }
+  .p-law__h { margin-bottom: 12px; }
+  .p-fact { margin-bottom: 0.9em; }
+  .p-conflict { margin: 4px 0 18px; padding: 14px 14px 2px; }
+  .p-conflict__label { margin-bottom: 8px; }
+  .p-steps { gap: 10px; margin-bottom: 20px; }
+  .p-step { padding: 14px 14px 2px 60px; }
+  .p-step__n { top: 14px; left: 14px; }
+  .p-law__sources { padding-top: 20px; }
+  .p-sources { margin-bottom: 16px; gap: 6px; }
+  /* 404: compact, links two-up */
+  .p-404 { min-height: 0; padding: 40px 0 48px; }
+  .p-404__logo { margin-bottom: 18px; }
+  .p-404__img { width: 120px; }
+  .p-404__links { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .p-404__links .btn { width: 100%; }
+}
 @media (prefers-reduced-motion: reduce) {
   .p-zz__frame img, .p-partner, .p-partner__logo, .p-arrow .ico, .p-sm__chev { transition: none; }
   .p-zz__frame:hover img { transform: none; }

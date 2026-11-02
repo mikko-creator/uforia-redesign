@@ -91,7 +91,7 @@ ${badge}
 }
 const crumbsLd = (ctx, crumbs) => ({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.label, ...(c.href ? { item: absUrl(ctx, c.href) } : {}) })) });
 
-function pcard(ctx, cat, p, i, { sizes = '(min-width: 1280px) 300px, (min-width: 1024px) 24vw, (min-width: 600px) 30vw, 46vw' } = {}) {
+function pcard(ctx, cat, p, i, { sizes = '(min-width: 1280px) 300px, (min-width: 1024px) 24vw, (min-width: 600px) 30vw, 40vw' } = {}) {
   const tags = [p.brand ? 'brand-' + slugify(p.brand) : '', p.strainType ? 'type-' + slugify(p.strainType) : ''].filter(Boolean).join(' ');
   const live = liveMenu(ctx, cat.live);
   const meta = [p.strainType ? `<span class="s-pcard__type">${esc(p.strainType)}</span>` : '', p.size ? `<span>${esc(p.size)}</span>` : '', p.thc ? `<span>THC ${esc(p.thc)}</span>` : '', p.cbd ? `<span>CBD ${esc(p.cbd)}</span>` : ''].filter(Boolean).join('');
@@ -166,7 +166,7 @@ function shopPage(ctx) {
     const ps = products(ctx, c).slice(0, 4);
     return `<section class="s-row" aria-labelledby="row-${c.slug}">
 <div class="s-row__head" data-reveal><h3 class="s-row__title" id="row-${c.slug}">${esc(c.name)}</h3><a class="link-arrow s-row__all"${linkAttrs('/products/' + c.slug + '/')}>Shop all ${esc(c.name)}${icon('arrow', 's-arr')}</a></div>
-<ul class="s-grid s-grid--row" role="list">${ps.map((p, i) => pcard(ctx, c, p, i, { sizes: '(min-width: 1280px) 290px, (min-width: 1024px) 23vw, (min-width: 600px) 30vw, 70vw' })).join('\n')}</ul>
+<ul class="s-grid s-grid--row" role="list">${ps.map((p, i) => pcard(ctx, c, p, i, { sizes: '(min-width: 1280px) 290px, (min-width: 1024px) 23vw, (min-width: 600px) 30vw, 40vw' })).join('\n')}</ul>
 </section>`;
   }).join('\n');
   const main = `${hero({
@@ -175,7 +175,7 @@ function shopPage(ctx) {
     h1: 'Shop',
     line: 'Every category on Uforia\'s live menu, from flower and pre-rolls to edibles, tinctures and accessories.',
     ctas: `<a class="btn btn--silver"${linkAttrs(liveMenu(ctx))}>Shop the live menu${icon('ext', 's-ext')}</a><a class="btn btn--glass"${linkAttrs('/deals/')}>See deals</a>`,
-    media: photo(ctx, 'uf/Cannabis-dispensary-jersey-city-products.jpg', { alt: 'Display of cannabis products at Uforia Dispensary, featuring pre-rolls, flower, and various branded containers.', eager: true, sizes: '(min-width: 1024px) 560px, 92vw' }),
+    media: photo(ctx, 'uf/Cannabis-dispensary-jersey-city-products.jpg', { alt: 'Display of cannabis products at Uforia Dispensary, featuring pre-rolls, flower, and various branded containers.', eager: true, sizes: '(min-width: 1024px) 560px, (min-width: 768px) 92vw, 64vw' }),
   })}
 <section class="band s-after-hero s-cats" aria-labelledby="cats-h">
 <div class="wrap">
@@ -210,7 +210,7 @@ function listingPage(ctx, cat, idx) {
   const offers = ctx.menu.offers || [];
 
   // hero media: the generated still when there is one (Uforia's line-art icon floats as a badge), else the icon art
-  const media = cat.gen ? gimg(cat.gen, { eager: true, sizes: '(min-width: 1024px) 560px, 92vw' }) : `<span class="s-hero__art">${catArt(ctx, cat, { eager: true, sizes: '320px' })}</span>`;
+  const media = cat.gen ? gimg(cat.gen, { eager: true, sizes: '(min-width: 1024px) 560px, (min-width: 768px) 92vw, 64vw' }) : `<span class="s-hero__art">${catArt(ctx, cat, { eager: true, sizes: '320px' })}</span>`;
   const badge = cat.gen && cat.art ? `<span class="glass glass--lit s-hero__badge" aria-hidden="true">${catArt(ctx, cat, { alt: '', sizes: '120px' })}</span>` : '';
 
   // filters (Brand, Type), each only with 2+ values
@@ -264,7 +264,7 @@ ${liveCard}
 <aside class="s-list__side" aria-label="${escA(cat.name)} navigation">${catNav}</aside>
 <div class="s-list__main">
 <div class="glass glass--lit s-empty" data-reveal>
-<div class="s-empty__art">${cat.art ? catArt(ctx, cat, { alt: '', sizes: '220px' }) : gimg(cat.gen, { alt: '', sizes: '(min-width: 1024px) 420px, 80vw' })}</div>
+<div class="s-empty__art">${cat.art ? catArt(ctx, cat, { alt: '', sizes: '220px' }) : gimg(cat.gen, { alt: '', sizes: '(min-width: 1024px) 420px, (min-width: 768px) 80vw, 54vw' })}</div>
 <div class="s-empty__text">
 <h2 class="s-empty__title">Browse ${esc(cat.name)} on the live menu</h2>
 <p>See this category on Uforia's live menu for what is available today, with live prices.</p>
@@ -331,7 +331,7 @@ function dealsPage(ctx) {
   const btn = blocks.find((b) => b.type === 'button');
   // Uforia's own "LIMITED OFFER!" clip is a badge on black that animates away: screen-blended over a jars still, the
   // black drops out and the badge plays over the light (main session, after the lane)
-  const media = `<div class="s-deals__stack">${gimg('g-jars', { alt: '', sizes: '(min-width: 1024px) 560px, 92vw', cls: 's-deals__img' })}<video class="s-deals__video" src="/assets/media/uf-deals.mp4" poster="/assets/media/uf-deals.jpg" width="1280" height="720" muted autoplay loop playsinline preload="metadata" aria-hidden="true"></video></div>
+  const media = `<div class="s-deals__stack">${gimg('g-jars', { alt: '', sizes: '(min-width: 1024px) 560px, (min-width: 768px) 92vw, 64vw', cls: 's-deals__img', eager: true })}<video class="s-deals__video" poster="/assets/media/uf-deals.jpg" width="1280" height="720" muted autoplay loop playsinline preload="metadata" aria-hidden="true"><source src="/assets/media/uf-deals-sm.mp4" type="video/mp4" media="(max-width: 767px)"><source src="/assets/media/uf-deals.mp4" type="video/mp4"></video></div>
 <button type="button" class="s-vtoggle" data-video-toggle aria-pressed="false" aria-label="Pause the deals video">${icon('close', 's-vtoggle__ico')}<span>Pause</span></button>`;
   const main = `${hero({
     crumbs,
@@ -386,7 +386,7 @@ function brandsPage(ctx) {
     h1: esc(rec.h1),
     line: 'The cannabis brands Uforia carries, from respected high-end names to local craft cultivators.',
     ctas: `${btn ? capBtn(ctx, btn, 'btn btn--silver') : ''}<a class="btn btn--glass"${linkAttrs(liveMenu(ctx))}>Shop the live menu${icon('ext', 's-ext')}</a>`,
-    media: heroImg ? img({ src: heroImg.src, alt: heroImg.alt, w: heroImg.w, h: heroImg.h }, { eager: true, sizes: '(min-width: 1024px) 480px, 92vw' }) : '',
+    media: heroImg ? img({ src: heroImg.src, alt: heroImg.alt, w: heroImg.w, h: heroImg.h }, { eager: true, sizes: '(min-width: 1024px) 480px, (min-width: 768px) 360px, 64vw' }) : '',
     mediaCls: 's-hero__frame--square',
   })}
 <section class="band s-after-hero s-brandintro" aria-label="Our selection">
@@ -436,7 +436,7 @@ function loyaltyPage(ctx) {
     h1: esc(rec.h1),
     line: 'Earn points each time you shop at Uforia, for every customer, however often you visit.',
     ctas: `${signUp(signBtns[0])}${shopNow}`,
-    media: heroImg ? img({ src: heroImg.src, alt: heroImg.alt, w: heroImg.w, h: heroImg.h }, { eager: true, sizes: '(min-width: 1024px) 560px, 92vw' }) : '',
+    media: heroImg ? img({ src: heroImg.src, alt: heroImg.alt, w: heroImg.w, h: heroImg.h }, { eager: true, sizes: '(min-width: 1024px) 560px, (min-width: 768px) 92vw, 64vw' }) : '',
   })}
 <section class="band s-after-hero s-rintro" aria-label="The program">
 <div class="wrap wrap--narrow" data-reveal>

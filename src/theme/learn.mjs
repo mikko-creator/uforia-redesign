@@ -43,7 +43,9 @@ function itemImg(it, opts) {
   return gimg(it.gen, { ...opts, alt: '' });
 }
 
-const CARD_SIZES = '(min-width: 1180px) 380px, (min-width: 720px) 45vw, 92vw';
+// phones (<= 599px) show the cards as a compact list with a 112px square thumbnail (learn.css): 112px at DPR 3 picks
+// the 480 photo / 640 generated variant; the desktop and tablet conditions are unchanged
+const CARD_SIZES = '(max-width: 599px) 112px, (min-width: 1180px) 380px, (min-width: 720px) 45vw, 92vw';
 function card(it, i = 0, extra = '') {
   // FOUNDATION's card pattern: the title link stretches over the whole card (.acard__title a::after)
   return `<article class="acard n-card"${extra} data-reveal style="--i:${i % 6}">

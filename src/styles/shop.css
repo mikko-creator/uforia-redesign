@@ -196,6 +196,66 @@ a:hover > .s-arr, a:focus-visible > .s-arr { transform: translateX(4px); }
   .s-offers__strip { grid-auto-columns: minmax(0, 78%); }
   .s-step__n { font-size: 5rem; }
 }
+
+/* ---------- mobile pass: phones + tablets only (nothing below applies at 1024px and wider) ---------- */
+@media (max-width: 1023px) {
+  .s-row__all, .s-head--row > .link-arrow { display: inline-flex; align-items: center; min-height: 44px; }
+  .s-livecard { min-height: 0; }
+  .s-filter__chips, .s-catnav ul, .s-grid--row, .s-offers__strip { scrollbar-width: none; }
+}
+@media (max-width: 767px) {
+  /* calmer rhythm: 48px bands; the band after the hero keeps room for the hero frame's overhang */
+  .band.s-cats, .band.s-rows, .band.s-offers, .band.s-listing, .band.s-about, .band.s-loyal, .band.s-cta, .band.s-dealtext, .band.s-brandintro, .band.s-brands, .band.s-rintro, .band.s-steps, .band.s-perks { padding-block: 48px; }
+  .band.s-after-hero { padding-top: 84px; }
+  .s-head { margin-bottom: 20px; }
+  .s-row + .s-row { margin-top: 32px; }
+  .s-row__head { margin-bottom: 8px; gap: 0 12px; }
+  /* listing: the filter column becomes a compact strip of chip scrollers above the grid */
+  .s-list { gap: 20px; }
+  .s-list__side { gap: 10px; }
+  .s-filter { padding-bottom: 10px; }
+  .s-filter__label { margin-bottom: 6px; }
+  .s-filter__chips, .s-catnav ul { padding-bottom: 2px; scroll-snap-type: x proximity; }
+  .s-chip, .s-catnav li { scroll-snap-align: start; }
+  .s-catnav__link { display: inline-flex; align-items: center; min-height: 44px; padding: 0 14px; }
+  /* compact product cards: photo, brand, name, price, a 44px card link */
+  .s-pcard__media { padding: 7%; }
+  .s-pcard__body { gap: 3px; padding: 10px 2px 0; }
+  .s-pcard .pcard__price { margin-top: 2px; font-size: 1.05rem; }
+  .s-livecard { gap: 8px; padding: 18px 16px; }
+  .s-livecard__ico { width: 44px; height: 44px; }
+  .s-livecard__title { font-size: 1.15rem; }
+  .s-promo { gap: 14px; padding: 18px 16px; }
+  /* /shop/ category tiles */
+  .s-cat { gap: 8px; padding: 10px 10px 12px; }
+  .s-cat__media { aspect-ratio: 4 / 3; }
+  .s-cat__name { font-size: 0.98rem; }
+  .s-cat__go { right: 10px; bottom: 12px; }
+  /* offers */
+  .s-offer__card { gap: 6px; padding: 16px 14px 6px; }
+  .s-offer__title { font-size: 1.02rem; overflow-wrap: break-word; }
+  .s-offer__desc { font-size: 0.875rem; }
+  /* brands: the logo tile sits beside its text */
+  .s-brandrow { gap: 12px; margin-bottom: 12px; }
+  .s-brand { display: grid; grid-template-columns: 84px minmax(0, 1fr); align-items: start; gap: 14px; padding: 14px; }
+  .s-brand__chip { height: 72px; padding: 8px; }
+  .s-brand__chip img { max-width: 92%; max-height: 56px; }
+  .s-brand__text p { font-size: 0.9rem; line-height: 1.6; }
+  /* loyalty: steps and perks as tight rows (icon beside title and line) */
+  .s-steps__list, .s-perks__list { gap: 12px; }
+  .s-step, .s-perk { display: grid; grid-template-columns: 48px minmax(0, 1fr); align-items: center; gap: 2px 14px; }
+  .s-step { padding: 16px; }
+  .s-perk { padding: 4px 0; text-align: left; }
+  .s-step__ico, .s-perk__ico { grid-column: 1; grid-row: 1 / span 2; width: 48px; height: 48px; }
+  .s-step__t, .s-perk__t { grid-column: 2; grid-row: 1; margin: 0; font-size: 1.15rem; }
+  .s-step__d, .s-perk__d { grid-column: 2; grid-row: 2; }
+  .s-step__n { top: -2px; right: 12px; font-size: 3.4rem; }
+  .s-loyal__grid { gap: 18px; }
+}
+@media (max-width: 640px) {
+  .s-grid--row { grid-auto-columns: minmax(0, 44%); gap: 12px; }
+  .s-offers__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+}
 @media (prefers-reduced-motion: reduce) {
   .s-cat, .s-cat__media img, .s-pcard__media img, .s-brand, .s-brand__chip img, .s-livecard, .s-hero__frame > img, .s-arr { transition: none; }
   .s-cat:hover, .s-cat:focus-visible, .s-brand:hover, .s-livecard:hover, .s-livecard:focus-visible { transform: none; }

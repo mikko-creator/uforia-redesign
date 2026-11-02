@@ -95,10 +95,13 @@
 .h-cats__intro p { margin: 0 0 14px; }
 .h-cats__grid { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: clamp(10px, 1.2vw, 16px); }
 .h-cats__item { display: flex; }
-.h-cat { position: relative; display: flex; flex: 1; flex-direction: column; align-items: center; gap: 12px; padding: 22px 12px 16px; border-radius: var(--r-u-sm); border: 1px solid var(--glass-border); background-color: rgba(18, 19, 21, 0.6); color: var(--pearl); text-decoration: none; transition: border-color var(--t-med), box-shadow var(--t-med), background-color var(--t-med); }
+.h-cat { position: relative; display: flex; flex: 1; flex-direction: column; align-items: center; justify-content: flex-end; gap: 12px; padding: 22px 12px 16px; border-radius: var(--r-u-sm); border: 1px solid var(--glass-border); background-color: rgba(18, 19, 21, 0.6); color: var(--pearl); text-decoration: none; transition: border-color var(--t-med), box-shadow var(--t-med), background-color var(--t-med); }
 .h-cat:hover, .h-cat:focus-visible { border-color: rgba(238, 240, 238, 0.42); background-color: rgba(30, 32, 34, 0.7); box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.3), var(--glow-silver); }
-.h-cat__art { display: grid; place-items: center; width: 100%; height: clamp(96px, 9vw, 128px); }
-.h-cat__art img { width: auto; max-width: 92%; height: 100%; object-fit: contain; filter: drop-shadow(0 0 0 rgba(255, 255, 255, 0)); transition: filter var(--t-med), scale var(--t-slow) var(--ease-out); }
+/* Uforia's line-art icons carry their own printed labels and run from wide (pre-rolls) to tall (cartridges). Sized by
+   width so the printed labels match, capped in height, standing on the tile's bottom edge (revision 1: a fixed-height
+   box let the tall ones spill out of their tiles, cartridges by ~108px on desktop). */
+.h-cat__art { display: grid; place-items: end center; width: 100%; height: auto; }
+.h-cat__art img { width: 88%; max-width: 88%; height: auto; max-height: clamp(130px, 13vw, 170px); object-fit: contain; object-position: 50% 100%; filter: drop-shadow(0 0 0 rgba(255, 255, 255, 0)); transition: filter var(--t-med), scale var(--t-slow) var(--ease-out); }
 .h-cat:hover .h-cat__art img, .h-cat:focus-visible .h-cat__art img { filter: drop-shadow(0 0 12px rgba(238, 240, 238, 0.55)); scale: 1.06; }
 .h-cat__name { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 .h-cat__go { display: none; }
@@ -271,17 +274,48 @@
   .h-bens { padding-top: var(--section-y); }
 }
 @media (max-width: 720px) {
-  .h-hero { min-height: 0; padding-block: 28px 56px; }
+  /* hero: `.h-page .h-hero` (base) outranked a bare `.h-hero` here, so the phone sizing never applied */
+  .h-page .h-hero { min-height: 0; padding-block: 20px 48px; }
   .h-hero .h-hero__display { font-size: clamp(2.3rem, 9.6vw, 3rem); }
-  .h-hero__stage { inset: -4% 0 48% 34%; opacity: 0.45; }
-  .h-hero__toggle { top: 10px; }
+  .h-hero__stage { inset: -6% -8% 50% 42%; opacity: 0.38; }
+  /* the motion toggle as a 44px icon button: site.js writes "Pause motion" / "Play motion" into the button itself
+     (it has no .video-toggle__label), which stays its accessible name; the text keeps its size but is transparent and
+     clipped, and ::after draws the glyph centred (::before is the shared .btn hover sheen, opacity 0) */
+  .h-hero__toggle { top: 10px; width: 44px; min-width: 44px; padding: 0; gap: 0; justify-content: flex-start; overflow: hidden; white-space: nowrap; color: transparent; }
+  .h-hero__toggle::after { content: ''; position: absolute; left: 50%; top: 50%; translate: -50% -50%; box-sizing: border-box; width: 12px; height: 14px; border-inline: 4px solid var(--pearl); }
+  .h-hero__toggle[aria-pressed="true"]::after { translate: -35% -50%; width: 0; height: 0; border-style: solid; border-width: 7px 0 7px 12px; border-color: transparent transparent transparent var(--pearl); }
   .h-hero__toggle-t { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
-  .h-tiles__grid { grid-template-columns: minmax(0, 1fr); }
-  .h-tile__media { aspect-ratio: 16 / 9; }
-  .h-cats__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  /* the promo rotator: text gets the full width, the dots sit under it */
+  .h-promos { grid-template-columns: minmax(0, 1fr); gap: 0; }
+  .h-promos__dots { justify-content: center; padding: 0; }
+  /* promo tiles two-up */
+  .h-tiles__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .h-tile__media { aspect-ratio: 4 / 3; }
+  .h-tile__body { gap: 4px; padding: 12px 12px 14px; }
+  .h-tile__k { letter-spacing: 0.16em; }
+  .h-tile__t { font-size: 1.02rem; }
+  .h-tile__line { font-size: 0.875rem; line-height: 1.45; }
+  .h-tile__go { padding-top: 6px; }
+  /* categories and posts: side-scrolling rails, edge to edge, snapping (a cut-off card shows there is more) */
+  .h-cats__grid, .h-posts__grid { display: grid; grid-template-columns: none; grid-auto-flow: column; gap: 10px; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x mandatory; margin-inline: calc(-1 * var(--gutter)); padding: 4px var(--gutter) 14px; scroll-padding-inline: var(--gutter); scrollbar-width: none; }
+  .h-cats__grid::-webkit-scrollbar, .h-posts__grid::-webkit-scrollbar { display: none; }
+  .h-cats__grid { grid-auto-columns: 40%; }
+  .h-posts__grid { grid-auto-columns: 80%; gap: 12px; }
+  .h-cats__item, .h-posts__item { scroll-snap-align: start; }
+  .h-cat { padding: 16px 10px 14px; }
+  .h-cat__art img { max-height: 140px; }
   .h-prods__row { grid-auto-columns: 68%; }
   .h-seam__leaf { width: 110px; top: -80px; right: 8px; }
-  .h-store__map { min-height: 280px; }
+  /* benefits: icon beside the title */
+  .h-ben { display: grid; grid-template-columns: 48px minmax(0, 1fr); align-items: center; gap: 10px 14px; padding: 18px 16px; }
+  .h-ben__ico { width: 48px; height: 48px; }
+  .h-ben__ico img { width: 30px; height: 30px; }
+  .h-ben__p { grid-column: 1 / -1; }
+  .h-bens__mid { margin-block: 24px; }
+  /* editorial photo landscape, map shorter */
+  .h-ed__art { padding: 6% 6% 6% 0; }
+  .h-ed__photo img { aspect-ratio: 4 / 3; }
+  .h-store__map { min-height: 220px; }
   .h-logo { width: 128px; height: 80px; }
 }
 @media (prefers-reduced-motion: reduce) {

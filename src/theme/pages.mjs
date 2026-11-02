@@ -85,10 +85,10 @@ function about(ctx) {
   const statement = last.slice(cut).trim();
   const P = (h) => `<p>${mapLinks(ctx, h)}</p>`;
   const rows = [
-    { text: `${kicker(stripTags(story.html))}${P(ps[0].html)}${P(ps[1].html)}`, media: `<div class="frame-u p-zz__frame p-zz__frame--break" data-tilt>${img({ src: pic.src, alt: pic.alt, w: pic.w, h: pic.h }, { sizes: '(min-width: 1024px) 420px, 80vw', cls: 'p-zz__img' })}</div>`, mod: 'p-zz__row--photo' },
-    { text: `${P(ps[2].html)}`, media: `<div class="frame-u p-zz__frame">${gimg('g-jars', { alt: '', sizes: '(min-width: 1024px) 520px, 90vw', cls: 'p-zz__img' })}</div>` },
-    { text: `${P(ps[3].html)}`, media: `<div class="frame-u p-zz__frame">${gimg('g-leaf-silver', { alt: '', sizes: '(min-width: 1024px) 520px, 90vw', cls: 'p-zz__img' })}</div>` },
-    { text: `${P(lastA)}`, media: `<div class="frame-u p-zz__frame">${gimg('g-smoke-beam', { alt: '', sizes: '(min-width: 1024px) 520px, 90vw', cls: 'p-zz__img' })}</div>` },
+    { text: `${kicker(stripTags(story.html))}${P(ps[0].html)}${P(ps[1].html)}`, media: `<div class="frame-u p-zz__frame p-zz__frame--break" data-tilt>${img({ src: pic.src, alt: pic.alt, w: pic.w, h: pic.h }, { sizes: '(min-width: 1024px) 420px, (min-width: 761px) 40vw, calc(62vw - 20px)', cls: 'p-zz__img' })}</div>`, mod: 'p-zz__row--photo' },
+    { text: `${P(ps[2].html)}`, media: `<div class="frame-u p-zz__frame">${gimg('g-jars', { alt: '', sizes: '(min-width: 1024px) 520px, (min-width: 761px) 45vw, calc(84vw - 27px)', cls: 'p-zz__img' })}</div>` },
+    { text: `${P(ps[3].html)}`, media: `<div class="frame-u p-zz__frame">${gimg('g-leaf-silver', { alt: '', sizes: '(min-width: 1024px) 520px, (min-width: 761px) 45vw, calc(84vw - 27px)', cls: 'p-zz__img' })}</div>` },
+    { text: `${P(lastA)}`, media: `<div class="frame-u p-zz__frame">${gimg('g-smoke-beam', { alt: '', sizes: '(min-width: 1024px) 520px, (min-width: 761px) 45vw, calc(84vw - 27px)', cls: 'p-zz__img' })}</div>` },
   ];
   const zz = rows.map((r, i) => `<div class="p-zz__row ${i % 2 ? 'p-zz__row--rev' : ''} ${r.mod || ''}">
 <div class="p-zz__text prose" data-reveal>${r.text}</div>
@@ -98,7 +98,7 @@ function about(ctx) {
     crumbs, kick: 'About Uforia', title: esc(c.h1),
     lede: esc(c.og && c.og.description ? c.og.description : ''),
     ctas: [btn('/locations/', 'Find us'), btn(liveMenu(ctx), 'Shop the menu', 'btn--glass')],
-    media: gimg('g-flower-macro', { alt: '', eager: true, sizes: '(min-width: 1024px) 560px, 92vw', cls: 'p-hero__img' }),
+    media: gimg('g-flower-macro', { alt: '', eager: true, sizes: '(min-width: 1024px) 560px, (min-width: 761px) 45vw, calc(88vw - 28px)', cls: 'p-hero__img' }),
     mod: 'p-hero--about',
   })}
 ${band(`<div class="wrap p-zz">${zz}</div>`, { mod: 'p-band--story' })}
@@ -136,7 +136,7 @@ function partners(ctx) {
     const other = cd.parts.filter((b) => !known.has(b.type));
     if (other.length) throw new Error('pages.mjs: community-partners has unexpected blocks: ' + other.map((b) => b.type).join(','));
     return `<article class="p-partner glass glass--lit glass--lift ${i % 2 ? 'p-partner--rev' : ''}" data-reveal style="--i:${i % 3}" aria-labelledby="${id}">
-<div class="p-partner__logo frame-u">${img({ src: cd.img.src, alt: cd.img.alt, w: cd.img.w, h: cd.img.h }, { sizes: '240px', cls: 'p-partner__img' })}</div>
+<div class="p-partner__logo frame-u">${img({ src: cd.img.src, alt: cd.img.alt, w: cd.img.w, h: cd.img.h }, { sizes: '(min-width: 761px) 240px, 120px', cls: 'p-partner__img' })}</div>
 <div class="p-partner__copy">${h ? `<h2 class="p-partner__name" id="${id}">${esc(h.text)}</h2>` : ''}<div class="prose p-partner__body">${body}</div>
 ${bt ? `<p class="p-partner__cta"><a class="btn btn--glass btn--sm"${linkAttrs(mapBtn(ctx, bt.href))}>${esc(bt.text)}${icon('ext')}<span class="p-sr"> (opens in a new tab)</span></a></p>` : ''}</div>
 </article>`;
@@ -145,7 +145,7 @@ ${bt ? `<p class="p-partner__cta"><a class="btn btn--glass btn--sm"${linkAttrs(m
     crumbs, kick: 'Community', title: esc(c.h1),
     lede: esc(c.og && c.og.description ? c.og.description : ''),
     ctas: [btn('/about/', 'About Uforia'), btn('/locations/', 'Find us', 'btn--glass')],
-    media: img({ src: heroImg.src, alt: heroImg.alt, w: heroImg.w, h: heroImg.h }, { eager: true, sizes: '(min-width: 1024px) 560px, 92vw', cls: 'p-hero__img p-hero__img--contain' }),
+    media: img({ src: heroImg.src, alt: heroImg.alt, w: heroImg.w, h: heroImg.h }, { eager: true, sizes: '(min-width: 1024px) 560px, (min-width: 761px) 45vw, calc(88vw - 28px)', cls: 'p-hero__img p-hero__img--contain' }),
     mod: 'p-hero--partners',
   })}
 ${band(`<div class="wrap wrap--narrow p-cp-intro" data-reveal>${label ? kicker(stripTags(label.html)) : ''}<div class="prose p-lead-prose">${introPs.map((b) => `<p>${mapLinks(ctx, b.html)}</p>`).join('')}</div></div>
@@ -211,7 +211,7 @@ function faq(ctx) {
     crumbs, kick: 'Help', title: `Frequently Asked <span class="accent">Questions</span>`,
     lede: 'Answers from Uforia about ordering, delivery, ID and payment.',
     ctas: [btn('/delivery/', 'Delivery'), btn(liveMenu(ctx), 'Shop the menu', 'btn--glass')],
-    media: gimg('g-doorstep', { alt: '', eager: true, sizes: '(min-width: 1024px) 560px, 92vw', cls: 'p-hero__img' }),
+    media: gimg('g-doorstep', { alt: '', eager: true, sizes: '(min-width: 1024px) 560px, (min-width: 761px) 45vw, calc(88vw - 28px)', cls: 'p-hero__img' }),
     mod: 'p-hero--faq',
   })}
 ${band(`<div class="wrap wrap--narrow p-faq">
@@ -367,20 +367,25 @@ function lawPage(ctx, spec) {
 </section>`;
   }
   const body = spec.sections.map(R.section).join('\n');
+  const tocList = [...(spec.table ? [['limits-table', 'Limits at a glance']] : []), ...spec.sections.map((s) => [s.id, s.title]), ['law-sources', NJ_GLUE.sources]].map(([id, t]) => `<li><a href="#${escA(id)}">${esc(t)}</a></li>`).join('');
+  // phones: the same contents as a collapsed disclosure in the main column (hidden attribute on desktop, where the
+  // sticky aside shows it; pages.css un-hides it below 1024px)
+  const tocPhone = `<details class="p-toc-m" hidden><summary class="p-toc-m__sum"><span>On this page</span>${icon('chev', 'p-toc-m__chev')}</summary><nav aria-label="On this page"><ol role="list">${tocList}</ol></nav></details>`;
   const main = `${hero({
     crumbs, kick: spec.kick, title: spec.h1, lede: esc(spec.lede),
     ctas: spec.ctas.map(([u, l], i) => btn(ctaUrl(u), l, i ? 'btn--glass' : 'btn--silver')),
-    media: gimg(spec.art, { alt: '', eager: true, sizes: '(min-width: 1024px) 520px, 92vw', cls: 'p-hero__img' }),
+    media: gimg(spec.art, { alt: '', eager: true, sizes: '(min-width: 1024px) 520px, (min-width: 761px) 45vw, calc(88vw - 28px)', cls: 'p-hero__img' }),
     mod: 'p-hero--law',
   })}
 ${band(`<div class="wrap p-law">
 <div class="p-law__main">
 <p class="p-law__intro" data-reveal>${esc(NJ_GLUE.intro)}</p>
+${tocPhone}
 ${table}
 ${body}
 ${R.sourcesList()}
 </div>
-<aside class="p-law__aside" aria-label="On this page"><nav class="p-toc glass glass--lit"><p class="p-toc__title">On this page</p><ol role="list">${[...(spec.table ? [['limits-table', 'Limits at a glance']] : []), ...spec.sections.map((s) => [s.id, s.title]), ['law-sources', NJ_GLUE.sources]].map(([id, t]) => `<li><a href="#${escA(id)}">${esc(t)}</a></li>`).join('')}</ol></nav></aside>
+<aside class="p-law__aside" aria-label="On this page"><nav class="p-toc glass glass--lit"><p class="p-toc__title">On this page</p><ol role="list">${tocList}</ol></nav></aside>
 </div>`, { mod: 'p-band--law', tone: 'calm' })}`;
   return out(ctx, { path: spec.path, title: spec.title, description: spec.description, crumbs, main, mod: spec.mod });
 }

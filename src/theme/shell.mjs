@@ -107,14 +107,14 @@ function megaFeatures(ctx, item) {
     const posts = (ctx.posts || []).slice(0, 3);
     return `<div class="mega__features mega__features--posts"><p class="mega__h">Latest articles</p><ul class="mega__posts">${posts.map((p) => {
       const fi = p.featuredImage && p.featuredImage.src ? p.featuredImage : null;
-      const media = fi ? img({ src: fi.src, alt: '', w: fi.w, h: fi.h }, { sizes: '240px', alt: '' }) : '<span class="mega__post-blank"></span>';
+      const media = fi ? img({ src: fi.src, alt: '', w: fi.w, h: fi.h }, { sizes: '(min-width: 1024px) 240px, 96px', alt: '' }) : '<span class="mega__post-blank"></span>';
       return `<li><a class="mega__post"${linkAttrs(p.path)}><span class="mega__post-media">${media}</span><span class="mega__post-t">${esc(p.title)}</span></a></li>`;
     }).join('')}</ul></div>`;
   }
   const feats = Array.isArray(item.features) ? item.features : [];
   if (!feats.length) return '';
   return `<div class="mega__features" style="--n:${feats.length}">${feats.map((f) => `<a class="mega__card"${linkAttrs(featHref(ctx, f.href))}>
-<span class="mega__media">${gimg(f.image, { alt: '', sizes: '(min-width: 1024px) 300px, 90vw' })}</span>
+<span class="mega__media">${gimg(f.image, { alt: '', sizes: '(min-width: 1024px) 300px, 120px' })}</span>
 <span class="mega__card-body"><span class="mega__card-t">${esc(f.title)}</span><span class="mega__card-l">${esc(f.text)}</span></span>
 <span class="mega__card-go" aria-hidden="true">${icon('arrow')}</span>
 </a>`).join('')}</div>`;
@@ -163,7 +163,8 @@ ${megaFeatures(ctx, it)}
   }).join('\n');
   return `<nav class="nav" id="site-nav" aria-label="Main" data-nav>
 <div class="nav__drawer-head"><span class="nav__drawer-title">Menu</span><button class="nav__close" type="button" data-nav-close>${icon('close')}<span class="sr-only">Close menu</span></button></div>
-<div class="nav__drawer-store">${storeChip(ctx, 'hours-pop-drawer')}</div>
+<div class="nav__drawer-store">${storeChip(ctx, 'hours-pop-drawer')}
+<p class="nav__promo">${icon('truck')}<span>${esc(promo.text)}</span> <a${linkAttrs(promo.href)}>${esc(promo.cta)}</a></p></div>
 <ul class="nav__list">
 ${items}
 </ul>
@@ -174,7 +175,6 @@ ${items}
 <li><a class="nav__tool"${linkAttrs('/loyalty/')}${cur('/loyalty/', path)}>${icon('user')}<span>Loyalty rewards</span></a></li>
 <li><a class="nav__tool"${linkAttrs(cartUrl(ctx))}>${icon('bag')}<span>Cart</span></a></li>
 </ul>
-<p class="nav__promo">${icon('truck')}<span>${esc(promo.text)}</span> <a${linkAttrs(promo.href)}>${esc(promo.cta)}</a></p>
 </div>
 </nav>`;
 }

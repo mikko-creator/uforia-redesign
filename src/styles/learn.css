@@ -130,6 +130,50 @@
   .n-hero__title { font-size: clamp(2rem, 9vw, 2.6rem); }
   .n-hero--article .n-hero__title { font-size: clamp(1.7rem, 7.4vw, 2.2rem); }
 }
+/* ---------- mobile pass (phones + tablets only; 1024px and up is untouched) ---------- */
+@media (max-width: 1023.98px) {
+  /* table of contents: 44px rows (it keeps its own scroll box, so a long list never stretches the page) */
+  .n-toc { padding: 14px 18px; }
+  .n-toc ol { gap: 0; }
+  .n-toc a { display: flex; align-items: center; min-height: 44px; padding: 8px 0; }
+  .n-head__all .link-arrow { display: inline-flex; align-items: center; min-height: 44px; }
+}
+@media (max-width: 767.98px) {
+  /* calmer rhythm */
+  .n-head { margin-bottom: 22px; }
+  .n-head__all { margin-top: 20px; }
+  .n-zig { gap: 40px; }
+  .n-zig__body, .n-zig__row:nth-child(even) .n-zig__body { margin: -32px 3% 0; padding: 18px 18px 14px; gap: 8px; }
+  .n-zig__media { aspect-ratio: 16 / 9; }
+  .n-more { margin-top: 28px; }
+  /* hub: the featured card compact */
+  .n-feat__media { aspect-ratio: 16 / 9; }
+  .n-feat__body { margin: -12% 3% 0; padding: 16px 18px 12px; gap: 6px; }
+  /* hub: topic chips as one line that scrolls sideways inside its own box (44px chips from mobile.css) */
+  .n-page--hub .n-chips.chip-row { flex-wrap: nowrap; overflow-x: auto; overscroll-behavior-x: contain; scrollbar-width: none; margin: 0 calc(-1 * var(--gutter)) 18px; padding: 2px var(--gutter) 6px; scroll-padding-inline: var(--gutter); }
+  .n-page--hub .n-chips.chip-row::-webkit-scrollbar { display: none; }
+  .n-page--hub .n-chips.chip-row .chip { flex: none; }
+  /* article: the hero image after the title, shorter; prose 17px / 1.7; tables scroll inside their own box */
+  .split-hero__media.n-hero__media { aspect-ratio: 2 / 1; }
+  .n-hero__meta { margin: 2px 0 12px; }
+  .prose.n-prose { font-size: 1.0625rem; line-height: 1.7; }
+  .n-table, .prose.n-prose table { max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .n-take { margin-top: 1.8em; padding: 20px 18px; }
+  .n-cta__box { padding: 24px 18px; gap: 18px; }
+  .n-cta__title { font-size: clamp(1.6rem, 7vw, 2rem); }
+}
+@media (max-width: 599.98px) {
+  /* card grid (hub, keep reading): a compact list, 112px square thumbnail left; the stretched title link keeps the
+     whole card as the target */
+  .n-grid { gap: 20px; }
+  .n-card { display: grid; grid-template-columns: 112px minmax(0, 1fr); grid-template-areas: "media meta" "media title" "media excerpt" "media more"; grid-template-rows: auto auto auto 1fr; column-gap: 14px; row-gap: 2px; align-content: start; }
+  .n-card .acard__media { grid-area: media; align-self: start; aspect-ratio: 1 / 1; margin-bottom: 0; }
+  .n-card .acard__meta { grid-area: meta; gap: 0 10px; }
+  .n-card .acard__title { grid-area: title; font-size: 1.05rem; line-height: 1.3; }
+  .n-card .acard__excerpt { grid-area: excerpt; font-size: 0.9375rem; line-height: 1.5; }
+  .n-card .acard__more { grid-area: more; align-self: start; }
+  .n-card::before { inset: -8px; }
+}
 @media (prefers-reduced-motion: reduce) {
   .n-feat__media, .n-feat__media img, .n-zig__media img, .n-img-link { transition: none; }
 }
